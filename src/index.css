@@ -127,6 +127,11 @@ body {
   margin-right: 1rem;
 }
 
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
 .hero-grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;

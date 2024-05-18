@@ -131,58 +131,130 @@ function App() {
         <section className="testimonials">
           <p>My work has been featured in...</p>
           <div className="slide-track">
-            <a href="https://potato.com" className="slide">
+            <a
+              href="https://businessdesk.co.nz/article/news-in-brief/developers-build-better-vaccine-booking-website"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/01.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://tedxauckland.com/events/dec-2022-down-to-earth/"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/02.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://www.zmonline.com/the-latest/this-website-will-show-you-every-available-vaccination-slot-in-your-area-so-we-can-all-get-vaxxd/"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/03.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://www.1news.co.nz/2021/09/06/kiwi-friends-build-website-to-help-speed-up-vaccinations/"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/04.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://www.youtube.com/watch?v=erZ6kTJTpmI"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/05.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://www.stuff.co.nz/national/health/coronavirus/126293947/covid19-hackathon-creates-faster-way-to-find-a-covid19-vaccine-near-you"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/06.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://gizmodo.com/twitter-elon-musk-verified-impersonators-checkmark-1849768462"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/07.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://www.theverge.com/2022/11/10/23451316/this-chrome-extension-tells-you-who-paid-for-twitters-blue-checkmark"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/08.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://www.engadget.com/browser-extension-tells-you-who-paid-for-twitter-verification-012103388.html?src=rss"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/09.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://businessdesk.co.nz/article/news-in-brief/developers-build-better-vaccine-booking-website"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/01.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://tedxauckland.com/events/dec-2022-down-to-earth/"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/02.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://www.zmonline.com/the-latest/this-website-will-show-you-every-available-vaccination-slot-in-your-area-so-we-can-all-get-vaxxd/"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/03.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://www.1news.co.nz/2021/09/06/kiwi-friends-build-website-to-help-speed-up-vaccinations/"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/04.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://www.youtube.com/watch?v=erZ6kTJTpmI"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/05.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://www.stuff.co.nz/national/health/coronavirus/126293947/covid19-hackathon-creates-faster-way-to-find-a-covid19-vaccine-near-you"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/06.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://gizmodo.com/twitter-elon-musk-verified-impersonators-checkmark-1849768462"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/07.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://www.theverge.com/2022/11/10/23451316/this-chrome-extension-tells-you-who-paid-for-twitters-blue-checkmark"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/08.png" height="100" width="250" alt="" />
             </a>
-            <a href="" className="slide">
+            <a
+              href="https://www.engadget.com/browser-extension-tells-you-who-paid-for-twitter-verification-012103388.html?src=rss"
+              className="slide"
+              target="_blank"
+            >
               <img src="/media/09.png" height="100" width="250" alt="" />
             </a>
           </div>
