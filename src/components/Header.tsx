@@ -1,17 +1,17 @@
 function Header() {
   return (
     <header className="main-nav">
-      <div className="main-nav-logo">
+      <a className="main-nav-logo" href="/">
         <img className="main-nav-logo-img" src="/images/walt.png" alt="aaa" />
         <p>
           The portfolio of <strong>Walter Lim</strong>
         </p>
-      </div>
+      </a>
       <div className="nav-links">
-        <p>About</p>
-        <p>Work</p>
-        <p>Media</p>
-        <p>Contact</p>
+        <a href="/about">About</a>
+        <a href="/work">Work</a>
+        <a href="/media">Media</a>
+        <a href="/contact">Contact</a>
       </div>
     </header>
   );
