@@ -1,25 +1,39 @@
 {
-  "projects": [
+  "projects": [  {   
+    "development": false,
+    "url": "/samsung",
+    "image": "https://placehold.co/600x300",
+    "name": "Samsung Electronics NZ / Cheil NZ",
+    "description": "Increasing customer traffic 64% by by introducing design systems to internal workflows",
+    "platform": " Web",
+    "categories": [
+      "UX Research",
+      "Design Systems",
+      "FE Dev"
+  ]
+
+  },
     {   
-      "development": true,
-      "url": "https://infinitystudio.ai/athena",
-      "image": "/images/athena.png",
-      "name": "Athena",
-      "description": "Helping Natural Disaster Victims get their homes repaired faster",
+      "development": false,
+      "url": "/cin7",
+      "image": "https://placehold.co/600x300",
+      "name": "Cin7.com",
+      "description": "Helping small businesses transact billions of dollars across the world",
       "platform": "Android / Web",
       "categories": [
-        "UX Research",
-        "Product Design",
+        "DesignOps",
+        "Design leadership",
         "FE Dev"
     ]
   
     },
-    {   
-        "development": true,
-        "url": "https://infinitystudio.ai/apeiron",
-        "image": "/images/apeiron.png",
-        "name": "Apeiron",
-        "description": "Speeding up data capture for civil engineers on construction sites",
+  
+      {   
+        "development": false,
+        "url": "/swiftly",
+        "image": "https://placehold.co/600x300",
+        "name": "Swiftly",
+        "description": "Helping 1,200 small local stores make $700k+ NZD by selling goods online during lockdown",
         "platform": " Web",
         "categories": [
           "UX Research",
@@ -29,12 +43,40 @@
     
       },
       {   
-        "development": true,
-        "url": "https://infinitystudio.ai/logger",
-        "image": "/images/logger.png",
-        "name": "Logger",
-        "description": "Making it faster, cheaper, and safer to build buildings, and infrastructure",
-        "platform": "Android / iOS / Web",
+        "development": false,
+        "url": "/vaxx",
+        "image": "https://placehold.co/600x300",
+        "name": "Vaxx",
+        "description": "Saving lives, by helping 100K+ people get vaccinated against COVID ",
+        "platform": " Web",
+        "categories": [
+          "UX Research",
+          "Product Design",
+          "FE Dev"
+      ]
+    
+      },
+      {   
+        "development": false,
+        "url": "/vaxx",
+        "image": "https://placehold.co/600x300",
+        "name": "Voluntarily",
+        "description": "Connecting skilled volunteers with classrooms to teach essential tech skills in schools  ",
+        "platform": " Web",
+        "categories": [
+          "UX Research",
+          "Product Design",
+          "FE Dev"
+      ]
+    
+      },
+      {   
+        "development": false,
+        "url": "/vaxx",
+        "image": "https://placehold.co/600x300",
+        "name": "Ubiquity",
+        "description": "Helping businesses send billions of messages a month to help customers get stuff done  ",
+        "platform": " Web",
         "categories": [
           "UX Research",
           "Product Design",

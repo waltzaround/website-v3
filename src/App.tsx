@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 import projects from "./current-projects.json";
-
+import featured from "./featured-projects.json";
 
 
 function App() {
@@ -95,7 +95,7 @@ function App() {
 
               He's worked across a wide range of B2C, B2B, and B2B2C products across many different industries. He&apos;s been featured in both local and international media for his design work.
             </p><p>
-              He currently leads product design at <a href="https://infinitystudio.ai" target="_blank">Infinity Studio</a>, and occasionally volunteers his spare time designing and building silly things at <a href="https://haxx.nz" target="_blank">haxx.nz</a>
+              He currently leads product design at <a href="https://infinitystudio.ai" target="_blank">Infinity Studio</a>, and occasionally volunteers his spare time building silly things at <a href="https://haxx.nz" target="_blank">haxx.nz</a>
 
             </p>
             <h2 className="tag-heading">Current availability:</h2>
@@ -180,7 +180,7 @@ function App() {
           <h2>Featured Work</h2>
           <div className="project-card-container">
 
-            {projects.projects.map((project: any) => (
+            {featured.projects.map((project: any) => (
               <ProjectCard key={project.id} project={project} />
             ))}
 
@@ -188,6 +188,9 @@ function App() {
 
 
           </div>
+        </section>
+        <section>
+          <a>See more projects</a>
         </section>
       </div>
     </>
