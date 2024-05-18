@@ -4,12 +4,13 @@
     "url": "/samsung",
     "image": "https://placehold.co/600x300",
     "name": "Samsung Electronics NZ / Cheil NZ",
-    "description": "Increasing customer traffic 64% by by introducing design systems to internal workflows",
+    "description": "Increasing customer traffic 64% by by redesigning existing workflows and partnerships",
     "platform": " Web",
     "categories": [
       "UX Research",
       "Design Systems",
-      "FE Dev"
+      "FE Dev",
+      "B2B2C"
   ]
 
   },
@@ -23,7 +24,8 @@
       "categories": [
         "DesignOps",
         "Design leadership",
-        "FE Dev"
+        "FE Dev",
+        "B2B2C"
     ]
   
     },
@@ -38,7 +40,8 @@
         "categories": [
           "UX Research",
           "Product Design",
-          "FE Dev"
+          "FE Dev",
+          "B2B2C"
       ]
     
       },
@@ -58,7 +61,7 @@
       },
       {   
         "development": false,
-        "url": "/vaxx",
+        "url": "/voluntarily",
         "image": "https://placehold.co/600x300",
         "name": "Voluntarily",
         "description": "Connecting skilled volunteers with classrooms to teach essential tech skills in schools  ",
@@ -72,7 +75,7 @@
       },
       {   
         "development": false,
-        "url": "/vaxx",
+        "url": "/ubiquity",
         "image": "https://placehold.co/600x300",
         "name": "Ubiquity",
         "description": "Helping businesses send billions of messages a month to help customers get stuff done  ",

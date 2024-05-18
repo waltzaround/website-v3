@@ -17,10 +17,10 @@ function App() {
           <p>{project.description}</p>
         </div>
         <div className="project-tags">
-          <div className="project-platform-type">{project.platform}</div>
+          
           <div className="project-work-type">
             {project.categories.map((categories: any) => (
-              <p>{categories}</p>))}
+              <p className="project-work-type-tag">{categories}</p>))}
           </div>
         </div>
       </a>
@@ -93,7 +93,7 @@ function App() {
           <div className="hero-grid-2-text">
             <p>Walter Lim is a cross-functional designer with 7+ years of experience based in Auckland, New Zealand. </p><p>
 
-              He's worked across a wide range of B2C, B2B, and B2B2C products across many different industries. He&apos;s been featured in both local and international media for his design work.
+              He's worked across a wide range of B2C, B2B, and B2B2C products across many different industries. He&apos;s been featured in both <a href="/media">local and international media</a> for his design work.
             </p><p>
               He currently leads product design at <a href="https://infinitystudio.ai" target="_blank">Infinity Studio</a>, and occasionally volunteers his spare time building silly things at <a href="https://haxx.nz" target="_blank">haxx.nz</a>
 
@@ -188,10 +188,11 @@ function App() {
 
 
           </div>
+     
+          <a className="project-see-more" href='/'>See all projects</a>
+          
         </section>
-        <section>
-          <a>See more projects</a>
-        </section>
+       <footer>aaa</footer>
       </div>
     </>
   );
