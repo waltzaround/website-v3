@@ -115,8 +115,7 @@ function App() {
               <a href="https://infinitystudio.ai" target="_blank">
                 Infinity Studio
               </a>
-              , and occasionally volunteers his spare time building silly things
-              at{" "}
+              , and volunteers his spare time building silly things at{" "}
               <a href="https://haxx.nz" target="_blank">
                 haxx.nz
               </a>

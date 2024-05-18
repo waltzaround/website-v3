@@ -151,7 +151,7 @@ body {
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .tag {
@@ -171,7 +171,7 @@ body {
 
 .tag-heading {
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .tag-dot {
@@ -210,7 +210,7 @@ body {
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 100%;
+  width: auto;
   max-width: 1600px;
 
   &::before,
@@ -324,12 +324,12 @@ body {
 }
 .project-card-content {
   padding: 1rem;
-  min-height: 5rem;
+  min-height: 7rem;
   color: rgb(224, 224, 224);
 }
 
 .project-tags {
-  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  /* border-top: 2px solid rgba(255, 255, 255, 0.1); */
   display: flex;
   gap: 0.5rem;
 }
@@ -401,4 +401,36 @@ footer {
   border-top: 2px solid rgba(255, 255, 255, 0.1);
   padding-top: 1rem;
   margin-top: 2rem;
+}
+
+@media (max-width: 1600px) {
+  .main-nav {
+    margin: 1rem;
+  }
+
+  .hero-grid-2 {
+    margin: 1rem;
+  }
+
+  .project-parent {
+    margin: 1rem;
+  }
+
+  .testimonials {
+    margin: 1rem;
+  }
+}
+@media (max-width: 960px) {
+  .hero-grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .project-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .project-card-container {
+    grid-template-columns: 1fr;
+  }
 }

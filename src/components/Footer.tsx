@@ -3,7 +3,7 @@ function Footer() {
 
   return (
     <footer>
-      <h3 className="footer-heading">Walt.online</h3>
+      <h3 className="footer-heading">Walter Lim is a design meme</h3>
       <div className="footer-cols">
         <div className="footer-cols-items">
           <h4>Social:</h4>
