@@ -5,8 +5,11 @@ function App() {
 
 
          // inspired by the stripe landing page
-         var c = document.getElementById('canv');
-        var da = (c as HTMLCanvasElement)?.getContext('2d');
+         
+     
+          var c = document.getElementById('canv');
+          var da = (c as HTMLCanvasElement)?.getContext('2d');
+     
 
 
         var col = function (x: number, y: number, r: number, g: number, b: number) {
@@ -39,8 +42,11 @@ function App() {
           t = t + 0.02; // adjust this to change seizure level
           window.requestAnimationFrame(run);
         }
-
+        window.onload = function() {
+     
+     
         run();
+      }
         console.log('background running');
  
   return (
