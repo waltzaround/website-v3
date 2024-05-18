@@ -9,8 +9,9 @@ function App() {
 
   const ProjectCard = ({ project }: { project: any }) => {
     return (
-      <a className="project-card">
+      <a className="project-card" href={project.url} target="_blank">
         <img src={project.image} alt={project.title} />
+        {project.development && <div className="project-development">Under active development</div>}
         <div className="project-card-content">
           <h3>{project.name}</h3>
           <p>{project.description}</p>
