@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {   
+      "development": true,
+      "url": "https://infinitystudio.ai/athena",
+      "image": "/images/athena.png",
+      "name": "Athena",
+      "description": "Helping Natural Disaster Victims get their homes repaired faster",
+      "platform": "Android / Web",
+      "categories": [
+        "UX Research",
+        "Product Design",
+        "FE Dev"
+    ]
+  
+    },
+    {   
+        "development": true,
+        "url": "https://infinitystudio.ai/apeiron",
+        "image": "/images/apeiron.png",
+        "name": "Apeiron",
+        "description": "Speeding up data capture for civil engineers on construction sites",
+        "platform": "Android / Web",
+        "categories": [
+          "UX Research",
+          "Product Design",
+          "FE Dev"
+      ]
+    
+      },
+      {   
+        "development": true,
+        "url": "https://infinitystudio.ai/logger",
+        "image": "/images/logger.png",
+        "name": "Logger",
+        "description": "Making it faster, cheaper, and safer to build buildings, and infrastructure",
+        "platform": "Android / Web",
+        "categories": [
+          "UX Research",
+          "Product Design",
+          "FE Dev"
+      ]
+    
+      }
+    
+  ]
+}

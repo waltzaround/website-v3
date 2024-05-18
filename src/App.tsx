@@ -1,8 +1,30 @@
 import { useEffect } from "react";
 
+import projects from "./current-projects.json";
+
 
 
 function App() {
+
+
+const ProjectCard = ({ project }: { project: any }) => {
+  return (
+    <div className="project-card">
+      <img src={project.image} alt={project.title} />
+      <div className="project-card-content">
+      <h3>{project.name}</h3>
+      <p>{project.description}</p>
+      </div>
+      <div className="project-tags">
+      <div className="project-platform-type">{project.platform}</div>
+      <div className="project-work-type">
+      {project.categories.map((categories: any) => (
+                      <p>{categories}</p> ))}
+      </div>
+      </div>
+    </div>
+  );
+};
 
   useEffect(() => { 
          // inspired by the stripe landing page
@@ -56,7 +78,7 @@ function App() {
         <div className='safariHack'>
         <header className='main-nav'>
             <div className="main-nav-logo">
-              <img className="main-nav-logo-img" src="https://placehold.co/64x64" alt="aaa"/><p><strong>Walter Lim's</strong> stuff lives here</p>
+              <img className="main-nav-logo-img" src="/images/walt.png" alt="aaa"/><p>The portfolio of <strong>Walter Lim</strong> </p>
             </div>
             <div className="nav-links"><p>About</p><p>Work</p><p>Media</p><p>Contact</p></div>
           </header>
@@ -72,7 +94,7 @@ Designer + UX Engineer</h1>
 
 He's worked across a wide range of B2C, B2B, and B2B2C products across many different industries. He&apos;s been featured in both local and international media for his design work.
 </p><p>
-He currently leads product design at Infinity Studio, and occasionally volunteers his spare time designing and building silly things at haxx.nz
+He currently leads product design at <a href="https://infinitystudio.ai" target="_blank">Infinity Studio</a>, and occasionally volunteers his spare time designing and building silly things at <a href="https://haxx.nz" target="_blank">haxx.nz</a>
 
 </p>
 <h2 className="tag-heading">Current availability:</h2>
@@ -141,7 +163,18 @@ He currently leads product design at Infinity Studio, and occasionally volunteer
 	</div>
           </section>
           <section className="project-parent">
-         <h2>aaaaaa</h2>
+         <h2>Current projects</h2>
+         <div className="project-card-container">
+       
+
+                    {projects.projects.map((project: any) => (
+                      <ProjectCard key={project.id} project={project} />
+                    ))}
+             
+
+      
+
+         </div>
          </section>
         </div>
     </>

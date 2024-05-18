@@ -37,7 +37,7 @@
 :root {
   font-family: "Space Grotesk", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 500;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -54,12 +54,11 @@ p,h1,h2,h3,h4,h5,h6{
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #bbbeff;
   text-decoration: inherit;
+  text-decoration: underline;
 }
-a:hover {
-  color: #535bf2;
-}
+
 
 body {
   font-family: "Space Grotesk", system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -104,6 +103,7 @@ gap: 0.5rem
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 1200px;
+
 }
 .nav-links {
   display: flex;
@@ -122,8 +122,9 @@ gap: 0.5rem
 
 .hero-grid-2-text h1 {
   font-size: 3.5rem;
-  
+  letter-spacing: -1px;
   line-height: 1.25;
+  font-weight: 400;
   
 }
 
@@ -232,4 +233,72 @@ border-radius: 24px;
 		height: 100px;
 		width: 250px;
 	}
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.tag-dot {
+  animation: pulse 1s infinite;
+}
+
+
+.project-parent {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.project-parent h2 {
+  margin-top: 4rem;
+  font-size: 2.5rem
+}
+.project-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background-color: rgba(0,0,0,0.5);
+  border: 2px solid rgba(255,255,255,0.2);
+
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.project-card img {
+  width: 100%;
+  height: 20rem;
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+  object-fit: cover;
+  object-position: top; 
+  display: flex;
+}
+.project-card-content { 
+  padding: 1rem;
+}
+
+.project-tags {
+  border-top: 2px solid rgba(255,255,255,0.2);
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-platform-type { 
+  border-right: 2px solid rgba(255,255,255,0.2);
+  padding: 1rem;
+
+}
+.project-work-type {
+  display: flex;
 }
