@@ -42,11 +42,11 @@ function App() {
           t = t + 0.02; // adjust this to change seizure level
           window.requestAnimationFrame(run);
         }
-        window.onload = function() {
+     
      
      
         run();
-      }
+   
         console.log('background running');
  
   return (
