@@ -1,5 +1,41 @@
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 200;
+  font-display: fallback;
+  src: url("/assets/fonts/SpaceGrotesk-Light.woff2") format("woff2"), url("/assets/fonts/SpaceGrotesk-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 400;
+  font-display: fallback;
+  src: url("/assets/fonts/SpaceGrotesk-Regular.woff2") format("woff2"), url("/assets/fonts/SpaceGrotesk-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 500;
+  font-display: fallback;
+  src: url("/assets/fonts/SpaceGrotesk-Medium.woff2") format("woff2"), url("/assets/fonts/SpaceGrotesk-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 600;
+  font-display: fallback;
+  src: url("/assets/fonts/SpaceGrotesk-Semibold.woff2") format("woff2"), url("/assets/fonts/SpaceGrotesk-Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-display: fallback;
+  src: url("/assets/fonts/SpaceGrotesk-Bold.woff2") format("woff2"), url("/assets/fonts/SpaceGrotesk-Bold.woff") format("woff");
+}
+
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Space Grotesk", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -26,11 +62,12 @@ a:hover {
 }
 
 body {
+  font-family: "Space Grotesk", system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0;
   background-color: #1a1a1a;
 
 }
-/* DO NOT MESS WITH THIS */
+/* PLZ NO MESS WITH THIS OR MAC USERS WILL CRY */
 #canv {
   width: 100vw;
   height: 100vh;
@@ -44,7 +81,7 @@ body {
   width: 100%;
   
 }
-/* DO NOT MESS WITH THIS */
+/* PLZ NO MESS WITH THIS OR MAC USERS WILL CRY */
 
 .main-nav {
  margin: 1rem auto 0 auto;
@@ -131,29 +168,38 @@ margin-top: 1rem;
   margin-right: 0.5rem;
 }
 
+.testimonials p {
+ border-bottom: 2px solid rgba(255,255,255,0.1);
+color: rgb(207, 207, 207);
+ padding: 1rem;
+}
 
 
 
-// Animation
+
+/* // Animation */
 @keyframes scroll {
 	0% { transform: translateX(0); }
 	100% { transform: translateX(calc(-250px * 7))}
 }
 
 
-// Styling
-.slider {
-	background: white;
+/* // Styling */
+.testimonials {
+	background: rgba(0,0,0,0.15);
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-	height: 100px;
+  border: 2px solid rgba(255,255,255,0.1);
+height: auto;
+border-radius: 24px;
+
 	margin: auto;
 	overflow:hidden;
 	position: relative;
-	width: 960px;
+	width: 100%;
+  max-width: 1600px;
 	
 	&::before,
 	&::after {
-		@include white-gradient;
 		content: "";
 		height: 100px;
 		position: absolute;
@@ -173,10 +219,14 @@ margin-top: 1rem;
 	}
 	
 	.slide-track {
-		animation: scroll $animationSpeed linear infinite;
+		animation: scroll 64s linear infinite;
 		display: flex;
-		width: calc(250px * 14);
+		width: calc(250px * 18);
 	}
+  .slide-track img {
+    object-position: center;
+    object-fit: contain;
+  }
 	
 	.slide {
 		height: 100px;

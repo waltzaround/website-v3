@@ -75,7 +75,63 @@ He currently leads product design at Infinity Studio, and occasionally volunteer
 
           </section>
           <section className="testimonials">
-
+            <p>My work has been featured in...</p>
+          <div className="slide-track">
+		<div className="slide">
+			<img src="/media/01.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/02.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/03.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/04.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/05.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/06.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/07.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/08.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/09.png" height="100" width="250" alt="" />
+		</div>
+    <div className="slide">
+			<img src="/media/01.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/02.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/03.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/04.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/05.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/06.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/07.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/08.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="/media/09.png" height="100" width="250" alt="" />
+		</div>
+	</div>
           </section>
         </div>
     </>
