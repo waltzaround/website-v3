@@ -1,9 +1,10 @@
+import { useEffect } from "react";
 
 
 
 function App() {
 
-
+  useEffect(() => { 
          // inspired by the stripe landing page
          
      
@@ -48,7 +49,7 @@ function App() {
         run();
    
         console.log('background running');
- 
+      }, []);
   return (
     <>
         <canvas id="canv" width="32" height="32"></canvas>
@@ -139,6 +140,9 @@ He currently leads product design at Infinity Studio, and occasionally volunteer
 		</div>
 	</div>
           </section>
+          <section className="project-parent">
+         <h2>aaaaaa</h2>
+         </section>
         </div>
     </>
   );
