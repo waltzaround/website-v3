@@ -1,7 +1,4 @@
-import { useEffect } from "react";
-import Header from "../components/Header";
-
-function Media() {
+function Gradient1() {
   useEffect(() => {
     // inspired by the stripe landing page
 
@@ -57,12 +54,10 @@ function Media() {
 
   return (
     <>
-      {" "}
       <canvas id="canv" width="32" height="32"></canvas>
-      <div className="safariHack">
-        <Header />
-      </div>
+      <div className="safariHack">{children}</div>
     </>
   );
 }
-export default Media;
+
+export default Gradient1;

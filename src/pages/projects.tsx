@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Header from "../components/Header";
 
-function Media() {
+function Projects() {
   useEffect(() => {
     // inspired by the stripe landing page
 
@@ -65,4 +65,4 @@ function Media() {
     </>
   );
 }
-export default Media;
+export default Projects;

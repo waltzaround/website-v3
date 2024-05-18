@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./pages/App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Media from "./pages/media.tsx";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/media/*",
-    element: <App />,
+    element: <Media />,
   },
 ]);
 

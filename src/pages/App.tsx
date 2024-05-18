@@ -2,6 +2,8 @@ import { useEffect } from "react";
 
 import projects from "../current-projects.json";
 import featured from "../featured-projects.json";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function App() {
   const ProjectCard = ({ project }: { project: any }) => {
@@ -29,20 +31,20 @@ function App() {
   useEffect(() => {
     // inspired by the stripe landing page
 
-    var c = document.getElementById("canv");
-    var da = (c as HTMLCanvasElement)?.getContext("2d");
+    let c = document.getElementById("canv");
+    let da = (c as HTMLCanvasElement)?.getContext("2d");
 
-    var col = function (x: number, y: number, r: number, g: number, b: number) {
+    let col = function (x: number, y: number, r: number, g: number, b: number) {
       if (da) {
         da.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
         da.fillRect(x, y, 1, 1);
       }
     };
-    var R = function (x: number, y: number, t: number) {
+    let R = function (x: number, y: number, t: number) {
       return Math.floor(192 + 200 * Math.cos((x * x - y * y) / 300 + t));
     };
 
-    var G = function (x: number, y: number, t: number) {
+    let G = function (x: number, y: number, t: number) {
       return Math.floor(
         192 +
           200 *
@@ -50,7 +52,7 @@ function App() {
       );
     };
 
-    var B = function (x: number, y: number, t: number) {
+    let B = function (x: number, y: number, t: number) {
       return Math.floor(
         192 +
           200 *
@@ -61,10 +63,10 @@ function App() {
       );
     };
 
-    var t = 0;
+    let t = 0;
 
     let x, y;
-    var run = function () {
+    const run = function () {
       for (x = 0; x <= 35; x++) {
         for (y = 0; y <= 35; y++) {
           col(x, y, R(x, y, t), G(x, y, t), B(x, y, t));
@@ -82,24 +84,7 @@ function App() {
     <>
       <canvas id="canv" width="32" height="32"></canvas>
       <div className="safariHack">
-        <header className="main-nav">
-          <div className="main-nav-logo">
-            <img
-              className="main-nav-logo-img"
-              src="/images/walt.png"
-              alt="aaa"
-            />
-            <p>
-              The portfolio of <strong>Walter Lim</strong>{" "}
-            </p>
-          </div>
-          <div className="nav-links">
-            <p>About</p>
-            <p>Work</p>
-            <p>Media</p>
-            <p>Contact</p>
-          </div>
-        </header>
+        <Header />
 
         <section className="hero-grid-2">
           <div className="hero-grid-2-text">
@@ -140,60 +125,60 @@ function App() {
         <section className="testimonials">
           <p>My work has been featured in...</p>
           <div className="slide-track">
-            <div className="slide">
+            <a href="https://potato.com" className="slide">
               <img src="/media/01.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/02.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/03.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/04.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/05.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/06.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/07.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/08.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/09.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/01.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/02.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/03.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/04.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/05.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/06.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/07.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/08.png" height="100" width="250" alt="" />
-            </div>
-            <div className="slide">
+            </a>
+            <a href="" className="slide">
               <img src="/media/09.png" height="100" width="250" alt="" />
-            </div>
+            </a>
           </div>
         </section>
         <section className="project-parent">
@@ -216,7 +201,7 @@ function App() {
             See all projects
           </a>
         </section>
-        <footer>aaa</footer>
+        <Footer />
       </div>
     </>
   );
