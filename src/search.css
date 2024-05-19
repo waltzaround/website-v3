@@ -16,13 +16,15 @@
 
 .search-title {
   padding: 1.5rem;
+  padding-bottom: 0;
   font-size: 1.5rem;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  /* border-bottom: 2px solid rgba(255, 255, 255, 0.1); */
 }
 form {
   display: flex;
   flex-direction: column;
   margin: 1.5rem;
+  margin-top: 1rem;
 }
 .search-input {
   padding: 1rem 1rem 1rem 3.5rem;
