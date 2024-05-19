@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -71,6 +72,10 @@ function App() {
       <canvas id="canv" width="32" height="32"></canvas>
       <div className="safariHack">
         <Header />
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Walter Lim </title>
+        </Helmet>
 
         <section className="hero-grid-2">
           <div className="hero-grid-2-text">

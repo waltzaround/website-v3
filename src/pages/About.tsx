@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Header from "../components/Header";
 import "../about.css";
 import Footer from "../components/Footer";
-
+import { Helmet } from "react-helmet";
 function About() {
   useEffect(() => {
     // inspired by the stripe landing page
@@ -63,6 +63,10 @@ function About() {
       <canvas id="canv" width="32" height="32"></canvas>
       <div className="safariHack">
         <Header />
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Walter Lim - About</title>
+        </Helmet>
         <section className="about-grid-2">
           <div>
             <video

@@ -2,6 +2,7 @@ import "../media.css";
 import { useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet";
 
 function Media() {
   useEffect(() => {
@@ -62,6 +63,10 @@ function Media() {
   return (
     <>
       {" "}
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Walter Lim - Media</title>
+      </Helmet>
       <canvas id="canv" width="32" height="32"></canvas>
       <div className="safariHack">
         <Header />
