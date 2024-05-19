@@ -1,11 +1,40 @@
 {
     "projects": [
         {
+            "development": true,
+            "url":"https://taxreceipt.co.nz",
+            "image": "/images/crap/tax.png",
+         
+            "name": "Tax receipt",
+            "description": "Website that shows you where your taxes went proportional to income. Serves 7,000+ unique users",
+            "platform": " Web",
+            "date": "2023",
+            "categories": [
+                "Web",
+                "Taxes",
+ 
+                "Product Design"
+            ]
+        }, {
+            "development": false,
+            "url": "https://github.com/wseagar/eight-dollars",
+            "image": "/images/crap/twitter.png",
+            "name": "Eight Dollars",
+            "description": "Browser extension that helps differentiate between real, and fake verified Twitter users. Serves 20,000+ users and is featured on International tech media. ",
+            "platform": " Web",
+            "date": "Dec 2022",
+            "categories": [
+                "Twitter API",
+                "Chrome Extension",
+                "Open Source"
+            ]
+        },
+        {
             "development": false,
             "image": "/images/projects/flatbot.png",
          
             "name": "Flatbot",
-            "description": "Facebook Messenger bot for sniping rental listings. Peaked at 100+ users on Messenger purely through word of mouth, but ended up neglected as we explored other pursuits and projects. Discontinued July 2019.",
+            "description": "Facebook Messenger bot for sniping rental listings. Peaked at 100+ users on Messenger purely through word of mouth, but ended up neglected as we explored other pursuits and projects. ",
             "platform": " Web",
             "date": "Dec 2017 → Jul 2019",
             "categories": [
@@ -44,20 +73,7 @@
                 "Product Design"
             ]
         },
-        {
-            "development": false,
-            "url": "https://github.com/wseagar/eight-dollars",
-            "image": "/images/crap/twitter.png",
-            "name": "Eight Dollars",
-            "description": "Browser extension that helps differentiate between real, and fake verified Twitter users. Featured on International tech media. ",
-            "platform": " Web",
-            "date": "Dec 2022",
-            "categories": [
-                "Twitter API",
-                "Chrome Extension",
-                "Open Source"
-            ]
-        },
+       
         {
             "development": false,
             "url": "https://terriblehack.com/",
@@ -125,6 +141,268 @@
                 "Websockets"
 
             ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/fruit-tax",
+            "image": "/images/crap/ligma.png",
+            "name": "Ligma.design",
+            "description": " Hastily assembled clone of Figma emluating an Adobe acquisition. Resets your work every 90 seconds. Has been used by over 7400 users.",
+            "platform": " Web",
+            "date": " 2022",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
         }
+        ,
+        {
+            "development": false,
+            "url": "https://github.com/CovidEngine/covidengineui",
+            "image": "/images/crap/lenny.png",
+            "name": "Lenny",
+            "description": " Proof of concept prototype that uses payment data to perform COVID-19 contact tracing. Built as part of the GovHack 2021 Open Data Hackathon.            ",
+            "platform": " Web",
+            "date": " 2020",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        }
+        ,
+        {
+            "development": false,
+            "url": "https://github.com/CovidEngine/covidengineui",
+            "image": "/images/crap/checkon.png",
+            "name": "Check On",
+            "description": " Proof of concept dashboard for emergencies. It aggregates data from public and private data sources. Built to learn about public datasets for the GovHack 2020 hackathon.            ",
+            "platform": " Web",
+            "date": " 2021",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        }
+        ,
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/webcam-adblocker",
+            "image": "/images/crap/adblocker.png",
+            "name": "Anti-adblocker",
+            "description": " Working browser implementation of the adblocker from the TV Show Black Mirror. Uses your webcam to tell you to keep watching ads if you stop watching.           ",
+            "platform": " Web",
+            "date": " 2021",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        }   ,
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/matter.png",
+            "name": "Matter VR",
+            "description": " Unity VR experience where you make music with gestural hand controls using a Leap Motion sensor. Built as an excuse to experiment with hand tracking systems and VR.       ",
+            "platform": " Web",
+            "date": " 2016",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        } ,
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/spicyhack.png",
+            "name": "Spicy Hack",
+            "description": " Sadistic random tech stack generator used to increase hackathon difficulty for veteran developers.   ",
+            "platform": " Web",
+            "date": " 2017",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/politician.png",
+            "name": "Hello Politician",
+            "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/politician.png",
+            "name": "Flattie",
+            "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/politician.png",
+            "name": "Senpai",
+            "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/politician.png",
+            "name": "Zappy",
+            "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/politician.png",
+            "name": "Raihana",
+            "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/politician.png",
+            "name": "She Sharp",
+            "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/politician.png",
+            "name": "NZ Traditional Boatbuilding School",
+            "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/politician.png",
+            "name": "Fundy",
+            "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/politician.png",
+            "name": "VR Forex Prototype",
+            "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/politician.png",
+            "name": "Bender",
+            "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        }
+        
+        
+        
     ]
 }

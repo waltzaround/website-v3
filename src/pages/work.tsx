@@ -9,6 +9,7 @@ import more from "../projects.json";
 
 import React, { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
+import Footer from "../components/Footer";
 
 function SearchBar() {
   
@@ -148,8 +149,9 @@ function Work() {
         <Header />
 
      <SearchBar/>
-      
+     <Footer/>
       </div>
+      
     </>
   );
 }
