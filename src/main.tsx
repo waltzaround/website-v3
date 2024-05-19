@@ -5,12 +5,15 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Media from "./pages/media.tsx";
 import Work from "./pages/work.tsx";
+import About from "./pages/About.tsx";
+import Contact from "./pages/Contact.tsx";
+import Error from "./pages/Error.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <div>AAAAAA SOMETHING WENT WRONG</div>,
+    errorElement: <Error />,
   },
   {
     path: "/media/*",
@@ -20,7 +23,14 @@ const router = createBrowserRouter([
     path: "/work/*",
     element: <Work />,
   },
-  
+  {
+    path: "/about/*",
+    element: <About />,
+  },
+  {
+    path: "/contact/*",
+    element: <Contact />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

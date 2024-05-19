@@ -1,5 +1,5 @@
 import "../menu.css";
-
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -11,34 +11,43 @@ function Header() {
         </p>
       </a>
       <div className="nav-links">
-        <a href="/about">About</a>
-        <a href="/work">Work</a>
-        <a href="/media">Media</a>
-        <a href="/contact">Contact</a>
+        <Link to="/about">About</Link>
+        <Link to="/work">Work</Link>
+        <Link to="/media">Media</Link>
+        <Link to="/contact">Contact</Link>
       </div>
       <div id="menuToggle">
- 
-    <input type="checkbox" id="navtoggle"/>
+        <input type="checkbox" id="navtoggle" />
 
-    <span></span>
-    <span></span>
-    <span></span>
-    
-  
-    <ul id="menu">
-      
-    <a className="main-nav-logo" href="/">
-        <img className="main-nav-logo-img" src="/images/walt.png" alt="aaa" />
-        <p>
-          The portfolio of <strong>Walter Lim</strong>
-        </p>
-      </a>
-    <a href="/about"><li>About</li></a>
-        <a href="/work"><li>Work</li></a>
-        <a href="/media"><li>Media</li></a>
-        <a href="/contact"><li>Contact</li></a>
-    </ul>
-  </div>
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <a className="main-nav-logo" href="/">
+            <img
+              className="main-nav-logo-img"
+              src="/images/walt.png"
+              alt="aaa"
+            />
+            <p>
+              The portfolio of <strong>Walter Lim</strong>
+            </p>
+          </a>
+          <Link to="/about">
+            <li>About</li>
+          </Link>
+          <Link to="/work">
+            <li>Work</li>
+          </Link>
+          <Link to="/media">
+            <li>Media</li>
+          </Link>
+          <Link to="/contact">
+            <li>Contact</li>
+          </Link>
+        </ul>
+      </div>
     </header>
   );
 }
