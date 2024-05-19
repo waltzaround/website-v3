@@ -66,9 +66,9 @@ function SearchBar() {
             <div>
               <h6>Skills</h6>
               <div className="search-skills-section">
-                <button>Service Design</button>
                 <button>Product Design</button>
                 <button>UX Research</button>
+                <button>Design Systems</button>
                 <button>Frontend Development</button>
                 <button>Game Development</button>
               </div>
