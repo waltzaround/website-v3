@@ -10,22 +10,13 @@ function About() {
     let c = document.getElementById("canv");
     let gl = (c as HTMLCanvasElement)?.getContext("webgl");
 
-      // Only continue if WebGL is available and working
-  if (gl === null) {
-    alert(
-      "Unable to initialize WebGL. Your browser or machine may not support it.",
-    );
-    return;
-  }
-  
-
-  
-
-
-
-
-  
-  
+    // Only continue if WebGL is available and working
+    if (gl === null) {
+      alert(
+        "Unable to initialize WebGL. Your browser or machine may not support it."
+      );
+      return;
+    }
   }, []);
 
   return (
@@ -44,6 +35,7 @@ function About() {
               className="about-video"
               autoPlay
               playsInline
+              loop
               muted
               src="/video/walt.mp4"
             ></video>
