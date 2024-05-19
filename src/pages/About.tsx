@@ -69,7 +69,6 @@ function About() {
               className="about-video"
               autoPlay
               playsInline
-              loop
               muted
               src="/video/walt.mp4"
             ></video>

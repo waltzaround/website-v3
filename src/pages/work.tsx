@@ -19,6 +19,9 @@ let activeList: any[];
 activeList = combinedProjects;
 
 function SearchBar() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {

@@ -7,6 +7,8 @@ function Media() {
   useEffect(() => {
     // inspired by the stripe landing page
 
+    window.scrollTo(0, 0);
+
     let c = document.getElementById("canv");
     let da = (c as HTMLCanvasElement)?.getContext("2d");
 

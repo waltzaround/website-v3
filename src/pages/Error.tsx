@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Header from "../components/Header";
+import { Link } from "react-router-dom";
 
 function Error() {
   useEffect(() => {
@@ -61,6 +62,12 @@ function Error() {
       <canvas id="canv" width="32" height="32"></canvas>
       <div className="safariHack">
         <Header />
+        <section className="error-container">
+          <div>
+            <h1>Page not found </h1>
+            <Link to="/">Go back home</Link>
+          </div>
+        </section>
       </div>
     </>
   );

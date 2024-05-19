@@ -123,7 +123,7 @@ body {
 }
 .nav-links {
   display: flex;
- 
+
   align-items: center;
   margin-right: 1rem;
 }
@@ -131,15 +131,15 @@ body {
 .nav-links a {
   text-decoration: none;
   color: white;
-    padding: 1rem;
+  padding: 1rem;
 }
 
-.nav-links a:hover, .main-nav-logo:hover {
-text-decoration: underline;
+.nav-links a:hover,
+.main-nav-logo:hover {
+  text-decoration: underline;
 
-color: #bbbeff;
+  color: #bbbeff;
 }
-
 
 .hero-grid-2 {
   display: grid;
@@ -301,7 +301,7 @@ color: #bbbeff;
   text-decoration: none;
   color: white;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 .project-card:hover {
   border: 2px solid rgba(144, 157, 255, 0.5);
@@ -345,10 +345,8 @@ color: #bbbeff;
   min-height: 7rem;
   color: rgb(203, 203, 203);
   flex: 1;
-  
 }
 .project-date {
-  
   margin-top: 1rem;
 }
 
@@ -458,4 +456,19 @@ footer {
   .project-card-container {
     grid-template-columns: 1fr;
   }
+}
+
+.error-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.error-container div {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 4rem;
+  border-radius: 24px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
 }

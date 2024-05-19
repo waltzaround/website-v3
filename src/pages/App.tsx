@@ -8,6 +8,7 @@ import ProjectCard from "../components/ProjectCard";
 import { Link } from "react-router-dom";
 function App() {
   useEffect(() => {
+    window.scrollTo(0, 0);
     // inspired by the stripe landing page
 
     const c = document.getElementById("canv");
@@ -253,9 +254,9 @@ function App() {
             ))}
           </div>
 
-          <Link className="project-see-more" to="/work">
+          {/* <Link className="project-see-more" to="/work">
             See all projects
-          </Link>
+          </Link> */}
         </section>
         <Footer />
       </div>
