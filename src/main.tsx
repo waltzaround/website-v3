@@ -8,6 +8,7 @@ import Work from "./pages/work.tsx";
 import About from "./pages/About.tsx";
 import Contact from "./pages/Contact.tsx";
 import Error from "./pages/Error.tsx";
+import Cin7 from "./pages/case-studies/Cin7.tsx";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
     element: <Media />,
   },
   {
-    path: "/work/*",
+    path: "/work/",
     element: <Work />,
   },
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/contact/*",
     element: <Contact />,
+  },
+  {
+    path: "/work/cin7",
+    element: <Cin7 />,
   },
 ]);
 
