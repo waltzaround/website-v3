@@ -2,7 +2,7 @@
   "projects": [  {   
     "development": false,
     "url": "/samsung",
-    "image": "https://placehold.co/600x300",
+    "image": "/images/projects/samsung.png",
     "name": "Samsung Electronics NZ / Cheil NZ",
     "description": "Increasing customer traffic 64% by by redesigning existing workflows and partnerships",
     "platform": " Web",
@@ -17,11 +17,13 @@
     {   
       "development": false,
       "url": "/cin7",
-      "image": "https://placehold.co/600x300",
+      "image": "/images/projects/cin7.webp",
       "name": "Cin7.com",
-      "description": "Helping small businesses transact billions of dollars across the world",
+      "description": "Helping small businesses transact billions of dollars across the world by building better inventory management software",
       "platform": "Android / Web",
       "categories": [
+        
+        "Web / Android",
         "DesignOps",
         "Design leadership",
         "FE Dev",
@@ -33,7 +35,7 @@
       {   
         "development": false,
         "url": "/swiftly",
-        "image": "https://placehold.co/600x300",
+        "image": "/images/projects/swiftly.png",
         "name": "Swiftly",
         "description": "Helping 1,200 small local stores make $700k+ NZD by selling goods online during lockdown",
         "platform": " Web",
@@ -48,7 +50,7 @@
       {   
         "development": false,
         "url": "/vaxx",
-        "image": "https://placehold.co/600x300",
+        "image": "/images/projects/vaxx.png",
         "name": "Vaxx",
         "description": "Saving lives, by helping 100K+ people get vaccinated against COVID ",
         "platform": " Web",
@@ -62,7 +64,7 @@
       {   
         "development": false,
         "url": "/voluntarily",
-        "image": "https://placehold.co/600x300",
+        "image": "/images/projects/vly.png",
         "name": "Voluntarily",
         "description": "Connecting skilled volunteers with classrooms to teach essential tech skills in schools  ",
         "platform": " Web",
@@ -76,7 +78,7 @@
       {   
         "development": false,
         "url": "/ubiquity",
-        "image": "https://placehold.co/600x300",
+        "image": "/images/projects/ubi.png",
         "name": "Ubiquity",
         "description": "Helping businesses send billions of messages a month to help customers get stuff done  ",
         "platform": " Web",

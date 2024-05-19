@@ -3,7 +3,7 @@
         {
             "development": true,
             "url": "https://infinitystudio.ai/athena",
-            "image": "/images/athena.png",
+            "image": "/images/projects/athena.png",
             "name": "Athena",
             "description": "Helping natural disaster victims get their homes repaired faster",
             "categories": [
@@ -16,7 +16,7 @@
         {
             "development": true,
             "url": "https://infinitystudio.ai/apeiron",
-            "image": "/images/apeiron.png",
+            "image": "/images/projects/apeiron.png",
             "name": "Apeiron",
             "description": "Speeding up data capture for civil engineers on construction sites",
             "categories": [
@@ -29,7 +29,7 @@
         {
             "development": true,
             "url": "https://infinitystudio.ai/logger",
-            "image": "/images/logger.png",
+            "image": "/images/projects/logger.png",
             "name": "Logger",
             "description": "Making it faster, cheaper, and safer to build buildings, and infrastructure",
             "categories": [
