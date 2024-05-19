@@ -1,7 +1,7 @@
 {
   "projects": [  {   
     "development": false,
-    "url": "/samsung",
+    "url": "/work/samsung",
     "image": "/images/projects/samsung.png",
     "name": "Samsung Electronics NZ / Cheil NZ",
     "description": "Increasing customer traffic 64% by by redesigning existing workflows and partnerships",
@@ -35,7 +35,7 @@
   
       {   
         "development": false,
-        "url": "/swiftly",
+        "url": "/work/swiftly",
         "image": "/images/projects/swiftly.png",
         "name": "Swiftly",
         "description": "Helping 1,200 small local stores make $700k+ NZD by selling goods online during lockdown",
@@ -50,7 +50,7 @@
       },
       {   
         "development": false,
-        "url": "/vaxx",
+        "url": "/work/vaxx",
         "image": "/images/projects/vaxx.png",
         "name": "Vaxx",
         "description": "Saving lives, by helping 100K+ people get vaccinated against COVID ",
@@ -64,7 +64,7 @@
       },
       {   
         "development": false,
-        "url": "/voluntarily",
+        "url": "/work/voluntarily",
         "image": "/images/projects/vly.png",
         "name": "Voluntarily",
         "description": "Connecting skilled volunteers with classrooms to teach essential tech skills in schools  ",
@@ -78,7 +78,7 @@
       },
       {   
         "development": false,
-        "url": "/ubiquity",
+        "url": "/work/ubiquity",
         "image": "/images/projects/ubi.png",
         "name": "Ubiquity",
         "description": "Helping businesses send billions of messages a month to help customers get stuff done  ",
