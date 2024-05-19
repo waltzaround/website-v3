@@ -85,9 +85,9 @@ function SearchBar() {
             </div>
           </div>
         </form>
+        <p className="search-count">{activeList.length} projects</p>
       </section>
       <section className="project-parent">
-        <p>{activeList.length} projects</p>
         <div className="project-card-container">
           {activeList.map((project: any) => (
             <ProjectCard key={project.id} project={project} />
