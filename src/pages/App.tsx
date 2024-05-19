@@ -5,7 +5,6 @@ import featured from "../featured-projects.json";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
-import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 function App() {
   useEffect(() => {
