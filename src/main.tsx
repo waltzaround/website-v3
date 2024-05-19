@@ -4,6 +4,7 @@ import App from "./pages/App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Media from "./pages/media.tsx";
+import Work from "./pages/work.tsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,11 @@ const router = createBrowserRouter([
     path: "/media/*",
     element: <Media />,
   },
+  {
+    path: "/work/*",
+    element: <Work />,
+  },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

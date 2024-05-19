@@ -4,29 +4,9 @@ import projects from "../current-projects.json";
 import featured from "../featured-projects.json";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
+import ProjectCard from "../components/ProjectCard";
 function App() {
-  const ProjectCard = ({ project }: { project: any }) => {
-    return (
-      <a className="project-card" href={project.url} target="_blank">
-        <img src={project.image} alt={project.title} />
-        {project.development && (
-          <div className="project-development">Under active development</div>
-        )}
-        <div className="project-card-content">
-          <h3>{project.name}</h3>
-          <p>{project.description}</p>
-        </div>
-        <div className="project-tags">
-          <div className="project-work-type">
-            {project.categories.map((categories: any) => (
-              <p className="project-work-type-tag">{categories}</p>
-            ))}
-          </div>
-        </div>
-      </a>
-    );
-  };
+
 
   useEffect(() => {
     // inspired by the stripe landing page

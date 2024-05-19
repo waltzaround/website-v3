@@ -22,7 +22,7 @@ function Footer() {
         </div>
       </div>
 
-      <p className="footer-end">© {currentYear} - All rights reserved</p>
+      <p className="footer-end">© {currentYear} Walter Lim - All rights reserved </p>
     </footer>
   );
 }

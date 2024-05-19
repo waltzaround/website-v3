@@ -1,0 +1,130 @@
+{
+    "projects": [
+        {
+            "development": false,
+            "image": "/images/projects/flatbot.png",
+         
+            "name": "Flatbot",
+            "description": "Facebook Messenger bot for sniping rental listings. Peaked at 100+ users on Messenger purely through word of mouth, but ended up neglected as we explored other pursuits and projects. Discontinued July 2019.",
+            "platform": " Web",
+            "date": "Dec 2017 → Jul 2019",
+            "categories": [
+                "Chatbot",
+                "Facebook API",
+                "UX Research",
+                "B2B2C",
+                "Product Design"
+            ]
+        },
+        {
+            "development": false,
+        
+            "image": "/images/projects/qrious.png",
+            "name": "Qrious",
+            "description": "As their first design hire, supported multiple internal and external product teams by improving UX processes, as well as facillitating faster design decisions.",
+            "platform": " Web",
+            "date": "Jan 2017 → Jan 2019",
+            "categories": [
+                "UX Research",
+                "Design Systems",
+                "Product Design"
+            ]
+        },
+        {
+            "development": false,
+         
+            "image": "/images/projects/mighway.png",
+            "name": "Mighway",
+            "description": "Mighway is a peer-to-peer motorhome platform that connects motorhome owners with tourists who wanted to rent their vehicles.\nIn my role, I negotiated designs between product, development and marketing teams on a redesign of their onboarding, booking, and internal systems.",
+            "platform": " Web",
+            "date": "Jan 2017 → Jan 2019",
+            "categories": [
+                "UX Research",
+                "Design Systems",
+                "Product Design"
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/wseagar/eight-dollars",
+            "image": "/images/crap/twitter.png",
+            "name": "Eight Dollars",
+            "description": "Browser extension that helps differentiate between real, and fake verified Twitter users. Featured on International tech media. ",
+            "platform": " Web",
+            "date": "Dec 2022",
+            "categories": [
+                "Twitter API",
+                "Chrome Extension",
+                "Open Source"
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://terriblehack.com/",
+            "image": "/images/crap/hack.png",
+            "name": "Terrible ideas Hackathon",
+            "description": "The Terrible Ideas hackathon is a 46-hour challenge to create the most terrible, awful, brilliant ideas you can think of. Organizer from 2020-2022 ",
+            "platform": " Web",
+            "date": "2020 - 2022",
+            "categories": [
+                "Hackathon",
+                "Open Source"
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/fruit-tax",
+            "image": "/images/crap/apple-tax.png",
+            "name": "Fruit Tax",
+            "description": "Proof of concept shopping tech demo that raises the prices of products while you aren't looking. Uses your Webcam and OpenCV. ",
+            "platform": " Web",
+            "date": " 2022",
+            "categories": [
+                "Hackathon",
+                "Open Source"
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/swearsies",
+            "image": "/images/crap/swearsies.png",
+            "name": "Swearsies",
+            "description": "Proof of concept swear jar that transfers $5 into your savings account every time your device hears you swear. Built to experiment with Google ML services, and banking APIs for the 2019 BankEngine Hackathon.",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Hackathon",
+                "Open Source"
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/fruit-tax",
+            "image": "/images/crap/pewpew.png",
+            "name": "Pew Pew VR",
+            "description": "Proof of concept shopping tech demo that raises the prices of products while you aren't looking. Uses your Webcam and OpenCV. ",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Virtual Reality",
+                "Open Source"
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/fruit-tax",
+            "image": "/images/crap/quickmafs.png",
+            "name": "Quick Maths",
+            "description": " 40 player educational multiplayer math deathmatch in the browser. Built to learn about Websockets and the Canvas API at the KiwiJam 2020 Game Jam",
+            "platform": " Web",
+            "date": " 202",
+            "categories": [
+                "Hackathon",
+                "Open Source",
+                "Canvas",
+                "Websockets"
+
+            ]
+        }
+    ]
+}
