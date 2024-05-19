@@ -5,86 +5,88 @@ import projects from "../current-projects.json";
 import featured from "../featured-projects.json";
 import more from "../projects.json";
 
-
-
 import React, { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 
+const combinedProjects = [
+  ...projects.projects,
+  ...featured.projects,
+  ...more.projects,
+];
+
+let activeList: any[];
+activeList = combinedProjects;
+
 function SearchBar() {
-  
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(event.target.value);
+    console.log("Searching for:", event.target.value);
+
+    const searchResults = combinedProjects.filter((project: any) =>
+      project?.name?.toLowerCase().includes(event.target.value.toLowerCase())
+    );
+
+    activeList = searchResults;
+    if (searchTerm === "") {
+      activeList = combinedProjects;
+    }
   };
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     // Perform search logic here
-    console.log("Searching for:", searchTerm);
   };
-  const combinedProjects = [...projects.projects, ...featured.projects, ...more.projects];
+
   return (
     <>
-
-    <section className="search">
-    <h1 className="search-title">All Work / Projects</h1>
-    <form onSubmit={handleSubmit}>
-      <input className="search-input"
-        type="text"
-        placeholder="Search all work / projects..."
-        value={searchTerm}
-        onChange={handleSearch}
-      />
-   <h5>Filter by..</h5>
-    <div className="search-skills">
-    
-      <div>
-<h6>Skills</h6>
-<div  className="search-skills-section">
-    <button>Service Design</button>
-    <button>Product Design</button>
-    <button>UX Research</button>
-    <button>Frontend Development</button>
-    <button>Game Development</button></div>
-    </div>
-    <div>
-    <h6>Touchpoint</h6>
-    <div  className="search-skills-section">
-      <button>Web</button>
-      <button>iOS</button>
-      <button>Android</button>
-      <button>Virtual Reality</button>
-      <button>Augmented Reality</button></div>
-      </div>
-    </div>
-
-    </form>
-   
-    </section>
-    <section className="project-parent">
-       
-          <p>{combinedProjects.length} projects</p>
-    <div className="project-card-container">
-            {combinedProjects.map((project: any) => (
-              <ProjectCard key={project.id} project={project} />
-            ))}
-
-        
+      <section className="search">
+        <h1 className="search-title">All Work / Projects</h1>
+        <form onSubmit={handleSubmit}>
+          <input
+            className="search-input"
+            type="text"
+            placeholder="Search all work / projects..."
+            value={searchTerm}
+            onChange={handleSearch}
+          />
+          <h5>Filter by..</h5>
+          <div className="search-skills">
+            <div>
+              <h6>Skills</h6>
+              <div className="search-skills-section">
+                <button>Service Design</button>
+                <button>Product Design</button>
+                <button>UX Research</button>
+                <button>Frontend Development</button>
+                <button>Game Development</button>
+              </div>
+            </div>
+            <div>
+              <h6>Touchpoint</h6>
+              <div className="search-skills-section">
+                <button>Web</button>
+                <button>iOS</button>
+                <button>Android</button>
+                <button>Virtual Reality</button>
+                <button>Augmented Reality</button>
+              </div>
+            </div>
           </div>
-          </section>
-
+        </form>
+      </section>
+      <section className="project-parent">
+        <p>{combinedProjects.length} projects</p>
+        <div className="project-card-container">
+          {combinedProjects.map((project: any) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
+        </div>
+      </section>
     </>
   );
 }
-
-
-
-
-
-
-
-
 
 function Work() {
   useEffect(() => {
@@ -147,8 +149,7 @@ function Work() {
       <div className="safariHack">
         <Header />
 
-     <SearchBar/>
-      
+        <SearchBar />
       </div>
     </>
   );
