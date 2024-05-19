@@ -25,8 +25,17 @@ function SearchBar() {
     setSearchTerm(event.target.value);
     console.log("Searching for:", event.target.value);
 
-    const searchResults = combinedProjects.filter((project: any) =>
-      project?.name?.toLowerCase().includes(event.target.value.toLowerCase())
+    const searchResults = combinedProjects.filter(
+      (project: any) =>
+        project?.name
+          ?.toLowerCase()
+          .includes(event.target.value.toLowerCase()) ||
+        project?.description
+          ?.toLowerCase()
+          .includes(event.target.value.toLowerCase()) ||
+        project?.categories?.some((category: string) =>
+          category.toLowerCase().includes(event.target.value.toLowerCase())
+        )
     );
 
     activeList = searchResults;
@@ -78,9 +87,9 @@ function SearchBar() {
         </form>
       </section>
       <section className="project-parent">
-        <p>{combinedProjects.length} projects</p>
+        <p>{activeList.length} projects</p>
         <div className="project-card-container">
-          {combinedProjects.map((project: any) => (
+          {activeList.map((project: any) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
@@ -150,10 +159,9 @@ function Work() {
       <div className="safariHack">
         <Header />
 
-     <SearchBar/>
-     <Footer/>
+        <SearchBar />
+        <Footer />
       </div>
-      
     </>
   );
 }
