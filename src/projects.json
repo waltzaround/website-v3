@@ -260,7 +260,7 @@
         {
             "development": false,
             "url": "https://github.com/waltzaround/Matter-VR",
-            "image": "/images/crap/politician.png",
+            "image": "/images/crap/flattie.png",
             "name": "Flattie",
             "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
             "platform": " Web",
@@ -276,7 +276,7 @@
         {
             "development": false,
             "url": "https://github.com/waltzaround/Matter-VR",
-            "image": "/images/crap/politician.png",
+            "image": "/images/crap/senpai.png",
             "name": "Senpai",
             "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
             "platform": " Web",
@@ -292,7 +292,7 @@
         {
             "development": false,
             "url": "https://github.com/waltzaround/Matter-VR",
-            "image": "/images/crap/politician.png",
+            "image": "/images/crap/zappy.png",
             "name": "Zappy",
             "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
             "platform": " Web",
@@ -308,7 +308,7 @@
         {
             "development": false,
             "url": "https://github.com/waltzaround/Matter-VR",
-            "image": "/images/crap/politician.png",
+            "image": "/images/crap/raihana.png",
             "name": "Raihana",
             "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
             "platform": " Web",
@@ -323,8 +323,7 @@
         },
         {
             "development": false,
-            "url": "https://github.com/waltzaround/Matter-VR",
-            "image": "/images/crap/politician.png",
+            "image": "/images/crap/shesharp.png",
             "name": "She Sharp",
             "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
             "platform": " Web",
@@ -340,7 +339,7 @@
         {
             "development": false,
             "url": "https://github.com/waltzaround/Matter-VR",
-            "image": "/images/crap/politician.png",
+            "image": "/images/crap/boats.png",
             "name": "NZ Traditional Boatbuilding School",
             "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
             "platform": " Web",
@@ -356,7 +355,7 @@
         {
             "development": false,
             "url": "https://github.com/waltzaround/Matter-VR",
-            "image": "/images/crap/politician.png",
+            "image": "/images/crap/fundy.png",
             "name": "Fundy",
             "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
             "platform": " Web",
@@ -372,7 +371,7 @@
         {
             "development": false,
             "url": "https://github.com/waltzaround/Matter-VR",
-            "image": "/images/crap/politician.png",
+            "image": "/images/crap/forex.png",
             "name": "VR Forex Prototype",
             "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
             "platform": " Web",
@@ -388,7 +387,23 @@
         {
             "development": false,
             "url": "https://github.com/waltzaround/Matter-VR",
-            "image": "/images/crap/politician.png",
+            "image": "/images/crap/traffic.png",
+            "name": "VR Traffic Prototype",
+            "description": "Unity VR data visualization of traffic data over time.",
+            "platform": " Web",
+            "date": " 2019",
+            "categories": [
+                "Unity",
+                "Open Source",
+                "Virtual Reality",
+                "Traffic"
+
+            ]
+        },
+        {
+            "development": false,
+            "url": "https://github.com/waltzaround/Matter-VR",
+            "image": "/images/crap/bender.png",
             "name": "Bender",
             "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
             "platform": " Web",

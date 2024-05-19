@@ -5,9 +5,8 @@ import featured from "../featured-projects.json";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
+import { Link } from "react-router-dom";
 function App() {
-
-
   useEffect(() => {
     // inspired by the stripe landing page
 
@@ -254,9 +253,9 @@ function App() {
             ))}
           </div>
 
-          <a className="project-see-more" href="/">
+          <Link className="project-see-more" to="/work">
             See all projects
-          </a>
+          </Link>
         </section>
         <Footer />
       </div>

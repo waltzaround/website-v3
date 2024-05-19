@@ -51,7 +51,7 @@ function SearchBar() {
 
   return (
     <>
-      <section className="search">
+      <section className="search" id="top">
         <h1 className="search-title">All Work / Projects</h1>
         <form onSubmit={handleSubmit}>
           <input
@@ -90,7 +90,7 @@ function SearchBar() {
       <section className="project-parent">
         <div className="project-card-container">
           {activeList.map((project: any) => (
-            <ProjectCard key={project.id} project={project} />
+            <ProjectCard key={project.name} project={project} />
           ))}
         </div>
       </section>
