@@ -61,7 +61,10 @@ function Contact() {
       <canvas id="canv" width="32" height="32"></canvas>
       <div className="safariHack">
         <Header />
-        <section>aaaaa</section>
+        <section>
+          <h1>Contact</h1>
+          <p>aaaa</p>
+        </section>
       </div>
     </>
   );
