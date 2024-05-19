@@ -18,10 +18,15 @@
 
 .grid-2 {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1.5fr;
   max-width: 1600px;
   margin: 2.5rem auto;
   gap: 2.5rem;
+}
+
+.grid-2 li {
+  font-size: 1.25rem;
+  color: rgb(171, 171, 171);
 }
 .story-container {
   border: 2px solid rgba(255, 255, 255, 0.1);
