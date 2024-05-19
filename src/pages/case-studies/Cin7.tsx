@@ -30,7 +30,7 @@ function Cin7() {
               <p>- Salesforce Admin</p>
             </div>
           </div>
-          <div>
+          <div className="card">
             <h2>Challenge</h2>
             <ul>
               <li>
@@ -50,15 +50,20 @@ function Cin7() {
             <h2>Response</h2>
             <ul>
               <li>
-                Shipped tangible improvements either by myself, or with my team
-                to help businesses transact billions of US dollars in product
-                sales every month.
+              Led the design of new features and products. 
               </li>
-              <li>Led the design of new features and products. </li>
+              <li>
+              Developed new features and improvements on the platform.
+              </li>
+
 
               <li>
                 Introduced new ways of working and systems that helped us track
                 impact
+              </li>
+
+              <li>
+               Condensed 10 different design systems into a single unified system
               </li>
               <li>
                 Reduced churn by millions of dollars by implementing usability
@@ -70,14 +75,20 @@ function Cin7() {
                 the UX.
               </li>
             </ul>
-            <h2>How this work came to being</h2>
+          
+          </div>
+        </div>
+        <section>
+            <h2>How I originally got involved</h2>
             <p>
               I joined Cin7 as a Senior Product Designer in 2019 after being
-              shoulder tapped. I was the first designer to join the company in 2
-              years. The company had grown from 50 to 200 people in that time,
-              and the product had grown from a simple inventory management
-              system to a full-blown ERP system.
+              shoulder tapped. 
             </p>
+            <p>
+              I was the first designer to be hired in a long time, and the
+              company was in a state of flux. The company was growing rapidly,
+              and the product was growing with it.</p>
+
             <h2>
               From peanut butter factories, to manufacturers of (legal) guns,
               drugs, alcohol, and sex toys - every business needs a way to track
@@ -85,20 +96,19 @@ function Cin7() {
               into four areas:
             </h2>
             <div>
+      
+          
+              <p>Developer experience</p>
+              <p>Design experience</p>
               <p>Support experience</p>
-              <p>Support experience</p>
-              <p>Support experience</p>
-              <p>Support experience</p>
+
+              <p>Product experience</p>
             </div>
 
-            <p>
-              Multiple designers had tried and failed before me to tame the
-              system, resulting in a lot of half finisghed projects and
-              fragmantation. throughout the product.Four different attempts at
-              design system all half implemented in the product.
-            </p>
-          </div>
-        </div>
+           
+ 
+
+            </section>
       </section>
       <Footer />
     </>

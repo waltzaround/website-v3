@@ -35,3 +35,9 @@
 
   padding-bottom: 0;
 }
+
+@media (max-width:1200px) {
+  .about {
+      margin: 1rem;
+  }
+}

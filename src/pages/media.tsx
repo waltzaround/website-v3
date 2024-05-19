@@ -77,6 +77,16 @@ function Media() {
             <h2 className="about-title">2023</h2>
             <div className="about-media-item">
               <a
+                href="https://www.meetup.com/juniordev-auckland/events/297431487/"
+                target="_blank"
+                title="UX Auckland Playoffs"
+              >
+                <p>"How to better collaborate with designers" by Walter Lim</p>
+              </a>
+              <aside>December 2023 · Talk for Junior Dev Auckland Meetup</aside>
+            </div>
+            <div className="about-media-item">
+              <a
                 href="https://www.youtube.com/watch?v=SJ_NcIOBWEI"
                 target="_blank"
                 title="UX Auckland Playoffs"

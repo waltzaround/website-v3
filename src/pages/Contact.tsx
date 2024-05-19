@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Header from "../components/Header";
-
+import "../contact.css"
+import Footer from "../components/Footer";
 function Contact() {
   useEffect(() => {
     // inspired by the stripe landing page
@@ -61,11 +62,34 @@ function Contact() {
       <canvas id="canv" width="32" height="32"></canvas>
       <div className="safariHack">
         <Header />
-        <section>
+        <div className="spacer">
+        <section className="contact">
           <h1>Contact</h1>
-          <p>aaaa</p>
-        </section>
+          <div className="contact-container">
+            <div>
+          
+          <h2>Discord</h2>
+          <p>Send a message here if you want to collaborate on interesting noncommercial projects / open source stuff</p>
+          
+          </div>
+          <a href="http://discordapp.com/users/waltzaround">Contact</a>
+          </div>
+          <div className="contact-container">
+            <div> 
+          <h2>LinkedIn</h2>
+          <p>Send a message here if you want to chat in a professional capacity</p>
+          </div>   <a href="https://www.linkedin.com/in/waltzaround/">Contact</a>
+          </div>
+          <div className="contact-container">
+            <div>
+          <h2>Email</h2>
+          <p>Email available on request</p>
+          </div>   
+          </div>
+        </section></div>
+        <Footer />
       </div>
+  
     </>
   );
 }
