@@ -64,7 +64,7 @@ function SearchBar() {
             value={searchTerm}
             onChange={handleSearch}
           />
-          <h5>Filter by..</h5>
+          {/* <h5>Filter by..</h5>
           <div className="search-skills">
             <div>
               <h6>Skills</h6>
@@ -86,7 +86,7 @@ function SearchBar() {
                 <button>Augmented Reality</button>
               </div>
             </div>
-          </div>
+          </div> */}
         </form>
         <p className="search-count">{activeList.length} projects</p>
       </section>

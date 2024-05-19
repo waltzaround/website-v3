@@ -16,7 +16,7 @@
 
 .search-title {
   padding: 1.5rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 form {
@@ -38,7 +38,7 @@ form {
   background-size: 2rem 2rem;
   background-position: 16px 16px;
   background-repeat: no-repeat;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .search-input::placeholder {
@@ -69,13 +69,13 @@ form {
   color: rgb(212, 212, 212);
   font-family: inherit;
 }
-@media (max-width:1600px) { 
+@media (max-width: 1600px) {
   .search {
     margin: 1rem;
   }
 }
 
-@media (max-width:1600px) {  
+@media (max-width: 1600px) {
   .search-skills-section button {
     white-space: nowrap;
   }
