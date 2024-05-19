@@ -6,13 +6,14 @@ function Cin7() {
     <>
       <Header />
       <section className="main-container">
-        <img src="/images/projects/cin7.webp" className="story-hero" />
         <h1 className="story-heading">
           <strong>Cin7.com</strong>
           <br />
           Helping small businesses transact billions of dollars across the world
-          by building better inventory management software
+          by building better ways to manage and sell products.
         </h1>
+        <img src="/images/projects/cin7.webp" className="story-hero" />
+
         <div className="grid-2">
           <div>
             <div>
@@ -49,13 +50,8 @@ function Cin7() {
             </ul>
             <h2>Response</h2>
             <ul>
-              <li>
-              Led the design of new features and products. 
-              </li>
-              <li>
-              Developed new features and improvements on the platform.
-              </li>
-
+              <li>Led the design of new features and products.</li>
+              <li>Developed new features and improvements on the platform.</li>
 
               <li>
                 Introduced new ways of working and systems that helped us track
@@ -63,7 +59,8 @@ function Cin7() {
               </li>
 
               <li>
-               Condensed 10 different design systems into a single unified system
+                Condensed 10 different design systems into a single unified
+                system
               </li>
               <li>
                 Reduced churn by millions of dollars by implementing usability
@@ -75,40 +72,34 @@ function Cin7() {
                 the UX.
               </li>
             </ul>
-          
           </div>
         </div>
         <section>
-            <h2>How I originally got involved</h2>
-            <p>
-              I joined Cin7 as a Senior Product Designer in 2019 after being
-              shoulder tapped. 
-            </p>
-            <p>
-              I was the first designer to be hired in a long time, and the
-              company was in a state of flux. The company was growing rapidly,
-              and the product was growing with it.</p>
+          <h2>How I originally got involved</h2>
+          <p>
+            I joined Cin7 as a Senior Product Designer in 2019 after being
+            shoulder tapped.
+          </p>
+          <p>
+            I was the first designer to be hired in a long time, and the company
+            was in a state of flux. The company was growing rapidly, and the
+            product was growing with it.
+          </p>
 
-            <h2>
-              From peanut butter factories, to manufacturers of (legal) guns,
-              drugs, alcohol, and sex toys - every business needs a way to track
-              and sell products. I can probably break down my impact at Cin7
-              into four areas:
-            </h2>
-            <div>
-      
-          
-              <p>Developer experience</p>
-              <p>Design experience</p>
-              <p>Support experience</p>
+          <h2>
+            From peanut butter factories, to manufacturers of (legal) guns,
+            drugs, alcohol, and sex toys - every business needs a way to track
+            and sell products. I can probably break down my impact at Cin7 into
+            four areas:
+          </h2>
+          <div>
+            <p>Developer experience</p>
+            <p>Design experience</p>
+            <p>Support experience</p>
 
-              <p>Product experience</p>
-            </div>
-
-           
- 
-
-            </section>
+            <p>Product experience</p>
+          </div>
+        </section>
       </section>
       <Footer />
     </>
