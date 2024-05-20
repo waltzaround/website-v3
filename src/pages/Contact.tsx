@@ -1,59 +1,121 @@
 import { useEffect } from "react";
 import Header from "../components/Header";
-import "../contact.css"
+import "../contact.css";
 import Footer from "../components/Footer";
 function Contact() {
   useEffect(() => {
-    // inspired by the stripe landing page
+    const canvas = document.getElementById("canv") as HTMLCanvasElement;
+    const gl = canvas.getContext("webgl2", { antialias: false });
+    if (!gl) {
+      console.error("WebGL not supported");
+      return;
+    }
 
-    let c = document.getElementById("canv");
-    let da = (c as HTMLCanvasElement)?.getContext("2d");
+    const numParticles = 1000;
+    const particleData = new Float32Array(numParticles * 4);
+    for (let i = 0; i < numParticles; i++) {
+      particleData[i * 4] = Math.random() * 2 - 1; // x
+      particleData[i * 4 + 1] = Math.random() * 2 - 1; // y
+      particleData[i * 4 + 2] = Math.random() * 0.02 - 0.01; // vx
+      particleData[i * 4 + 3] = Math.random() * 0.02 - 0.01; // vy
+    }
+    const particleBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, particleBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, particleData, gl.STATIC_DRAW);
+    const vertexShaderSource = `
+    attribute vec4 a_particle;
+    uniform float u_time;
+    void main() {
+      float angle = u_time;
+      mat2 rotation = mat2(cos(angle), -sin(angle), sin(angle), cos(angle));
+      vec2 position = a_particle.xy + a_particle.zw * u_time;
+      position = rotation * position;
+      position = mod(position + 1.0, 2.0) - 1.0;
+      gl_Position = vec4(position, 0, 1);
+      gl_PointSize = 0.5;
+    }
+  `;
+    const fragmentShaderSource = `
+  precision mediump float;
+  void main() {
+    gl_FragColor = vec4(1, 1, 1, 1);
+  }
+`;
 
-    let col = function (x: number, y: number, r: number, g: number, b: number) {
-      if (da) {
-        da.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
-        da.fillRect(x, y, 1, 1);
-      }
-    };
-    let R = function (x: number, y: number, t: number) {
-      return Math.floor(192 + 200 * Math.cos((x * x - y * y) / 300 + t));
-    };
+    const vertexShader = gl.createShader(gl.VERTEX_SHADER);
+    gl.shaderSource(vertexShader, vertexShaderSource);
+    gl.compileShader(vertexShader);
 
-    let G = function (x: number, y: number, t: number) {
-      return Math.floor(
-        192 +
-          200 *
-            Math.sin((x * x * Math.cos(t / 4) + y * y * Math.sin(t / 3)) / 300)
+    if (!gl.getShaderParameter(vertexShader, gl.COMPILE_STATUS)) {
+      console.error(
+        "Vertex shader compilation error:",
+        gl.getShaderInfoLog(vertexShader)
       );
-    };
+      return;
+    }
 
-    let B = function (x: number, y: number, t: number) {
-      return Math.floor(
-        192 +
-          200 *
-            Math.sin(
-              5 * Math.sin(t / 9) +
-                ((x - 100) * (x - 100) + (y - 100) * (y - 100)) / 1100
-            )
+    const fragmentShader = gl.createShader(gl.FRAGMENT_SHADER);
+    gl.shaderSource(fragmentShader, fragmentShaderSource);
+    gl.compileShader(fragmentShader);
+
+    if (!gl.getShaderParameter(fragmentShader, gl.COMPILE_STATUS)) {
+      console.error(
+        "Fragment shader compilation error:",
+        gl.getShaderInfoLog(fragmentShader)
       );
-    };
+      return;
+    }
 
-    let t = 0;
+    const program = gl.createProgram();
+    gl.attachShader(program, vertexShader);
+    gl.attachShader(program, fragmentShader);
+    gl.linkProgram(program);
 
-    let x, y;
-    const run = function () {
-      for (x = 0; x <= 35; x++) {
-        for (y = 0; y <= 35; y++) {
-          col(x, y, R(x, y, t), G(x, y, t), B(x, y, t));
-        }
-      }
-      t = t + 0.02; // adjust this to change seizure level
-      window.requestAnimationFrame(run);
-    };
+    if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+      console.error("Program linking error:", gl.getProgramInfoLog(program));
+      return;
+    }
 
-    run();
+    gl.useProgram(program);
 
-    console.log("background running");
+    const positionAttributeLocation = gl.getAttribLocation(
+      program,
+      "a_position"
+    );
+    const positionBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+    const positions = [-1, -1, 1, -1, -1, 1, 1, 1];
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
+
+    const vao = gl.createVertexArray();
+    gl.bindVertexArray(vao);
+    gl.enableVertexAttribArray(positionAttributeLocation);
+    gl.vertexAttribPointer(positionAttributeLocation, 2, gl.FLOAT, false, 0, 0);
+
+    let then = 0;
+    function render(now) {
+      now *= 0.00001; // convert to seconds
+      const deltaTime = now - then;
+      then = now;
+
+      gl.clearColor(0, 0, 0, 1);
+      gl.clear(gl.COLOR_BUFFER_BIT);
+
+      const timeUniformLocation = gl.getUniformLocation(program, "u_time");
+      gl.uniform1f(timeUniformLocation, now);
+
+      gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+
+      const a_particle = gl.getAttribLocation(program, "a_particle");
+      gl.bindBuffer(gl.ARRAY_BUFFER, particleBuffer);
+      gl.enableVertexAttribArray(a_particle);
+      gl.vertexAttribPointer(a_particle, 4, gl.FLOAT, false, 0, 0);
+
+      gl.drawArrays(gl.POINTS, 0, numParticles);
+
+      requestAnimationFrame(render);
+    }
+    requestAnimationFrame(render);
   }, []);
 
   return (
@@ -63,33 +125,38 @@ function Contact() {
       <div className="safariHack">
         <Header />
         <div className="spacer">
-        <section className="contact">
-          <h1>Contact</h1>
-          <div className="contact-container">
-            <div>
-          
-          <h2>Discord</h2>
-          <p>Send a message here if you want to collaborate on interesting noncommercial projects / open source stuff</p>
-          
-          </div>
-          <a href="http://discordapp.com/users/waltzaround">Contact</a>
-          </div>
-          <div className="contact-container">
-            <div> 
-          <h2>LinkedIn</h2>
-          <p>Send a message here if you want to chat in a professional capacity</p>
-          </div>   <a href="https://www.linkedin.com/in/waltzaround/">Contact</a>
-          </div>
-          <div className="contact-container">
-            <div>
-          <h2>Email</h2>
-          <p>Email available on request</p>
-          </div>   
-          </div>
-        </section></div>
+          <section className="contact">
+            <h1>Contact</h1>
+            <div className="contact-container">
+              <div>
+                <h2>Discord</h2>
+                <p>
+                  Send a message here if you want to collaborate on interesting
+                  noncommercial projects / open source stuff
+                </p>
+              </div>
+              <a href="http://discordapp.com/users/waltzaround">Contact</a>
+            </div>
+            <div className="contact-container">
+              <div>
+                <h2>LinkedIn</h2>
+                <p>
+                  Send a message here if you want to chat in a professional
+                  capacity
+                </p>
+              </div>{" "}
+              <a href="https://www.linkedin.com/in/waltzaround/">Contact</a>
+            </div>
+            <div className="contact-container">
+              <div>
+                <h2>Email</h2>
+                <p>Email available on request</p>
+              </div>
+            </div>
+          </section>
+        </div>
         <Footer />
       </div>
-  
     </>
   );
 }
