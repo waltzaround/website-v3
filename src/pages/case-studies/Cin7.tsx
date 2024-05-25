@@ -25,10 +25,8 @@ function Cin7() {
               </p>
             </div>
             <div>
-              <h2>Roles</h2>
-              <p>- Senior Product Designer </p>{" "}
-              <p>- UX Engineer (Angular, ASP.Net, React, jQuery)</p>
-              <p>- Salesforce Admin</p>
+              <h2>Role</h2>
+              <p>Senior Product Designer (Nov 2020 - Sep 2022) </p>{" "}
             </div>
           </div>
           <div className="card">
@@ -74,24 +72,39 @@ function Cin7() {
             </ul>
           </div>
         </div>
-        <section>
-          <h2>How I originally got involved</h2>
-          <p>
+        <section className="about">
+          <h2>How I got involved</h2>
+          <p className="main-text">
             I joined Cin7 as a Senior Product Designer in 2019 after being
-            shoulder tapped.
+            shoulder tapped by an ex-colleague who was running the company at
+            the time.
           </p>
-          <p>
+          <p className="main-text">
             I was the first designer to be hired in a long time, and the company
-            was in a state of flux. The company was growing rapidly, and the
-            product was growing with it.
+            was in a state of turbulent flux. The company was growing rapidly,
+            and the product was growing erratically with it. I had a joined a
+            company with significant technical debt, and a product that was
+            starting to show immense levels of system fragmentation. Think about
+            it this way - product design at the time was owned by an engineering
+            team of 50 people. Zero designers were involved.
           </p>
 
-          <h2>
+          <div className="card">
+            <p>50 en</p>
+          </div>
+          <p className="main-text">
+            It resulted in a product platform that felt like it was held
+            together by duct tape across 15 different modules. had 8 different
+            fonts in production, 50 different primary buttons and multiple
+            implementations of each.
+          </p>
+
+          <p className="main-text">
             From peanut butter factories, to manufacturers of (legal) guns,
             drugs, alcohol, and sex toys - every business needs a way to track
             and sell products. I can probably break down my impact at Cin7 into
             four areas:
-          </h2>
+          </p>
           <div>
             <p>Developer experience</p>
             <p>Design experience</p>

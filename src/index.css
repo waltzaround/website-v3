@@ -146,6 +146,7 @@ body {
   gap: 6rem;
   margin: 4rem auto;
   max-width: 1600px;
+  padding: 1rem;
 }
 
 .hero-grid-2-text h1 {
@@ -203,7 +204,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-240px * 18));
   }
 }
 
@@ -224,7 +225,7 @@ body {
   &::before,
   &::after {
     content: "";
-    height: 100px;
+    height: 160px;
     position: absolute;
     width: 200px;
     z-index: 2;
@@ -242,7 +243,7 @@ body {
   }
 
   .slide-track {
-    animation: scroll 64s linear infinite;
+    animation: scroll 56s linear infinite;
     display: flex;
     width: calc(240px * 18);
   }
@@ -426,10 +427,6 @@ footer {
 }
 
 @media (max-width: 1600px) {
-  .main-nav {
-    margin: 1rem;
-  }
-
   .hero-grid-2 {
     margin: 1rem;
   }
@@ -452,6 +449,19 @@ footer {
 }
 
 @media (max-width: 640px) {
+  .hero-grid-2 {
+    gap: 1.5rem;
+  }
+  .hero-grid-2-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-grid-2-text p {
+    font-size: 1.25rem;
+  }
+  .main-nav {
+    margin: 0.5rem;
+  }
   .project-card-container {
     grid-template-columns: 1fr;
   }
