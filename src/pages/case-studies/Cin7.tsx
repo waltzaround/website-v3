@@ -57,11 +57,12 @@ function Cin7() {
             <ul>
               <li>
                 Led the design of new features and products. Coded and PRed some
-                of them.
+                of them. Resulted in a 50% velocity increase on anything
+                involving frontend feature development.
               </li>
               <li>
-                Projects resulted in massive NPS gains, a reduction in churn,
-                and a drop in support ticket volumes
+                Projects resulted in XX% NPS gains, and a XX% YoY reduction in
+                churn
               </li>
 
               <li>
@@ -72,7 +73,8 @@ function Cin7() {
               <li>
                 Massively reduced friction throughout the platform. This
                 included internal development and support experience, on top of
-                the UX.
+                the customer-facing UX. Led to a XX% YoY reduction in support
+                ticket volumes
               </li>
             </ul>
           </div>
@@ -338,18 +340,27 @@ function Cin7() {
         </section>
 
         <section>
-          <h2 className="main-heading">Sprinting designs to production</h2>
+          <h2 className="main-heading">Impact</h2>
           <p className="main-text">It worked.</p>
-          <p className="main-text">I can't publicly say how much, but..</p>
           <p className="main-text">
-            - Customer NPS spiked upwards after the rebuild.
+            I can't publicly provide specifics, but loosely..
           </p>
-          <p className="main-text">- Churn was down.</p>
-          <p className="main-text"> - We made a lot more money.</p>
+          <p className="main-text">
+            - Customer NPS spiked upwards XX% after the rebuild.
+          </p>
+
+          <p className="main-text">
+            - Support ticket volumes were down XX% YoY.
+          </p>
+          <p className="main-text">- Churn was down XX% YoY.</p>
+          <p className="main-text">
+            {" "}
+            We made more money and most customers were happier.
+          </p>
           <img src="/images/cin7/css.png" className="main-image" />
         </section>
         <section>
-          <h2 className="main-heading">Solidyfing the system</h2>
+          <h2 className="main-heading">Solidifying the system</h2>
           <p className="main-text">
             {" "}
             So after celebrating the successful launch of the system redesign, I
@@ -357,10 +368,10 @@ function Cin7() {
           </p>
           <p className="main-text">
             On the problem validation side of the spectrum - introducing design
-            thinking and concepots like rapid prototyping as a norm instead of
-            an erratic design theatre. Product was mostly involved on this side
-            - We would collaborate on user needs and functional requirements
-            here before deciding on bets.
+            thinking and concepts like rapid prototyping as a norm instead of an
+            erratic design theatre. Product was mostly involved on the problem
+            validation side - We would collaborate on user needs and functional
+            requirements at this step before deciding on bets.
           </p>
           <p className="main-text">
             {" "}
@@ -370,14 +381,11 @@ function Cin7() {
             inputs across the platform. It was an end to the experience
             fragmentation that had plagued the platform for years. I did most of
             this in figma, and then propagated it to storybook - you can see me
-            give a talk about it here at a meetup in 2021.
+            give a talk about it{" "}
+            <a href="https://youtu.be/6R1INqvrJaM?t=2669" target="_blank">
+              here at a meetup in 2021.
+            </a>
           </p>
-
-          <p>Reducing time to market and increasing development velocity</p>
-
-          <p>Reducing time to market and increasing development velocity</p>
-
-          <p>Making it easier to develop and maintain the platform</p>
 
           <div className="main-image-container">
             <img src="/images/cin7/ds3.png" className="main-image-context" />
@@ -400,6 +408,11 @@ function Cin7() {
             </p>
           </div>
         </section>
+        <section>
+          <h2 className="main-heading">Methodologies </h2>
+          <p className="main-text">I was a big fan of</p>
+        </section>
+
         <section>
           {/* 
           <section>  <p className="main-text">
