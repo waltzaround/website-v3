@@ -427,6 +427,9 @@ footer {
 }
 
 @media (max-width: 1600px) {
+  .main-nav {
+    margin: 1rem;
+  }
   .hero-grid-2 {
     margin: 1rem;
   }
