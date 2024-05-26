@@ -1,9 +1,14 @@
+import { Helmet } from "react-helmet";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "./case.css";
 function Cin7() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Walter Lim - Cin7 Case Study</title>
+      </Helmet>
       <Header />
       <section className="main-container">
         <h1 className="story-heading">
@@ -50,8 +55,11 @@ function Cin7() {
             </ul>
             <h2>Response</h2>
             <ul>
-              <li>Led the design of new features and products.</li>
-              <li>Coded new features and improvements on the platform.</li>
+              <li>
+                Led the design of new features and products. Coded new features
+                and improvements on the platform.
+              </li>
+              <li>Massive NPS gains</li>
 
               <li>
                 Introduced new ways of working and systems that helped us track
@@ -299,6 +307,39 @@ function Cin7() {
               components to build functionality
             </p>
           </div>
+          <p className="main-text">
+            It took about two weeks to get 80% of the design system into place
+            in a development environment. Maybe about a month after that to get
+            the polish and a lot of responsive behaviors working across pages.{" "}
+            <code>overflow-x: scroll</code>&nbsp;was my best friend when it came
+            to many of the complex table components.{" "}
+          </p>
+          <p className="main-text">
+            <code>position: sticky</code> solved a lot of existing problems for
+            support staff who had to constantly tell users to click the save
+            button. and reduced a lot of friction on the platform when I made
+            save buttons persistent on the page for users and staff.
+          </p>
+          <div className="main-image-container">
+            <img
+              src="/images/cin7/save-bar.png"
+              className="main-image-context"
+            />
+            <p className="main-image-context-text">
+              One of the biggest impact wins on support ticket volumes was a
+              single sticky save bar. It that ensured users saved their config
+              changes. Turns out when you put a save button at the bottom of a
+              gigantic form, users tend not to click it and blame the system for
+              not saving their work.
+            </p>
+          </div>
+          <p className="main-text">
+            To get it to production, we undertook a big bang approach to
+            releasing the update. That meant every module on the platform got
+            updated at once. It was a risky move, but it paid off. I had a lot
+            of support from the engineering team, and we were able to get the
+            update out in a week.
+          </p>
         </section>
 
         <section>
@@ -308,26 +349,56 @@ function Cin7() {
             Customer NPS spiked upwards after the rebuild.
           </p>
           <p className="main-text"> Churn was down.</p>
-          <p className="main-text"> We made money.</p>
+          <p className="main-text">
+            {" "}
+            I can't publicly say how much, but we made a lot more money.
+          </p>
           <img src="/images/cin7/css.png" className="main-image" />
         </section>
         <section>
           <h2 className="main-heading">Solidyfing the system</h2>
+          <p className="main-text">
+            {" "}
+            So after celebrating the successful launch of the system redesign, I
+            got to work documenting all the new system norms. I did most of this
+            in figma, and then propagated it to storybook - you can see me give
+            a talk about it here{" "}
+          </p>
+          <p className="main-text">
+            On the problem validation side of the spectrum - introducing rapid
+            prototyping as a norm instead of a spectacle.{" "}
+          </p>
+          <p className="main-text">
+            {" "}
+            On the solution validation side of the work: I as few primary
+            actions on a page as possible, consistent spacing between components
+          </p>
+
+          <p>Reducing time to market and increasing development velocity</p>
+
           <p>Reducing time to market and increasing development velocity</p>
 
           <p>Making it easier to develop and maintain the platform</p>
 
           <div className="main-image-container">
             <img src="/images/cin7/ds3.png" className="main-image-context" />
-            <p className="main-image-context-text">Aaaa subtitle</p>
+            <p className="main-image-context-text">
+              High level design principles were taken from JJGs Elements of UX
+              Design Model - I've found it to work absurdly well.
+            </p>
           </div>
           <div className="main-image-container">
             <img src="/images/cin7/ds1.png" className="main-image-context" />
-            <p className="main-image-context-text">Aaaa subtitle</p>
+            <p className="main-image-context-text">
+              An example of design system guidance - spacing and padding on
+              modals
+            </p>
           </div>
           <div className="main-image-container">
             <img src="/images/cin7/ds2.png" className="main-image-context" />
-            <p className="main-image-context-text">Aaaa subtitle</p>
+            <p className="main-image-context-text">
+              A snippet of the figma component library
+            </p>
           </div>
         </section>
         <section>
