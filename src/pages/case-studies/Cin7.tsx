@@ -121,7 +121,8 @@ function Cin7() {
               A sitemap I put together when I first started that gives you a
               rough feel for the size of the system - this doesn't include the
               hundreds of integrations and other system configuration pages like
-              Amazon Marketplace, or any of our internal tooling.
+              the one used to connect your business to Amazon Marketplace, or
+              any of our internal tooling.
             </p>
           </div>
           <section className="">
