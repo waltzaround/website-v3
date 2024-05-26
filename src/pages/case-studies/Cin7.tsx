@@ -101,7 +101,7 @@ function Cin7() {
             was in a state of turbulent flux. The company was growing rapidly,
             and the product was growing erratically with it. I had a joined a
             company with significant technical debt, and a product that was
-            starting to show immense levels of system fragmentation.{" "}
+            demonstrated immense levels of system fragmentation.{" "}
           </p>
           <p className="main-text">
             Think about it this way - product design at the time was owned by an
