@@ -44,8 +44,8 @@ function Cin7() {
                 backlog of technical debt, and lots of usability issues.{" "}
               </li>
               <li>
-                Asked to deliver value as a single designer when paired with 50
-                engineers, and 8 product managers.
+                Asked to deliver value as a single designer when paired with an
+                engineering team of 50.
               </li>
               <li>
                 Massive design fragmentation. 8 different fonts in production,
@@ -57,8 +57,9 @@ function Cin7() {
             <ul>
               <li>
                 Led the design of new features and products. Coded and PRed some
-                of them. Resulted in a 50% velocity increase on anything
-                involving frontend feature development.
+                of them. Did this to improve system usability and increase
+                developer velocity 50% on anything involving frontend feature
+                development.
               </li>
               <li>
                 Projects resulted in XX% NPS gains, and a XX% YoY reduction in
