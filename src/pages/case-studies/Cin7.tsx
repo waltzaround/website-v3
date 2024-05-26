@@ -154,17 +154,18 @@ function Cin7() {
        I put together a high level sitemap of the system with figma, and mapped out the current state of of the platform.
        </p>
        <p className="main-text">
-        I then did some rapid prototyping first with figma, and then in demoed my prototypes in our dev environment by using CSS chrome extensions. 
-        </p>
-       <p className="main-text">
-        I would've gone figma, but the fact that this product was so data entry heavy meant that I had to build a lot of the interactions in code to get a feel for how the system would work.
-        
-        
-   
-       </p>
-
+        I then did some rapid prototyping in our dev environment by using CSS chrome extensions. 
        
+        I would've used figma, but the fact that this product was so data entry heavy meant that I had to build a lot of the interactions in code to get a feel for how the system would work.
+        
 
+       </p>
+       <img src="/images/cin7/css.png" className="story-hero" />
+       
+       <p className="main-text">
+        compromising with engineering to get the design system into place without paying off the technical debt
+
+       </p>
        
 </section><section>
 {/* 

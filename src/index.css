@@ -303,7 +303,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.project-card:hover {
+a.project-card:hover {
   border: 2px solid rgba(144, 157, 255, 0.5);
   transform: scale(1.025);
   transition: all 0.15s ease-in-out;
@@ -427,6 +427,9 @@ footer {
 }
 
 @media (max-width: 1600px) {
+  .main-nav {
+    margin: 1rem;
+  }
   .hero-grid-2 {
     margin: 1rem;
   }
