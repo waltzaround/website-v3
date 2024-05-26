@@ -285,7 +285,7 @@ function Cin7() {
             One particularly egregious example included templated pages that
             were built in a way that made them impossible to redesign without a
             complete rebuild. I'm talking about webpages consisting of custom
-            custoemr-defined HTML/CSS/JS and SQL queries mashed together that
+            customer-defined HTML/CSS/JS and SQL queries mashed together that
             were stored as string literals in the database. Many ungodly
             technical sins were committed. Some by me, some by my team to get us
             to production.

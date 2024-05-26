@@ -1,3 +1,11 @@
+code {
+  color: rgb(255, 182, 46);
+  border: rgb(96, 96, 96) 1px solid;
+  border-radius: 6px;
+  font-size: 1rem;
+  padding: 2px;
+}
+
 .main-container {
   max-width: 1440px;
   margin: 2rem auto;
