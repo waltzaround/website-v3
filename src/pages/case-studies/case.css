@@ -1,5 +1,5 @@
 .main-container {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 2rem auto;
 }
 
@@ -17,7 +17,7 @@
   letter-spacing: -1px;
 }
 
-.grid-2 {
+.grid-intro {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   max-width: 1600px;
@@ -25,9 +25,10 @@
   gap: 2.5rem;
 }
 
-.grid-2 li {
+.grid-intro li {
   font-size: 1.25rem;
   color: rgb(171, 171, 171);
+  font-weight: 400;
 }
 .story-container {
   border: 2px solid rgba(255, 255, 255, 0.1);
@@ -37,20 +38,39 @@
 .card {
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 24px;
   padding: 1rem;
+}
+
+.three-col {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+ 
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
 }
 
 .card ul {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+ 
 }
 
 .main-text {
   font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin: 2rem 0;
+  font-weight: 400;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  margin: 2rem 0;
 }
 
 .main-image {
@@ -61,4 +81,32 @@
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 24px;
   min-height: 2rem;
+}
+
+
+
+@media (max-width:1540px) {
+  .main-container {
+    margin: 1rem;
+  }
+
+
+}
+@media (max-width:640px) {
+  .story-heading { 
+    font-size: 1.25rem;
+  }
+  .main-container {
+    margin: 1rem;
+  }
+
+  .grid-intro {
+    grid-template-columns: 1fr;
+  }
+.main-heading {
+  font-size: 2rem;
+}
+  .main-text {
+    font-size: 1rem;
+  }
 }

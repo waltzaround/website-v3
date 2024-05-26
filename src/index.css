@@ -204,7 +204,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-240px * 18));
+    transform: translateX(calc(-240px * 9));
   }
 }
 
@@ -303,7 +303,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.project-card:hover {
+a.project-card:hover {
   border: 2px solid rgba(144, 157, 255, 0.5);
   transform: scale(1.025);
   transition: all 0.15s ease-in-out;
