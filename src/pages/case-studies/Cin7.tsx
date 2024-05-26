@@ -56,24 +56,19 @@ function Cin7() {
             <h2>Response</h2>
             <ul>
               <li>
-                Led the design of new features and products. Coded new features
-                and improvements on the platform.
+                Led the design of new features and products. Coded and PRed some
+                of them.
               </li>
-              <li>Massive NPS gains</li>
+              <li>
+                Projects resulted in massive NPS gains, a reduction in churn,
+                and a drop in support ticket volumes
+              </li>
 
               <li>
-                Introduced new ways of working and systems that helped us track
-                impact
+                Successfully condensed 10+ different fragmented design systems
+                into a single unified system on a 20+ year old codebase.
               </li>
 
-              <li>
-                Successfully condensed 10 different fragmented design systems
-                into a single unified system
-              </li>
-              <li>
-                Reduced churn by millions of dollars by implementing usability
-                improvements for users.
-              </li>
               <li>
                 Massively reduced friction throughout the platform. This
                 included internal development and support experience, on top of
@@ -345,14 +340,12 @@ function Cin7() {
         <section>
           <h2 className="main-heading">Sprinting designs to production</h2>
           <p className="main-text">It worked.</p>
+          <p className="main-text">I can't publicly say how much, but..</p>
           <p className="main-text">
-            Customer NPS spiked upwards after the rebuild.
+            - Customer NPS spiked upwards after the rebuild.
           </p>
-          <p className="main-text"> Churn was down.</p>
-          <p className="main-text">
-            {" "}
-            I can't publicly say how much, but we made a lot more money.
-          </p>
+          <p className="main-text">- Churn was down.</p>
+          <p className="main-text"> - We made a lot more money.</p>
           <img src="/images/cin7/css.png" className="main-image" />
         </section>
         <section>
@@ -360,18 +353,24 @@ function Cin7() {
           <p className="main-text">
             {" "}
             So after celebrating the successful launch of the system redesign, I
-            got to work documenting all the new system norms. I did most of this
-            in figma, and then propagated it to storybook - you can see me give
-            a talk about it here{" "}
+            got to work documenting all the new system norms.
           </p>
           <p className="main-text">
-            On the problem validation side of the spectrum - introducing rapid
-            prototyping as a norm instead of a spectacle.{" "}
+            On the problem validation side of the spectrum - introducing design
+            thinking and concepots like rapid prototyping as a norm instead of
+            an erratic design theatre. Product was mostly involved on this side
+            - We would collaborate on user needs and functional requirements
+            here before deciding on bets.
           </p>
           <p className="main-text">
             {" "}
             On the solution validation side of the work: I as few primary
-            actions on a page as possible, consistent spacing between components
+            actions on a page as possible, consistent spacing between
+            components, and consistent components like buttons, cards, and
+            inputs across the platform. It was an end to the experience
+            fragmentation that had plagued the platform for years. I did most of
+            this in figma, and then propagated it to storybook - you can see me
+            give a talk about it here at a meetup in 2021.
           </p>
 
           <p>Reducing time to market and increasing development velocity</p>
