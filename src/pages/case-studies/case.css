@@ -23,6 +23,7 @@
   max-width: 1600px;
   margin: 1.5rem auto;
   gap: 2.5rem;
+  font-size: 1.25rem;
 }
 
 .grid-intro li {
@@ -47,7 +48,7 @@
   display: flex;
   justify-content: space-between;
   gap: 1.5rem;
- 
+
   flex-wrap: wrap;
   text-align: center;
   font-size: 2rem;
@@ -59,13 +60,13 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
- 
 }
 
 .main-text {
   font-size: 1.5rem;
   margin: 2rem 0;
   font-weight: 400;
+  max-width: 72rem;
 }
 
 .main-heading {
@@ -75,25 +76,41 @@
 
 .main-image {
   width: 100%;
+
   display: block;
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 24px;
   min-height: 2rem;
+  margin: 2rem 0;
+}
+.main-image-container {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
+  margin: 2rem 0;
+  border-radius: 24px;
+}
+.main-image-context {
+  width: 100%;
+
+  display: block;
+  border-radius: 24px 24px 12px 12px;
+  min-height: 2rem;
+}
+.main-image-context-text {
+  font-size: 1rem;
+  padding: 1rem;
+  color: white;
 }
 
-
-
-@media (max-width:1540px) {
+@media (max-width: 1540px) {
   .main-container {
     margin: 1rem;
   }
-
-
 }
-@media (max-width:640px) {
-  .story-heading { 
+@media (max-width: 640px) {
+  .story-heading {
     font-size: 1.25rem;
   }
   .main-container {
@@ -103,9 +120,9 @@
   .grid-intro {
     grid-template-columns: 1fr;
   }
-.main-heading {
-  font-size: 2rem;
-}
+  .main-heading {
+    font-size: 2rem;
+  }
   .main-text {
     font-size: 1rem;
   }
