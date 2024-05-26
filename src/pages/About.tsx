@@ -4,21 +4,6 @@ import "../about.css";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 function About() {
-  useEffect(() => {
-    // inspired by the stripe landing page
-
-    let c = document.getElementById("canv");
-    let gl = (c as HTMLCanvasElement)?.getContext("webgl");
-
-    // Only continue if WebGL is available and working
-    if (gl === null) {
-      alert(
-        "Unable to initialize WebGL. Your browser or machine may not support it."
-      );
-      return;
-    }
-  }, []);
-
   return (
     <>
       {" "}

@@ -9,9 +9,9 @@ function Cin7() {
         <h1 className="story-heading">
           <strong>Cin7.com</strong>
           <br />
-          Helping 8,000+ businesses transact billions of dollars by helping them
-          track and sell (legal) guns, (legal) drugs, alcohol, peanut butter,
-          and sex toys across the world, among other products.
+          Helping 8,000+ businesses transact billions of dollars a month by
+          helping them trac and sell product inventory across multiple channels
+          across the world.
         </h1>
         <img src="/images/projects/cin7.webp" className="story-hero" />
 
@@ -188,8 +188,8 @@ function Cin7() {
             <img src="/images/cin7/users.png" className="main-image-context" />
             <p className="main-image-context-text">
               Notice the fragmentation yet? Depending on the developer and
-              product manager working on it primary buttons within the app could
-              be any of 50 different implementations.
+              product manager working on it, navigation and primary buttons
+              within the app could be any of 50 different implementations.
             </p>
           </div>
           <p className="main-text">
@@ -265,20 +265,50 @@ function Cin7() {
           </p>
           <p className="main-text">
             The prototype was a hit with management, and I was given the go
-            ahead to start working on the design system on the codebase as a
-            product designer, which was hosted on Azure Devops at the time.
+            ahead to start working on the design system rebuild on the codebase
+            as a product designer, which was hosted on Azure DevOps at the time.
           </p>
           <p className="main-text">
-            A lot of the work after this included compromising with engineering
-            to get the design system into place without paying off the technical
-            debt
+            A lot of the work after this included negotiating with engineering
+            teams to get the design system into place without paying off the
+            technical debt ie: cutting our losses on difficult edge cases that
+            would've taken months to rebuild.{" "}
           </p>
+          <p className="main-text">
+            One particularly egregious example included templated pages that
+            were built in a way that made them impossible to redesign without a
+            complete rebuild. I'm talking about webpages consisting of custom
+            custoemr-defined HTML/CSS/JS and SQL queries mashed together that
+            were stored as string literals in the database. Many ungodly
+            technical sins were committed. Some by me, some by my team to get us
+            to production.
+          </p>
+          <p className="main-text">
+            I then set about building out a really basic Figma design system in
+            tandem, which included a component library, and a set of design
+            guidelines that would help us standardise the experience across the
+            platform so that the rest of my team could fast follow.
+          </p>
+          <div className="main-image-container">
+            <img
+              src="/images/cin7/ds-modal.png"
+              className="main-image-context"
+            />
+            <p className="main-image-context-text">
+              A snippet from the 🍩 Donut design system showing how to use
+              components to build functionality
+            </p>
+          </div>
         </section>
 
         <section>
           <h2 className="main-heading">Sprinting designs to production</h2>
           <p className="main-text">It worked.</p>
-
+          <p className="main-text">
+            Customer NPS spiked upwards after the rebuild.
+          </p>
+          <p className="main-text"> Churn was down.</p>
+          <p className="main-text"> We made money.</p>
           <img src="/images/cin7/css.png" className="main-image" />
         </section>
         <section>
