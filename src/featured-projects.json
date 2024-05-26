@@ -64,7 +64,7 @@
       },
       {   
         "development": false,
-        "url": "/work/voluntarily",
+
         "image": "/images/projects/vly.png",
         "name": "Voluntarily",
         "description": "Connecting skilled volunteers with classrooms to teach essential tech skills in schools  ",
@@ -78,7 +78,7 @@
       },
       {   
         "development": false,
-        "url": "/work/ubiquity",
+
         "image": "/images/projects/ubi.png",
         "name": "Ubiquity",
         "description": "Helping businesses send billions of messages a month to help customers get stuff done  ",
