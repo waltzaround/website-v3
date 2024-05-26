@@ -243,7 +243,7 @@ body {
   }
 
   .slide-track {
-    animation: scroll 56s linear infinite;
+    animation: scroll 32s linear infinite;
     display: flex;
     width: calc(240px * 18);
   }
