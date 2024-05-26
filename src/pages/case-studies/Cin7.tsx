@@ -10,7 +10,7 @@ function Cin7() {
           <strong>Cin7.com</strong>
           <br />
           Helping 8,000+ businesses transact billions of dollars a month by
-          helping them trac and sell product inventory across multiple channels
+          helping them track and sell product inventory across multiple channels
           across the world.
         </h1>
         <img src="/images/projects/cin7.webp" className="story-hero" />
@@ -251,7 +251,7 @@ function Cin7() {
             <p className="main-image-context-text">
               An example of how I rapidly prototyped using CSS editor extensions
               - a lot of this hinged on knowledge of CSS specificity and how the
-              box model behaved.
+              box model behaved in the DOM.
             </p>
           </div>
           <p className="main-text">
