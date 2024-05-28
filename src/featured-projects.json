@@ -5,7 +5,8 @@
     "image": "/images/projects/samsung.png",
     "name": "Samsung Electronics NZ / Cheil NZ",
     "description": "Increasing customer traffic 64% by by redesigning existing workflows and partnerships",
-    "platform": " Web",
+
+    "date": "Aug 2020 → Nov 2020",
     "categories": [
       "Web",
       "UX Research",
@@ -22,7 +23,7 @@
       "image": "/images/projects/cin7.webp",
       "name": "Cin7.com",
       "description": "Helping product businesses transact over $2 billion USD a month by building better inventory management software",
-      "platform": "Android / Web",
+      "date": "Nov 2020 → Sep 2022",
       "categories": [
         
         "Web / Android",
@@ -40,8 +41,9 @@
         "image": "/images/projects/swiftly.png",
         "name": "Swiftly",
         "description": "Helping 1,200 small local stores make $700k+ NZD by selling goods online during lockdown",
-        "platform": " Web",
+        "date": " Mar 2020 → Feb 2023",
         "categories": [
+          "Web",
           "UX Research",
           "Product Design",
           "FE Dev",
@@ -54,9 +56,11 @@
         "url": "/work/vaxx",
         "image": "/images/projects/vaxx.png",
         "name": "Vaxx",
-        "description": "Saving lives, by helping 990K+ people get vaccinated against COVID ",
-        "platform": " Web",
+        "description": "Saving lives, by helping 99K+ people get vaccinated against COVID ",
+        "date": " Sep 2021 → Now",
         "categories": [
+          "Web",
+          "Open Source",
           "UX Research",
           "Product Design",
           "FE Dev"
@@ -69,11 +73,14 @@
         "image": "/images/projects/vly.png",
         "name": "Voluntarily",
         "description": "Connecting skilled volunteers with classrooms to teach essential tech skills in schools  ",
-        "platform": " Web",
+        "date": " Feb 2019 → Aug 2020",
         "categories": [
+          "Web",
           "UX Research",
           "Product Design",
-          "FE Dev"
+          "FE Dev",
+          "Open Source"
+
       ]
     
       },
@@ -83,11 +90,14 @@
         "image": "/images/projects/ubi.png",
         "name": "Ubiquity",
         "description": "Helping businesses send billions of messages a month to help customers get stuff done  ",
-        "platform": " Web",
+        "date": " Nov 2017 → Jan 2019",
         "categories": [
+          "Web",
+          "Marketing Automation",
+          "Data Visualization",
           "UX Research",
-          "Product Design",
-          "FE Dev"
+          "Product Design"
+   
       ]
     
       }
