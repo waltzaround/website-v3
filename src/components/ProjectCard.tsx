@@ -4,7 +4,7 @@ const ProjectCard = ({ project }: { project: any }) => {
   return (
     <>
       {project.url && (
-        <Link className="project-card" to={project.url}>
+        <Link className="project-card" to={project.url} key={project.name}>
           <img src={project.image} alt={project.name} />
           {project.development && (
             <div className="project-development">Under active development</div>
