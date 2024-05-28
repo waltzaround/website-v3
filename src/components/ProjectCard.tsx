@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const ProjectCard = ({ project }: { project: any }) => {
   return (
     <>
       {project.url && (
-        <a className="project-card" href={project.url}>
+        <Link className="project-card" href={project.url}>
           <img src={project.image} alt={project.name} />
           {project.development && (
             <div className="project-development">Under active development</div>
@@ -19,7 +21,7 @@ const ProjectCard = ({ project }: { project: any }) => {
               ))}
             </div>
           </div>
-        </a>
+        </Link>
       )}
       {!project.url && (
         <div className="project-card">
