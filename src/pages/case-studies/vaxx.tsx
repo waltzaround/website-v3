@@ -252,6 +252,11 @@ function Vaxx() {
               get vaxxed.
             </p>
             <br />
+            <img
+              src="/images/vaxx/vaxx-stats.png"
+              alt="Draft documentation"
+              className="main-image"
+            />
             <br />
             <br />
             <p>
