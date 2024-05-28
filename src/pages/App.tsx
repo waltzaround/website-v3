@@ -7,6 +7,16 @@ import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
 import { Helmet } from "react-helmet";
 function App() {
+  const rofl = `
+     ROFL:ROFL:ROFL:ROFL
+          ___ ^_____
+ L    ___/         [ ]
+LOL===_
+ L     \_____________]
+         ___I______I__
+
+  `;
+  console.log(rofl);
   useEffect(() => {
     window.scrollTo(0, 0);
     // inspired by the stripe landing page
@@ -63,8 +73,6 @@ function App() {
     };
 
     run();
-
-    console.log("background running");
   }, []);
   return (
     <>
