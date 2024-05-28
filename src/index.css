@@ -378,6 +378,7 @@ a.project-card:hover {
   background-color: rgba(0, 0, 0, 0.08);
   padding: 0.25rem 0.5rem;
   font-size: 0.8rem;
+  width: fit-content;
   color: rgb(212, 212, 212);
 }
 .project-see-more {

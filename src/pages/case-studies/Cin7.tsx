@@ -14,9 +14,9 @@ function Cin7() {
         <h1 className="story-heading">
           <strong>Cin7.com</strong>
           <br />
-          Helping 8,000+ businesses transact billions of dollars a month by
-          helping them track and sell product inventory across multiple channels
-          across the world.
+          Helping 8,000+ businesses transact $2+ billion US dollars a month by
+          helping them track inventory and sell products across multiple
+          channels simultaneously across the world.
         </h1>
         <img src="/images/projects/cin7.webp" className="story-hero" />
 
@@ -28,24 +28,52 @@ function Cin7() {
                 Cin7 is an inventory management system that helps people that
                 sell physical products track stock, sales, and customers across
                 every imaginable online and offline retail channel.
+                <br /> <br />I spent almost two years leading product design
+                there, and proved the value of design to the company by
+                delivering a lot of wins.
               </p>
               <br />
             </div>
             <div>
-              <h2>Role</h2>
+              <h3>Role</h3>
               <p>Senior Product Designer (Nov 2020 - Sep 2022) </p>{" "}
+            </div>
+            <br />
+            <div>
+              <h3>Categories</h3>{" "}
+              <div className="category-container">
+                <div className="category-tag">Web / Android</div>
+                <div className="category-tag">UX Research </div>
+                <div className="category-tag">Product Design</div>
+                <div className="category-tag">DesignOps </div>
+                <div className="category-tag">Design Systems </div>
+                <div className="category-tag">Azure DevOps </div>
+                <div className="category-tag">React </div>
+                <div className="category-tag">Angular</div>
+                <div className="category-tag">jQuery </div>
+                <div className="category-tag">B2B </div>
+                <div className="category-tag">B2B2C </div>
+                <div className="category-tag">Inventory Management </div>
+                <div className="category-tag">Warehouse Management </div>
+                <div className="category-tag">eCommerce </div>
+                <div className="category-tag">EDI/3PL </div>
+                <div className="category-tag">Shopify </div>
+                <div className="category-tag">Amazon Marketplace </div>
+                <div className="category-tag">Xero </div>
+                <div className="category-tag">Quickbooks </div>
+              </div>
             </div>
           </div>
           <div className="card">
             <h2>Challenge</h2>
             <ul>
               <li>
-                As a single designer, I was faced with a ridiculously large
-                backlog of technical debt, and lots of usability issues.{" "}
+                A ridiculously large backlog already promised to customers.
+                Ungodly amounts of technical debt. Glaring usability issues.{" "}
               </li>
               <li>
-                Asked to deliver value as a single designer when paired with an
-                engineering team of 50.
+                Single designer serving a product and engineering team of 50 at
+                the start.
               </li>
               <li>
                 Massive design fragmentation. 8 different fonts in production,
@@ -62,10 +90,9 @@ function Cin7() {
                 development.
               </li>
               <li>
-                Projects resulted in XX% NPS gains, and a XX% YoY reduction in
-                churn
+                Projects that resulted in XX% NPS gains, and a XX% YoY reduction
+                in churn.
               </li>
-
               <li>
                 Successfully condensed 10+ different fragmented design systems
                 into a single unified system on a 20+ year old codebase.
@@ -90,11 +117,12 @@ function Cin7() {
           <p className="main-text">
             I did my homework before I joined, and I learned that the company
             was effectively a mini-ERP, that helped small businesses sell stuff
-            everywhere simultaneously from retail outlets, to shopify stores and
-            big box retailers like walmart. The company was an order of
-            magnitude cheaper than traditional ERPs, and was one of the easiest
-            ways that customers could set up EDI connections to big retailers
-            that required it as part of the sales process.
+            everywhere simultaneously from retail outlets that needed a POS, to
+            Shopify stores and big retailers like Walmart and Amazon. The
+            company was an order of magnitude cheaper than traditional ERPs, and
+            was one of the easiest ways that customers could set up EDI
+            connections to big retailers that required it as part of the sales
+            process.
           </p>
           <p className="main-text">
             I was the first designer to be hired in a long time, and the company
@@ -109,20 +137,17 @@ function Cin7() {
             or engineering process.
           </p>
           <p className="main-text">
-            It resulted in a product platform that felt like it was held
-            together by duct tape across the product platform.
+            It resulted in a product platform that was held together by duct
+            tape and was effectively a different product every time you switched
+            module ie: going from viewing products to customers
           </p>
           <div className="main-image-container">
-            <img
-              src="/images/cin7/sitemap-2020.png"
-              className="main-image-context"
-            />
+            <img src="/images/cin7/system.png" className="main-image-context" />
             <p className="main-image-context-text">
-              A sitemap I put together when I first started that gives you a
-              rough feel for the size of the system - this doesn't include the
-              hundreds of integrations and other system configuration pages like
-              the one used to connect your business to Amazon Marketplace, or
-              any of our internal tooling.
+              A high level overview of key concepts and jobs to be done within
+              the Cin7 platform - you could condense it into four segments:
+              getting products, selling products, reporting on products, and
+              sending products to customers.
             </p>
           </div>
           <section className="">
@@ -132,8 +157,10 @@ function Cin7() {
               Day one was a little wierd. Given that the company didn't know
               what to do with a designer, I was assigned an absurdly overpowered
               developer laptop with an hour of battery life, and just told to go
-              fix things. Instead, I decided to try and do some design
-              discovery:{" "}
+              fix things.{" "}
+            </p>
+            <p className="main-text">
+              Instead, I decided to try and do some design discovery:{" "}
             </p>
             <p className="main-text">
               - I spent a lot of time just listening to staff and customers.{" "}
@@ -185,10 +212,10 @@ function Cin7() {
           <p className="main-text">
             {" "}
             The code was 20+ years old. I'm talking multiple different versions
-            of react, angular, and ASP.Net codebases smoooshed into a single
-            app. The top navigation component was a separate react app to the
-            current page. Likewise with the sidebar navigation. All of this was
-            wrapped in an ASP.Net application running on an ancient .NET
+            of React/CRA, AngularJS, and ASP.Net codebases smoooshed into a
+            single app. The top navigation component was a separate react app to
+            the current page. Likewise with the sidebar navigation. All of this
+            was wrapped in an ASP.Net application running on an ancient .NET
             Framework backend.
           </p>{" "}
           <div className="main-image-container">
@@ -238,7 +265,7 @@ function Cin7() {
           <p className="main-text">
             To get stakeholder buy in across product, management, and
             engineering I put together a high level sitemap of the system with
-            figma which you can see above, and then mapped out the current state
+            figma which you can see below, and then mapped out the current state
             of the platform.
           </p>
           <p className="main-text">
@@ -250,6 +277,19 @@ function Cin7() {
             usability testing without spending too much time building out the
             interactions in figma.
           </p>
+          <div className="main-image-container">
+            <img
+              src="/images/cin7/sitemap-2020.png"
+              className="main-image-context"
+            />
+            <p className="main-image-context-text">
+              A sitemap I put together when I first started that gives you a
+              rough feel for the size of the system - this doesn't include the
+              hundreds of integrations and other system configuration pages like
+              the one used to connect your business to Amazon Marketplace, or
+              any of our internal tooling.
+            </p>
+          </div>
           <div className="main-image-container">
             <img
               src="/images/cin7/css-editor.png"
@@ -413,6 +453,18 @@ function Cin7() {
         <section>
           <h2 className="main-heading">Methodologies </h2>
           <p className="main-text">I was a big fan of</p>
+        </section>
+
+        <section>
+          <h2 className="main-heading">Result </h2>
+          <p className="main-text">
+            I paved the way for further investment into design to do more qual
+            and quant design work and score even more wins
+          </p>{" "}
+          <p className="main-text">
+            Scaled the design team to 3 people before moving onto the next
+            challenge
+          </p>
         </section>
 
         <section>

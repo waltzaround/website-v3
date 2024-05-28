@@ -74,7 +74,7 @@ code {
   font-size: 1.25rem;
   margin: 2rem 0;
   font-weight: 400;
-  max-width: 72rem;
+  max-width: 60rem;
 }
 
 .main-heading {
@@ -133,4 +133,23 @@ code {
   .main-text {
     font-size: 1rem;
   }
+}
+.category-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  flex: 1;
+  margin-top: 0.5rem;
+  color: rgb(189, 189, 189);
+}
+.category-tag {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 120px;
+  background-color: rgba(0, 0, 0, 0.08);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  width: fit-content;
+  color: rgb(212, 212, 212);
 }
