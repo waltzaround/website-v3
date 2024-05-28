@@ -8,6 +8,7 @@ import more from "../projects.json";
 import React, { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet";
 
 const combinedProjects = [
   ...projects.projects,
@@ -54,6 +55,10 @@ function SearchBar() {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Walter Lim - Projects </title>
+      </Helmet>
       <section className="search" id="top">
         <h1 className="search-title">All Work / Projects</h1>
         <form onSubmit={handleSubmit}>

@@ -154,7 +154,7 @@ code {
 .stat-container {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 0;
+  margin: 4rem 0;
   text-align: center;
   padding-top: 2rem;
 }
