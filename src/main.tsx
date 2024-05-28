@@ -10,7 +10,7 @@ import Contact from "./pages/Contact.tsx";
 import Error from "./pages/Error.tsx";
 import Cin7 from "./pages/case-studies/Cin7.tsx";
 import Samsung from "./pages/case-studies/Samsung.tsx";
-import Swiftly from "./pages/case-studies/swiftly.tsx";
+import Swiftly from "./pages/case-studies/Swiftly.tsx";
 import Vaxx from "./pages/case-studies/vaxx.tsx";
 
 const router = createBrowserRouter([

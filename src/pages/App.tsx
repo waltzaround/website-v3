@@ -121,8 +121,7 @@ function App() {
             <p>
               He's worked across a wide range of B2C, B2B, and B2B2C products
               across many different industries. He&apos;s been featured in both{" "}
-              <a href="/media">local and international media</a> for his design
-              work.
+              <a href="/media">local and international media</a>
             </p>
             <p>
               He currently leads product design at{" "}
