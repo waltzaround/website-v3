@@ -14,7 +14,8 @@ function Swiftly() {
         <h1 className="story-heading">
           <strong>Swiftly</strong>
           <br />
-          Helping small kiwi stores sell stuff online.
+          Helping small kiwi stores make $700K NZD by selling stuff online with
+          a tool built in two days during the 2020 lockdowns.
         </h1>
         <img src="/images/projects/swiftly.png" className="story-hero" />
 

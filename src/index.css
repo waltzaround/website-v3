@@ -440,7 +440,7 @@ footer {
   margin-top: 2rem;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1650px) {
   .main-nav {
     margin: 1rem;
   }
@@ -449,11 +449,11 @@ footer {
   }
 
   .project-parent {
-    margin: 1rem;
+    margin: 1.5rem;
   }
 
   .testimonials {
-    margin: 1rem;
+    margin: 1.5rem;
   }
 }
 @media (max-width: 960px) {
@@ -470,7 +470,7 @@ footer {
     gap: 1.5rem;
   }
   .hero-grid-2-text h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .hero-grid-2-text p {
@@ -481,6 +481,15 @@ footer {
   }
   .project-card-container {
     grid-template-columns: 1fr;
+  }
+  .project-parent {
+    margin: 1rem;
+  }
+  .project-parent h2 {
+    font-size: 2rem;
+  }
+  .testimonials {
+    margin: 1rem;
   }
 }
 
