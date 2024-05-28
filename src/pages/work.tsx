@@ -58,6 +58,35 @@ function SearchBar() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Walter Lim - Projects </title>
+        <meta
+          name="description"
+          content="Check out my portfolio of projects and work. Explore my design, development, and research projects in various domains."
+        />
+        <meta
+          name="keywords"
+          content="portfolio, projects, work, design, development, research"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Walter Lim - Projects" />
+        <meta
+          property="og:description"
+          content="Check out my portfolio of projects and work. Explore my design, development, and research projects in various domains."
+        />
+        <meta
+          property="og:image"
+          content="https://walt.online/images/walt.png"
+        />
+        <meta property="og:url" content="https://walt.online/images/walt.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Walter Lim - Projects" />
+        <meta
+          name="twitter:description"
+          content="Check out my portfolio of projects and work. Explore my design, development, and research projects in various domains."
+        />
+        <meta
+          name="twitter:image"
+          content="https://walt.online/images/walt.png"
+        />
       </Helmet>
       <section className="search" id="top">
         <h1 className="search-title">All Work / Projects</h1>
