@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import "./case.css";
+import "../../components/case.css";
 function Cin7() {
   console.log("TLDR for the developers reading this");
   console.log(

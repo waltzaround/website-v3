@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import Header from "../components/Header";
-import "../search.css";
-import projects from "../current-projects.json";
-import featured from "../featured-projects.json";
-import more from "../projects.json";
+import "../components/search.css";
+import projects from "../data/current-projects.json";
+import featured from "../data/featured-projects.json";
+import more from "../data/projects.json";
 
 import React, { useState } from "react";
 import ProjectCard from "../components/ProjectCard";

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
-import projects from "../current-projects.json";
-import featured from "../featured-projects.json";
+import projects from "../data/current-projects.json";
+import featured from "../data/featured-projects.json";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";

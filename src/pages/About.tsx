@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import "../about.css";
+import "../components/about.css";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 function About() {

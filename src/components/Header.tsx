@@ -1,4 +1,4 @@
-import "../menu.css";
+import "./menu.css";
 import { Link } from "react-router-dom";
 
 function Header() {

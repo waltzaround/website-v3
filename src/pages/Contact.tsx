@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Header from "../components/Header";
-import "../contact.css";
+import "../components/contact.css";
 import Footer from "../components/Footer";
 function Contact() {
   useEffect(() => {

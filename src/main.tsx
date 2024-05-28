@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./pages/App.tsx";
-import "./index.css";
+import "./components/index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Media from "./pages/media.tsx";
 import Work from "./pages/work.tsx";
