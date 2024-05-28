@@ -35,7 +35,7 @@ function Swiftly() {
               <h3>Role</h3>
               <p>
                 Designer, Frontend Developer
-                <br /> (Nov 2020 - Sep 2022){" "}
+                <br /> (Mar 2020 → Feb 2023){" "}
               </p>{" "}
             </div>
             <br />
