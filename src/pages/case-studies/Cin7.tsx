@@ -122,15 +122,15 @@ function Cin7() {
           <p className="main-text">
             I did my homework before joining, and learned that the platform was
             effectively a mini-ERP. An ERP is software that helps businesses
-            sell stuff everywhere simultaneously; from retail outlets that
-            needed a POS, to Shopify stores and big retailers like Walmart and
-            Amazon. The software Cin7 offered was an order of magnitude cheaper
-            than traditional ERPs, and was one of the easiest ways that
-            customers could go digital and set up EDI connections to big
-            retailers that required it as part of the sales process. ie: if you
-            sell to enterprise companies like Coca Cola, you are contractually
-            required to use a standard called EDI to make transactions happen as
-            part of your sales process.
+            manage their operations and sell stuff everywhere simultaneously;
+            from retail outlets that needed a POS, to Shopify stores and big
+            retailers like Walmart and Amazon. The software Cin7 offered was an
+            order of magnitude cheaper than traditional ERPs, and was one of the
+            easiest ways that customers could go digital and set up EDI
+            connections to big retailers that required it as part of the sales
+            process. ie: if you sell to enterprise companies like Coca Cola, you
+            are contractually required to use a standard called EDI to make
+            transactions happen as part of your sales process.
           </p>
           <p className="main-text">
             I was the first designer to be hired in a long time, and the company
