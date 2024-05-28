@@ -3,6 +3,10 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "./case.css";
 function Cin7() {
+  console.log("TLDR for the developers reading this");
+  console.log(
+    "I earned the respect of my team by YOLOing 100K+ LOCs to fix the platform UI by doing allnighters over a week and it worked. Made us a whole heap of money. I'm still not sure how I did it tbh. Just a stupid amount of hours and a lot of luck."
+  );
   return (
     <>
       <Helmet>
@@ -86,8 +90,8 @@ function Cin7() {
               <li>
                 Led the design of new features and products. Coded and PRed some
                 of them. Did this to improve system usability and increase
-                developer velocity 50% on anything involving frontend feature
-                development.
+                developer velocity 3X faster on anything involving frontend
+                work.
               </li>
               <li>
                 Projects that resulted in XX% NPS gains, and a XX% YoY reduction
@@ -115,20 +119,22 @@ function Cin7() {
             the time.
           </p>
           <p className="main-text">
-            I did my homework before I joined, and I learned that the company
-            was effectively a mini-ERP, that helped small businesses sell stuff
-            everywhere simultaneously from retail outlets that needed a POS, to
-            Shopify stores and big retailers like Walmart and Amazon. The
-            company was an order of magnitude cheaper than traditional ERPs, and
-            was one of the easiest ways that customers could set up EDI
+            I did my homework before joining, and learned that the company was
+            effectively a mini-ERP. It helped businesses sell stuff everywhere
+            simultaneously; from retail outlets that needed a POS, to Shopify
+            stores and big retailers like Walmart and Amazon. The company was an
+            order of magnitude cheaper than traditional ERPs, and was one of the
+            easiest ways that customers could go digital and set up EDI
             connections to big retailers that required it as part of the sales
-            process.
+            process. ie: if you sell to companies like Coca Cola, you need use a
+            standard called EDI to make transactions happen as part of your
+            sales process.
           </p>
           <p className="main-text">
             I was the first designer to be hired in a long time, and the company
             was in a state of turbulent flux. The company was growing rapidly,
-            and the product was growing erratically with it. I had a joined a
-            company with significant technical debt, and a product that was
+            and the product grew erratically with it. At the time, it was
+            company with significant technical debt, and was a platform that
             demonstrated immense levels of system fragmentation.{" "}
           </p>
           <p className="main-text">
@@ -182,7 +188,8 @@ function Cin7() {
               bugs and maintaining existing integrations with zero time for
               polish. To be fair, I think it was the right call - certain bugs
               meant that customers lost money, and in some cases, massive
-              amounts.
+              amounts. Sadly it meant that if I wanted anything done, I'd have
+              to get my own hands dirty in the codebase.
             </p>
 
             <p className="main-text">
@@ -241,13 +248,13 @@ function Cin7() {
             before I joined; every product manager was responsible for design on
             each of the products/module they looked after - this resulted in
             immense experience fragmentation both in user flows, component
-            libraries and product norms. This meant that every feature
-            effectively felt like a different product you had to relearn how to
-            use every time you changed page.
+            libraries and product heuristics. This meant that every module and
+            feature effectively felt like a different product you had to relearn
+            how to use every time you changed page.
           </p>
           <p className="main-text">
-            It was horrific for usability and onboarding and the numbers showed
-            it.
+            I can't publicly provide specifics, but it was horrific for
+            usability and onboarding and the numbers showed it.
           </p>
           <img src="/images/cin7/CRM.png" className="main-image" />
           <img src="/images/cin7/appstore.png" className="main-image" />
@@ -255,27 +262,22 @@ function Cin7() {
             Responding with a technical frontline approach
           </h2>
           <p className="main-text">
-            In response to this, the first thing I proposed was a consolidation;
-            impossible to tackle piecemeal - four designers before me had tried
-            to do it module by module and failed miserably resulting in ven more
-            experience fragmentation. I proposed a complete overhaul of the
-            design system, and a partial re-architecture of the front end to
-            simplify the experience.
+            In response to this, the first thing I proposed was a consolidation
+            of components into a single unified library nd a partial
+            re-architecture of the front end to simplify the experience.
+            Deliverables in Figma for designers, and Storybook for developers.{" "}
+          </p>
+          <p className="main-text">
+            {" "}
+            This was impossible to tackle piecemeal - four designers before me
+            had tried to do it module by module and failed miserably resulting
+            in even more experience fragmentation.
           </p>
           <p className="main-text">
             To get stakeholder buy in across product, management, and
             engineering I put together a high level sitemap of the system with
             figma which you can see below, and then mapped out the current state
             of the platform.
-          </p>
-          <p className="main-text">
-            I then did some rapid prototyping in our dev environment over a day
-            and a half by using CSS editor chrome extensions. I would've used
-            Figma, but the fact that this product was so data entry heavy meant
-            that I had to build a lot of the interactions in code to get a feel
-            for how the system would work. It also meant that I could do rapid
-            usability testing without spending too much time building out the
-            interactions in figma.
           </p>
           <div className="main-image-container">
             <img
@@ -290,6 +292,15 @@ function Cin7() {
               any of our internal tooling.
             </p>
           </div>
+          <p className="main-text">
+            I then did some rapid prototyping in our dev environment over a day
+            and a half by using CSS editor chrome extensions. I would've used
+            Figma, but the fact that this product was so data entry heavy meant
+            that I had to build a lot of the interactions in code to get a feel
+            for how the system would work. It also meant that I could do rapid
+            usability testing without spending too much time building out the
+            interactions in figma.
+          </p>
           <div className="main-image-container">
             <img
               src="/images/cin7/css-editor.png"
@@ -304,22 +315,24 @@ function Cin7() {
           <p className="main-text">
             {" "}
             This approach quickly and cheaply proved my hypothesis that we could
-            make easy wins with css, at the cost of minimal additional tech
-            debt. It also meant that we could cycle through iterations in
-            minutes, instead of spending weeks building out text input
-            prototypes in figma that were incapable of emulating large amounts
-            of data entry.
+            make easy wins with CSS and basic semantic markup changes, at the
+            cost of minimal additional tech debt. It also meant that we could
+            cycle through iterations in minutes, instead of spending weeks
+            building out text input prototypes in Figma that were incapable of
+            emulating large amounts of data entry.
           </p>
           <p className="main-text">
             The prototype was a hit with management, and I was given the go
-            ahead to start working on the design system rebuild on the codebase
-            as a product designer, which was hosted on Azure DevOps at the time.
+            ahead to start working on the frontend rebuild on the codebase as a
+            product designer, which was hosted on Azure DevOps at the time.
           </p>
           <p className="main-text">
             A lot of the work after this included negotiating with engineering
-            teams to get the design system into place without paying off the
-            technical debt ie: cutting our losses on difficult edge cases that
-            would've taken months to rebuild.{" "}
+            teams and getting mentored on how to write <code>.aspx</code> and{" "}
+            <code>.ascx</code> up to an acceptable standard to get the design
+            system into place without paying off the technical debt ie: cutting
+            our losses on difficult edge cases that would've taken months to
+            rebuild.{" "}
           </p>
           <p className="main-text">
             One particularly egregious example included templated pages that
@@ -336,6 +349,9 @@ function Cin7() {
             guidelines that would help us standardise the experience across the
             platform so that the rest of my team could fast follow.
           </p>
+          <p className="main-text">
+            This way, design and dev could be kept tightly in sync.
+          </p>
           <div className="main-image-container">
             <img
               src="/images/cin7/ds-modal.png"
@@ -351,7 +367,8 @@ function Cin7() {
             in a development environment. Maybe about a month after that to get
             the polish and a lot of responsive behaviors working across pages.{" "}
             <code>overflow-x: scroll</code>&nbsp;was my best friend when it came
-            to many of the complex table components.{" "}
+            to many of the complex table components, especially for making dense
+            components responsive.{" "}
           </p>
           <p className="main-text">
             <code>position: sticky</code> solved a lot of existing problems for
@@ -390,7 +407,9 @@ function Cin7() {
           <p className="main-text">
             - Customer NPS spiked upwards XX% after the rebuild.
           </p>
-
+          <p className="main-text">
+            - Frontend development velocity increased 3X after the rebuild.
+          </p>
           <p className="main-text">
             - Support ticket volumes were down XX% YoY.
           </p>
@@ -409,24 +428,36 @@ function Cin7() {
             got to work documenting all the new system norms.
           </p>
           <p className="main-text">
-            On the problem validation side of the spectrum - introducing design
-            thinking and concepts like rapid prototyping as a norm instead of an
-            erratic design theatre. Product was mostly involved on the problem
+            On the problem validation side of the spectrum - I tried to
+            introduce some parts of design thinking and concepts like rapid
+            prototyping as a norm. Product was mostly involved on the problem
             validation side - We would collaborate on user needs and functional
             requirements at this step before deciding on bets.
           </p>
           <p className="main-text">
             {" "}
-            On the solution validation side of the work: I as few primary
-            actions on a page as possible, consistent spacing between
-            components, and consistent components like buttons, cards, and
-            inputs across the platform. It was an end to the experience
-            fragmentation that had plagued the platform for years. I did most of
-            this in figma, and then propagated it to storybook - you can see me
-            give a talk about it{" "}
+            On the solution validation side of the work: I set up a few design
+            guidelines in the design system: Like creating as few primary
+            actions on a page as possible, setting consistent spacing between
+            components, and normalising the use of consistent components like
+            buttons, cards, and inputs across the platform. It was an end to the
+            experience fragmentation that had plagued the platform for years. I
+            did most of this in figma, and then propagated it to storybook - you
+            can{" "}
             <a href="https://youtu.be/6R1INqvrJaM?t=2669" target="_blank">
-              here at a meetup in 2021.
+              see me give a talk about it here at a meetup in 2021.
             </a>
+          </p>
+          <p className="main-text">
+            This work paved the way for further investment into design as a
+            discipline at the company. We brought design into more projects, and
+            I was able to scale the design team to 3 people before moving onto
+            the next challenge.
+          </p>
+
+          <p className="main-text">
+            I might write about more projects later on, but this is the most
+            impactful one I was about to pull off at Cin7.
           </p>
 
           <div className="main-image-container">
@@ -449,22 +480,6 @@ function Cin7() {
               A snippet of the figma component library
             </p>
           </div>
-        </section>
-        <section>
-          <h2 className="main-heading">Methodologies </h2>
-          <p className="main-text">I was a big fan of</p>
-        </section>
-
-        <section>
-          <h2 className="main-heading">Result </h2>
-          <p className="main-text">
-            I paved the way for further investment into design to do more qual
-            and quant design work and score even more wins
-          </p>{" "}
-          <p className="main-text">
-            Scaled the design team to 3 people before moving onto the next
-            challenge
-          </p>
         </section>
 
         <section>
