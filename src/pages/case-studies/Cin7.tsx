@@ -7,6 +7,11 @@ function Cin7() {
   console.log(
     "I earned the respect of my team by YOLOing 100K+ LOCs to fix the platform UI by doing allnighters over a week and it worked. Made us a whole heap of money. I'm still not sure how I did it tbh. Just a stupid amount of hours and a lot of luck."
   );
+
+  console.log(
+    "I dont think anyone will believe bm if i put down a week in the case study, but its verifiable in git if you dig a bit deeper"
+  );
+
   return (
     <>
       <Helmet>
