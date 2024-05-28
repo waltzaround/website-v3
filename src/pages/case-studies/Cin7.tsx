@@ -126,9 +126,9 @@ function Cin7() {
             order of magnitude cheaper than traditional ERPs, and was one of the
             easiest ways that customers could go digital and set up EDI
             connections to big retailers that required it as part of the sales
-            process. ie: if you sell to companies like Coca Cola, you need use a
-            standard called EDI to make transactions happen as part of your
-            sales process.
+            process. ie: if you sell to companies like Coca Cola, you are
+            contractually required to use a standard called EDI to make
+            transactions happen as part of your sales process.
           </p>
           <p className="main-text">
             I was the first designer to be hired in a long time, and the company
