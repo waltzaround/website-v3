@@ -29,12 +29,12 @@ function Cin7() {
             <div>
               <h2>About</h2>
               <p>
-                Cin7 is an inventory management system that helps people that
-                sell physical products track stock, sales, and customers across
-                every imaginable online and offline retail channel.
+                Cin7 is an inventory management system that helps people sell
+                physical products track stock, sales, and customers across every
+                imaginable online and offline retail channel.
                 <br /> <br />I spent almost two years leading product design
-                there, and proved the value of design to the company by
-                delivering a lot of wins.
+                there, proving the value of design to the company by delivering
+                win after win.
               </p>
               <br />
             </div>
@@ -69,18 +69,18 @@ function Cin7() {
             </div>
           </div>
           <div className="card">
-            <h2>Challenge</h2>
+            <h2>Challenges</h2>
             <ul>
               <li>
                 A ridiculously large backlog already promised to customers.
                 Ungodly amounts of technical debt. Glaring usability issues.{" "}
               </li>
               <li>
-                Single designer serving a product and engineering team of 50 at
-                the start.
+                Single designer (me) serving a product and engineering team of
+                50
               </li>
               <li>
-                Massive design fragmentation. 8 different fonts in production,
+                Massive design fragmentation: 8 different fonts in production,
                 50 different primary buttons and multiple implementations of
                 each
               </li>
@@ -89,13 +89,14 @@ function Cin7() {
             <ul>
               <li>
                 Led the design of new features and products. Coded and PRed some
-                of them. Did this to improve system usability and increase
-                developer velocity 3X faster on anything involving frontend
-                work.
+                of them.
               </li>
               <li>
-                Projects that resulted in XX% NPS gains, and a XX% YoY reduction
-                in churn.
+                Increased developer velocity 3X faster on anything involving
+                frontend work.
+              </li>
+              <li>
+                Projects led to XX% NPS gains, and a XX% YoY reduction in churn.
               </li>
               <li>
                 Successfully condensed 10+ different fragmented design systems
@@ -103,10 +104,10 @@ function Cin7() {
               </li>
 
               <li>
-                Massively reduced friction throughout the platform. This
-                included internal development and support experience, on top of
-                the customer-facing UX. Led to a XX% YoY reduction in support
-                ticket volumes
+                Reduced friction throughout the platform. This included internal
+                development and support experience, on top of the
+                customer-facing UX. Led to a XX% YoY reduction in support ticket
+                volumes
               </li>
             </ul>
           </div>
@@ -119,16 +120,17 @@ function Cin7() {
             the time.
           </p>
           <p className="main-text">
-            I did my homework before joining, and learned that the company was
-            effectively a mini-ERP. It helped businesses sell stuff everywhere
-            simultaneously; from retail outlets that needed a POS, to Shopify
-            stores and big retailers like Walmart and Amazon. The company was an
-            order of magnitude cheaper than traditional ERPs, and was one of the
-            easiest ways that customers could go digital and set up EDI
-            connections to big retailers that required it as part of the sales
-            process. ie: if you sell to companies like Coca Cola, you are
-            contractually required to use a standard called EDI to make
-            transactions happen as part of your sales process.
+            I did my homework before joining, and learned that the platform was
+            effectively a mini-ERP. An ERP is software that helps businesses
+            sell stuff everywhere simultaneously; from retail outlets that
+            needed a POS, to Shopify stores and big retailers like Walmart and
+            Amazon. The software Cin7 offered was an order of magnitude cheaper
+            than traditional ERPs, and was one of the easiest ways that
+            customers could go digital and set up EDI connections to big
+            retailers that required it as part of the sales process. ie: if you
+            sell to enterprise companies like Coca Cola, you are contractually
+            required to use a standard called EDI to make transactions happen as
+            part of your sales process.
           </p>
           <p className="main-text">
             I was the first designer to be hired in a long time, and the company
@@ -145,51 +147,49 @@ function Cin7() {
           <p className="main-text">
             It resulted in a product platform that was held together by duct
             tape and was effectively a different product every time you switched
-            module ie: going from viewing products to customers
+            modules ie: going from viewing products to customers
           </p>
           <div className="main-image-container">
             <img src="/images/cin7/system.png" className="main-image-context" />
             <p className="main-image-context-text">
-              A high level overview of key concepts and jobs to be done within
-              the Cin7 platform - you could condense it into four segments:
-              getting products, selling products, reporting on products, and
-              sending products to customers.
+              A visualisation showing a high level of key concepts and jobs to
+              be done within the Cin7 platform - you could condense it into four
+              segments: getting products, selling products, reporting on
+              products, and sending products to customers.
             </p>
           </div>
           <section className="">
             <h2 className="main-heading">Initial discovery</h2>
 
             <p className="main-text">
-              Day one was a little wierd. Given that the company didn't know
-              what to do with a designer, I was assigned an absurdly overpowered
-              developer laptop with an hour of battery life, and just told to go
-              fix things.{" "}
+              Day one was a little weird. The company didn't know what to do
+              with a designer. I was assigned an absurdly overpowered developer
+              laptop with an hour of battery life, and was just told to go fix
+              things.{" "}
             </p>
             <p className="main-text">
-              Instead, I decided to try and do some design discovery:{" "}
+              Instead, I decided to try and do some design discovery by:{" "}
             </p>
+            <p className="main-text">- Listening to staff and customers. </p>
             <p className="main-text">
-              - I spent a lot of time just listening to staff and customers.{" "}
-            </p>
-            <p className="main-text">
-              - Observing how the team worked. Learning about what internal and
-              external processes looked like.{" "}
+              - Observing internal and external processes.{" "}
             </p>
 
             <p className="main-text">
-              - How they triaged critical bugs and angry customers when the
-              system shat itself.
+              - Watching how critical bugs were triaged.
             </p>
             <p className="main-text">
-              - How they prioritised new initiatives against existing fires.
+              - learning how new initiatives were prioritised against existing
+              fires.
             </p>
+
             <p className="main-text">
-              Seemed like almost all the engineering capacity was devoted to
+              It seemed like almost all the engineering capacity was devoted to
               bugs and maintaining existing integrations with zero time for
               polish. To be fair, I think it was the right call - certain bugs
-              meant that customers lost money, and in some cases, massive
-              amounts. Sadly it meant that if I wanted anything done, I'd have
-              to get my own hands dirty in the codebase.
+              meant that customers lost money, and in some cases, six figures a
+              day. Sadly it meant that if I wanted anything done, I'd have to
+              get my own hands dirty in the codebase.
             </p>
 
             <p className="main-text">
