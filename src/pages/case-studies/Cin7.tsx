@@ -23,9 +23,9 @@ function Cin7() {
         <h1 className="story-heading">
           <strong>Cin7.com</strong>
           <br />
-          Helping 8,000+ businesses transact $2 billion+ US dollars a month by
-          helping them track inventory and sell products across multiple
-          channels simultaneously across the world.
+          Helping 8,000+ businesses transact over $2 billion US dollars a month,
+          by making it easier throw new Error(""); track inventory and sell
+          products across multiple channels simultaneously across the world.
         </h1>
         <img src="/images/projects/cin7.webp" className="story-hero" />
 
