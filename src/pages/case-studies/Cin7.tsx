@@ -16,7 +16,29 @@ function Cin7() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Walter Lim - Cin7 Case Study</title>
+        <title>Walter Lim - Cin7</title>
+        <meta
+          name="description"
+          content=" Helping 8,000+ businesses transact over $2 billion US dollars a month,
+          by making it easier to track inventory and sell products across
+          multiple channels simultaneously across the world."
+        />
+        <meta
+          name="keywords"
+          content="Cin7, inventory management, stock tracking, sales tracking, retail channel, product design, senior product designer, UX research, design systems, Azure DevOps, React, Angular, jQuery, B2B, B2B2C, inventory management, warehouse management, eCommerce, EDI/3PL, Shopify, Amazon Marketplace, Xero, Quickbooks"
+        />
+        <meta property="og:title" content="Walter Lim - Cin7 " />
+        <meta
+          property="og:description"
+          content="Helping 8,000+ businesses transact over $2 billion US dollars a month, by making it easier to track inventory and sell products across multiple channels simultaneously across the world."
+        />
+        <meta property="og:image" content="/images/projects/cin7.webp" />
+        <meta name="twitter:title" content="Walter Lim - Cin7 " />
+        <meta
+          name="twitter:description"
+          content="Helping 8,000+ businesses transact over $2 billion US dollars a month, by making it easier to track inventory and sell products across multiple channels simultaneously across the world."
+        />
+        <meta name="twitter:image" content="/images/projects/cin7.webp" />
       </Helmet>
       <Header />
       <section className="main-container">
