@@ -36,7 +36,10 @@ function Samsung() {
             </div>
             <div>
               <h3>Role</h3>
-              <p>UX Consultant (Nov 2020 - Sep 2022) </p>{" "}
+              <p>
+                UX Consultant
+                <br /> (Aug 2020 → Nov 2020){" "}
+              </p>{" "}
             </div>
             <br />
             <div>
@@ -94,7 +97,7 @@ function Samsung() {
           <h2 className="main-heading">About</h2>
 
           <p className="main-text">
-            In mid 2020, I was approached to work on a project for Samsung
+            In late 2020, I was approached to work on a project for Samsung
             Electronics NZ. They were looking to improve their online presence
             and sales in New Zealand. I was brought in to help with the user
             experience of their online presence.
