@@ -73,7 +73,7 @@ function Cin7() {
             <ul>
               <li>
                 A ridiculously large backlog already promised to customers.
-                Ungodly amounts of technical debt. Glaring usability issues.{" "}
+                Unholy amounts of technical debt. Poor system usability.{" "}
               </li>
               <li>
                 Single designer (me) serving a product and engineering team of
@@ -92,8 +92,8 @@ function Cin7() {
                 of them.
               </li>
               <li>
-                Increased developer velocity 3X faster on anything involving
-                frontend work.
+                Increased developer velocity 3X on anything involving frontend
+                work.
               </li>
               <li>
                 Projects led to XX% NPS gains, and a XX% YoY reduction in churn.
@@ -166,9 +166,9 @@ function Cin7() {
 
             <p className="main-text">
               Day one was a little weird. The company didn't know what to do
-              with a designer. I was assigned an absurdly overpowered developer
-              laptop with an hour of battery life, and was just told to go fix
-              things.{" "}
+              with a designer. An absurdly overpowered developer laptop with an
+              hour of battery life was issued to me, and orders came it to just
+              go fix things.{" "}
             </p>
             <p className="main-text">
               Instead, I decided to try and do some design discovery by:{" "}
@@ -182,7 +182,7 @@ function Cin7() {
               - Watching how critical bugs were triaged.
             </p>
             <p className="main-text">
-              - learning how new initiatives were prioritised against existing
+              - Learning how new initiatives were prioritised against existing
               fires.
             </p>
 
@@ -190,17 +190,17 @@ function Cin7() {
               It seemed like almost all the engineering capacity was devoted to
               bugs and maintaining existing integrations with zero time for
               polish. To be fair, I think it was the right call - certain bugs
-              meant that customers lost money, and in some cases, six figures a
-              day. Sadly it meant that if I wanted anything done, I'd have to
+              meant that customers lost money, and in severe cases, six figures
+              a day. Sadly it meant that if I wanted anything done, I'd have to
               get my own hands dirty in the codebase.
             </p>
 
             <p className="main-text">
-              But at the same time, I rapidly discovered that I was in a low
-              design maturity organisation. For those that don't understand the
-              concept of design maturity - it means that design as a discipline
-              isnt really leveraged in the product development process to get
-              better results.
+              But at the same time, it rapidly became apparent that Cin7 was a
+              low design maturity organisation. For those that don't understand
+              the concept of design maturity - it means that design as a
+              discipline isnt really leveraged in the product development
+              process to get better results.
             </p>
           </section>
           <div className="main-image-container">
@@ -215,9 +215,9 @@ function Cin7() {
           </div>
           <h2 className="main-heading">Getting crushed by tech debt</h2>
           <p className="main-text">
-            I jumped into the work headfirst, and supported my team on every
-            feature and bugfix I could get my hands on. and rapidly discovered a
-            rats nest of problems.
+            I jumped into the work headfirst, supported my team on every feature
+            and bugfix I could get my hands on, and discovered a rats nest of
+            problems.
           </p>
           <p className="main-text">
             {" "}
@@ -244,7 +244,7 @@ function Cin7() {
             fact that every component and page was written as nested{" "}
             <code>{`<table>`}</code> elements 20 tables deep with hardcoded
             explicit dimensions. Even the buttons you see below were nested{" "}
-            <code>{`<table>`}</code> elements.
+            <code>{`<table onclick="doStuff()">`}</code> elements.
           </p>
           <p className="main-text">
             This was exacerbated by the fact that we didnt have any designers
@@ -256,8 +256,9 @@ function Cin7() {
             how to use every time you changed page.
           </p>
           <p className="main-text">
-            I can't publicly provide specifics, but it was horrific for
-            usability and onboarding and the numbers showed it.
+            I can't publicly provide specifics, but it was detrimental for
+            usability, especially when it came to new user onboarding and the
+            numbers showed it.
           </p>
           <img src="/images/cin7/CRM.png" className="main-image" />
           <img src="/images/cin7/appstore.png" className="main-image" />
@@ -266,15 +267,16 @@ function Cin7() {
           </h2>
           <p className="main-text">
             In response to this, the first thing I proposed was a consolidation
-            of components into a single unified library nd a partial
+            of components into a single unified library and a partial
             re-architecture of the front end to simplify the experience.
             Deliverables in Figma for designers, and Storybook for developers.{" "}
           </p>
           <p className="main-text">
             {" "}
             This was impossible to tackle piecemeal - four designers before me
-            had tried to do it module by module and failed miserably resulting
-            in even more experience fragmentation.
+            had tried to do it module by module as conventional wisdom
+            recommended. Every successive attempt failed, resulting in even more
+            experience fragmentation.
           </p>
           <p className="main-text">
             To get stakeholder buy in across product, management, and
@@ -333,24 +335,25 @@ function Cin7() {
             A lot of the work after this included negotiating with engineering
             teams and getting mentored on how to write <code>.aspx</code> and{" "}
             <code>.ascx</code> up to an acceptable standard to get the design
-            system into place without paying off the technical debt ie: cutting
-            our losses on difficult edge cases that would've taken months to
-            rebuild.{" "}
+            system into place while touching as little technical debt as
+            possible ie: cutting our losses on difficult edge cases that
+            would've taken months to rebuild.{" "}
           </p>
           <p className="main-text">
             One particularly egregious example included templated pages that
             were built in a way that made them impossible to redesign without a
             complete rebuild. I'm talking about webpages consisting of custom
-            customer-defined HTML/CSS/JS and SQL queries mashed together that
-            were stored as string literals in the database. Many ungodly
-            technical sins were committed. Some by me, some by my team to get us
-            to production.
+            customer-defined <code>HTML/CSS/JS</code>, <code>C#</code> and{" "}
+            <code>SQL</code> mashed together that were stored as string literals
+            in the database. Many ungodly technical sins were committed. Some by
+            me, and some by my team to get us to production.
           </p>
           <p className="main-text">
-            I then set about building out a really basic Figma design system in
-            tandem, which included a component library, and a set of design
-            guidelines that would help us standardise the experience across the
-            platform so that the rest of my team could fast follow.
+            I then set about building out a really basic design system in
+            tandem, which included a Figma component library, a React storybook
+            component library, and a set of design guidelines that would help us
+            standardise the experience across the platform so that the rest of
+            my team could fast follow.
           </p>
           <p className="main-text">
             This way, design and dev could be kept tightly in sync.
@@ -379,6 +382,12 @@ function Cin7() {
             button. and reduced a lot of friction on the platform when I made
             save buttons persistent on the page for users and staff.
           </p>
+          <p className="main-text">
+            <code>display: flex;</code> and <code>display: grid;</code> were my
+            friends. I managed to purge about 90% of the nested{" "}
+            <code>{`<table>`}</code> elements in the platform just by using
+            these two properties.
+          </p>
           <div className="main-image-container">
             <img
               src="/images/cin7/save-bar.png"
@@ -405,13 +414,11 @@ function Cin7() {
           <h2 className="main-heading">Impact</h2>
           <p className="main-text">It worked.</p>
           <p className="main-text">
-            I can't publicly provide specifics, but loosely..
+            I can't publicly provide specifics, but loosely after the rebuild..
           </p>
+          <p className="main-text">- Customer NPS spiked upwards XX%</p>
           <p className="main-text">
-            - Customer NPS spiked upwards XX% after the rebuild.
-          </p>
-          <p className="main-text">
-            - Frontend development velocity increased 3X after the rebuild.
+            - Frontend development velocity increased 3X
           </p>
           <p className="main-text">
             - Support ticket volumes were down XX% YoY.
@@ -419,7 +426,7 @@ function Cin7() {
           <p className="main-text">- Churn was down XX% YoY.</p>
           <p className="main-text">
             {" "}
-            We made more money and most customers were happier.
+            Most customers were happier and we made more money.
           </p>
           <img src="/images/cin7/css.png" className="main-image" />
         </section>
