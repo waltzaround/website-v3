@@ -168,18 +168,24 @@ function Cin7() {
             </a>
             , and was one of the easiest ways that customers could go digital
             and set up EDI connections to big retailers that required it as part
-            of the sales process. ie: if you sell to enterprise companies like
-            Coca Cola, most of the time you are contractually required to use a
-            standard called EDI to make transactions happen as part of your
-            sales process.
+            of the sales process.{" "}
+          </p>
+          <p className="main-text">
+            For context: if you sell products to enterprise companies like Coca
+            Cola, most of the time you are contractually required by your terms
+            of trade to use a standard called EDI to make transactions happen as
+            part of your sales process.
           </p>
           <p className="main-text">
             I was the first designer to be hired in a long time, and the company
-            was in a state of exciting flux. As the company rapidly expanded, it
-            encountered new obstacles in product development. At the time, It
-            presented challenges like significant technical debt, and a platform
-            that demonstrated immense levels of system fragmentation. More on
-            this later.{" "}
+            was in a{" "}
+            <a href="https://www.nzherald.co.nz/business/refugee-made-good-danny-ing-sells-majority-stake-in-his-software-company-cin7-for-more-than-100m/A2LLWXKAKH4KEOQQ37HQSTJAPI/">
+              state of exciting flux
+            </a>
+            . As the company rapidly expanded, it encountered new obstacles in
+            product development. At the time, It presented challenges like
+            significant technical debt, and a platform that demonstrated immense
+            levels of system fragmentation. More on this later.{" "}
           </p>
           <p className="main-text">
             Think about it this way - product design at the time was owned by an
