@@ -1,106 +1,83 @@
 {
-  "projects": [  {   
-    "development": false,
-    "url": "/work/samsung",
-    "image": "/images/projects/samsung.png",
-    "name": "Samsung Electronics NZ / Cheil NZ",
-    "description": "Increasing customer traffic 64% by by redesigning existing workflows and partnerships",
+  "projects": [
+    {
+      "development": false,
+      "url": "/work/samsung",
+      "image": "/images/projects/samsung.png",
+      "name": "Samsung Electronics NZ / Cheil NZ",
+      "description": "Increasing customer traffic 64% by by redesigning existing workflows and partnerships",
 
-    "date": "Aug 2020 → Nov 2020",
-    "categories": [
-      "Web",
-      "UX Research",
-      "Design Systems",
-      "FE Dev",
-      "B2B2C",
-      "GTM Processes"
-  ]
-
-  },
-    {   
+      "date": "Aug 2020 → Nov 2020",
+      "categories": [
+        "Web",
+        "UX Research",
+        "Design Systems",
+        "FE Dev",
+        "B2B2C",
+        "GTM Processes"
+      ]
+    },
+    {
       "development": false,
       "url": "/work/cin7",
       "image": "/images/projects/cin7.webp",
       "name": "Cin7.com",
-      "description": "Helping product businesses transact over $2 billion USD a month by building better inventory management software",
+      "description": "Helping product businesses transact over $2 billion USD every month by building better inventory management software",
       "date": "Nov 2020 → Sep 2022",
       "categories": [
-        
         "Web / Android",
         "DesignOps",
         "Design leadership",
         "FE Dev",
         "B2B2C"
-    ]
-  
+      ]
     },
-  
-      {   
-        "development": false,
-        "url": "/work/swiftly",
-        "image": "/images/projects/swiftly.png",
-        "name": "Swiftly",
-        "description": "Helping 1,200 small local stores make $700k+ NZD by selling goods online during lockdown",
-        "date": " Mar 2020 → Feb 2023",
-        "categories": [
-          "Web",
-          "UX Research",
-          "Product Design",
-          "FE Dev",
-          "B2B2C"
-      ]
-    
-      },
-      {   
-        "development": false,
-        "url": "/work/vaxx",
-        "image": "/images/projects/vaxx.png",
-        "name": "Vaxx",
-        "description": "Saving lives, by helping 99K+ people get vaccinated against COVID ",
-        "date": " Sep 2021 → Now",
-        "categories": [
-          "Web",
-          "Open Source",
-          "UX Research",
-          "Product Design",
-          "FE Dev"
-      ]
-    
-      },
-      {   
-        "development": false,
 
-        "image": "/images/projects/vly.png",
-        "name": "Voluntarily",
-        "description": "Connecting skilled volunteers with classrooms to teach essential tech skills in schools  ",
-        "date": " Feb 2019 → Aug 2020",
-        "categories": [
-          "Web",
-          "UX Research",
-          "Product Design",
-          "FE Dev",
-          "Open Source"
-
+    {
+      "development": false,
+      "url": "/work/swiftly",
+      "image": "/images/projects/swiftly.png",
+      "name": "Swiftly",
+      "description": "Helping 1,200 small local stores make $700k+ NZD by making it easier to sell goods online during lockdown",
+      "date": " Mar 2020 → Feb 2023",
+      "categories": ["Web", "UX Research", "Product Design", "FE Dev", "B2B2C"]
+    },
+    {
+      "development": false,
+      "url": "/work/vaxx",
+      "image": "/images/projects/vaxx.png",
+      "name": "Vaxx",
+      "description": "Helping 99,000+ people get vaccinated against COVID-19 by designing and building a better booking website ",
+      "date": " Sep 2021 → Now",
+      "categories": [
+        "Web",
+        "Open Source",
+        "UX Research",
+        "Product Design",
+        "FE Dev"
       ]
-    
-      },
-      {   
-        "development": false,
+    },
 
-        "image": "/images/projects/ubi.png",
-        "name": "Ubiquity",
-        "description": "Helping businesses send billions of messages a month to help customers get stuff done  ",
-        "date": " Nov 2017 → Jan 2019",
-        "categories": [
-          "Web",
-          "Marketing Automation",
-          "Data Visualization",
-          "UX Research",
-          "Product Design"
-   
-      ]
-    
-      }
-    
+    {
+      "development": false,
+      "url": "https://taxreceipt.co.nz",
+      "image": "/images/crap/tax.png",
+
+      "name": "Tax Receipt",
+      "description": "Website that shows you where your taxes went proportional to income. Served 7,000+ unique users and built in 6 hours.",
+      "platform": " Web",
+      "date": "2023",
+      "categories": ["Web", "Taxes", "Product Design"]
+    },
+    {
+      "development": false,
+      "url": "https://github.com/wseagar/eight-dollars",
+      "image": "/images/crap/twitter.png",
+      "name": "Eight Dollars",
+      "description": "Browser extension that helps differentiate between real, and fake verified Twitter users. Served 20,000+ users and was featured on The Verge, Engadget, and Gizmodo. ",
+      "platform": " Web",
+      "date": "Dec 2022",
+      "categories": ["Twitter API", "Chrome Extension", "Open Source"]
+    }
   ]
 }

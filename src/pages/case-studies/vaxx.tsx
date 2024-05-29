@@ -239,17 +239,22 @@ function Vaxx() {
               walk-in venue locations where people can get vaccinated without an
               appointment.
               <br />
-              <br /> We run guerrilla usability testing every so often to test
-              new and existing workflows, and generally catch most of the issues
-              that way. Anything that needs more design or engineering work gets
-              logged as an issue on GitHub, and open source contributors pick it
-              up from there.
+              <br /> We ran guerrilla usability testing every so often to test
+              new and existing workflows, and generally caught most of the
+              issues that way. Anything that needed more design or engineering
+              work was logged as an issue on GitHub, and open source
+              contributors picked it up from there.
               <br />
               <br />
-              The site saw about a thousand unique users a day when it was in
-              use according to GA, and we're pretty happy as a team as we know
-              for a fact that the website we've built has helped a lot of people
-              get vaxxed.
+              The site spiked at 20K+ users on a single day when it was in use
+              according to Google Analytics, and we're pretty happy as a team
+              with the result. It helped a lot of people at the time.
+              <br />
+              <br />
+              It's pretty much served its purpose though, we'll probably take it
+              down soon. The live bookings part of the site was shut down a few
+              years ago - too much maintenance for a volunteer team that has
+              moved on to other projects.
             </p>
             <br />
             <img
@@ -258,6 +263,11 @@ function Vaxx() {
               className="main-image"
             />
             <br />
+            <img
+              src="/images/vaxx/google.png"
+              alt="Draft documentation"
+              className="main-image"
+            />
             <br />
             <p>
               <strong>Media</strong>
@@ -286,7 +296,7 @@ function Vaxx() {
                 Kiwi friends build website to help speed up vaccinations
               </a>
               <br />
-              NZ Business Desk:
+              NZ BusinessDesk:
               <a
                 href="https://businessdesk.co.nz/article/news-in-brief/developers-build-better-vaccine-booking-website"
                 target="_blank"

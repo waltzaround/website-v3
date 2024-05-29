@@ -163,21 +163,23 @@ function Cin7() {
             your sales process.
           </p>
           <p className="main-text">
-            I was the first designer to be hired in a long time, and the company
-            was in a state of turbulent flux. The company was growing rapidly,
-            and the product grew erratically with it. At the time, it was a
-            company with significant technical debt, and was a platform that
-            demonstrated immense levels of system fragmentation.{" "}
+            ChatGPT I was the first designer to be hired in a long time, and the
+            company was in a state of exciting flux. As the company rapidly
+            expanded, it encountered new obstacles in product development. At
+            the time, It presented challenges like significant technical debt,
+            and a platform that demonstrated immense levels of system
+            fragmentation. More on this later.{" "}
           </p>
           <p className="main-text">
             Think about it this way - product design at the time was owned by an
             dev team of 50 people. Zero designers were involved in the product
-            or engineering process.
+            or engineering process. Challenge accepted.
           </p>
           <p className="main-text">
-            It resulted in a product platform that was held together by duct
-            tape and was effectively a different product every time you switched
-            modules ie: going from viewing products to customers
+            This process came with a price. It resulted in a product platform
+            that was held together by duct tape and effectively became a
+            different product every time you switched modules ie: going from
+            viewing products to customers
           </p>
           <div className="main-image-container">
             <img src="/images/cin7/system.png" className="main-image-context" />
@@ -193,12 +195,13 @@ function Cin7() {
 
             <p className="main-text">
               Day one was a little weird. The company didn't know what to do
-              with a designer. An absurdly overpowered developer laptop with an
-              hour of battery life was issued to me, and orders came it to just
-              go fix things.{" "}
+              with a designer, let alone how to fully leverage one. This became
+              my personal mission.{" "}
             </p>
+
             <p className="main-text">
-              Instead, I decided to try and do some design discovery by:{" "}
+              To accomplish this, I decided to try and do some design discovery
+              by:{" "}
             </p>
             <p className="main-text">- Listening to staff and customers. </p>
             <p className="main-text">
@@ -218,16 +221,20 @@ function Cin7() {
               bugs and maintaining existing integrations with zero time for
               polish. To be fair, I think it was the right call - certain bugs
               meant that customers lost money, and in severe cases, six figures
-              a day. Sadly it meant that if I wanted anything done, I'd have to
-              get my own hands dirty in the codebase.
+              a day.{" "}
             </p>
 
             <p className="main-text">
-              But at the same time, it rapidly became apparent that Cin7 was a
-              low design maturity organisation. For those that don't understand
-              the concept of design maturity - it means that design as a
-              discipline isnt really leveraged in the product development
-              process to get better results.
+              Challengingly, it meant that if I wanted anything done, I'd have
+              to get my own hands dirty in the codebase.
+            </p>
+
+            <p className="main-text">
+              At the same time, it rapidly became apparent that Cin7 was a low
+              design maturity organisation. For those that don't understand the
+              concept of design maturity - it means that design as a discipline
+              isnt really leveraged in the product development process to get
+              better results.
             </p>
           </section>
           <div className="main-image-container">
@@ -240,7 +247,9 @@ function Cin7() {
               things I got rid of upon getting access to the codebase.
             </p>
           </div>
-          <h2 className="main-heading">Getting crushed by tech debt</h2>
+          <h2 className="main-heading">
+            A teamfight against 20+ years of tech debt
+          </h2>
           <p className="main-text">
             I jumped into the work headfirst, supported my team on every feature
             and bugfix I could get my hands on, and discovered a rats nest of
@@ -287,7 +296,17 @@ function Cin7() {
             usability, especially when it came to new user onboarding and the
             numbers showed it.
           </p>
-          <img src="/images/cin7/CRM.png" className="main-image" />
+          <div className="main-image-container">
+            <img
+              src="/images/cin7/settings-2.png"
+              className="main-image-context"
+            />
+            <p className="main-image-context-text">
+              There were hundreds of pages like this, mostly to enable
+              configuration to suit different business needs. This was a for a
+              sales dashboard.
+            </p>
+          </div>
           <img src="/images/cin7/appstore.png" className="main-image" />
           <h2 className="main-heading">
             Responding with a technical frontline approach
@@ -458,7 +477,7 @@ function Cin7() {
           <img src="/images/cin7/css.png" className="main-image" />
         </section>
         <section>
-          <h2 className="main-heading">Solidifying the system</h2>
+          <h2 className="main-heading">Earning design a seat at the table</h2>
           <p className="main-text">
             {" "}
             So after celebrating the successful launch of the system redesign, I
@@ -466,21 +485,22 @@ function Cin7() {
           </p>
           <p className="main-text">
             On the problem validation side of the spectrum - I tried to
-            introduce some parts of design thinking and concepts like rapid
-            prototyping as a norm. Product was mostly involved on the problem
-            validation side - We would collaborate on user needs and functional
+            normalise some parts of design thinking that I found useful. Our
+            product team was mostly involved on the problem validation side - We
+            would collaborate on research, user needs, and functional
             requirements at this step before deciding on bets.
           </p>
           <p className="main-text">
             {" "}
             On the solution validation side of the work: I set up a few design
-            guidelines in the design system: Like creating as few primary
-            actions on a page as possible, setting consistent spacing between
-            components, and normalising the use of consistent components like
-            buttons, cards, and inputs across the platform. It was an end to the
-            experience fragmentation that had plagued the platform for years. I
-            did most of this in figma, and then propagated it to storybook - you
-            can{" "}
+            guidelines in the design system: Like rapidly prototyping with as
+            few primary actions on a page as possible, setting consistent
+            spacing between components, and normalising the use of consistent
+            components like buttons, cards, and inputs across the platform. We
+            collectively purged the majority of the experience fragmentation
+            that had plagued the platform for years. Once we had some breathing
+            room, I documented most of this in Figma, and then propagated it to
+            storybook - you can{" "}
             <a href="https://youtu.be/6R1INqvrJaM?t=2669" target="_blank">
               see me give a talk about it here at a meetup in 2021.
             </a>
