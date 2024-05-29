@@ -173,8 +173,8 @@ function Cin7() {
           <p className="main-text">
             For context: if you sell products to enterprise companies like Coca
             Cola, most of the time you are contractually required by your terms
-            of trade to use a standard called EDI to make transactions happen as
-            part of your sales process.
+            of trade agreement to use a standard called EDI to make transactions
+            happen as part of your sales process.
           </p>
           <p className="main-text">
             I was the first designer to be hired in a long time, and the company
