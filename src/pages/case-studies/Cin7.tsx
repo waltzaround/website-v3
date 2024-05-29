@@ -508,30 +508,32 @@ function Cin7() {
             requirements at this step before deciding on bets.
           </p>
           <p className="main-text">
-            {" "}
             On the solution validation side of the work: I set up a few design
             guidelines in the design system: Like rapidly prototyping with as
             few primary actions on a page as possible, setting consistent
             spacing between components, and normalising the use of consistent
-            components like buttons, cards, and inputs across the platform. We
-            collectively purged the majority of the experience fragmentation
-            that had plagued the platform for years. Once we had some breathing
-            room, I documented most of this in Figma, and then propagated it to
-            storybook - you can{" "}
+            components like buttons, cards, and inputs across the platform.
+          </p>
+          <p className="main-text">
+            Overall, we collectively purged the majority of the experience
+            fragmentation that had plagued the platform for years. Once we had
+            some breathing room, I documented most of this in Figma, and then
+            propagated it to storybook - you can{" "}
             <a href="https://youtu.be/6R1INqvrJaM?t=2669" target="_blank">
               see me give a talk about it here at a meetup in 2021.
             </a>
           </p>
           <p className="main-text">
             This work paved the way for further investment into design as a
-            discipline at the company. We brought design into more projects, and
-            I was able to scale the design team to 3 people before moving onto
-            the next challenge.
+            discipline at the company. Design was leveraged across more projects
+            to get more wins, and I was able to scale the design team to 3
+            people before moving onto the next challenge.
           </p>
 
           <p className="main-text">
-            I might write about more projects later on, but this is the most
-            impactful one I was about to pull off at Cin7.
+            I might write about more projects later on, but the 🍩 Donut Design
+            System was one the most impactful ones I was about to pull off at
+            Cin7.
           </p>
 
           <div className="main-image-container">
