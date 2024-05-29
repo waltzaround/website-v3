@@ -150,25 +150,36 @@ function Cin7() {
             I did my homework before joining, and learned that the platform was
             effectively a mini-ERP. An ERP is software that helps businesses
             manage their operations and sell stuff everywhere simultaneously;
-            from retail outlets that needed a POS, to Shopify stores and big
+            from retail outlets that needed a{" "}
+            <a
+              href="https://www.investopedia.com/terms/p/point-of-sale.asp"
+              target="_blank"
+            >
+              POS
+            </a>
+            , to <a href="https://www.shopify.com/">Shopify</a> stores and big
             retailers like Walmart and Amazon.{" "}
           </p>
           <p className="main-text">
-            The software Cin7 offered was an order of magnitude cheaper than
-            traditional ERPs, and was one of the easiest ways that customers
-            could go digital and set up EDI connections to big retailers that
-            required it as part of the sales process. ie: if you sell to
-            enterprise companies like Coca Cola, you are contractually required
-            to use a standard called EDI to make transactions happen as part of
-            your sales process.
+            The software Cin7 offered was an order of magnitude cheaper
+            than&nbsp;
+            <a href="https://www.netsuite.com/portal/nz/home.shtml">
+              traditional ERPs
+            </a>
+            , and was one of the easiest ways that customers could go digital
+            and set up EDI connections to big retailers that required it as part
+            of the sales process. ie: if you sell to enterprise companies like
+            Coca Cola, most of the time you are contractually required to use a
+            standard called EDI to make transactions happen as part of your
+            sales process.
           </p>
           <p className="main-text">
-            ChatGPT I was the first designer to be hired in a long time, and the
-            company was in a state of exciting flux. As the company rapidly
-            expanded, it encountered new obstacles in product development. At
-            the time, It presented challenges like significant technical debt,
-            and a platform that demonstrated immense levels of system
-            fragmentation. More on this later.{" "}
+            I was the first designer to be hired in a long time, and the company
+            was in a state of exciting flux. As the company rapidly expanded, it
+            encountered new obstacles in product development. At the time, It
+            presented challenges like significant technical debt, and a platform
+            that demonstrated immense levels of system fragmentation. More on
+            this later.{" "}
           </p>
           <p className="main-text">
             Think about it this way - product design at the time was owned by an
