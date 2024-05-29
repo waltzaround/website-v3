@@ -74,7 +74,7 @@
       "name": "Terrible ideas Hackathon",
       "description": "The Terrible Ideas hackathon is a 46-hour challenge to create the most terrible, awful, brilliant ideas you can think of. Organizer from 2020-2022 ",
       "platform": " Web",
-      "date": "2020 - 2022",
+      "date": "2020 → 2022",
       "categories": ["Hackathon", "Open Source"]
     },
     {
@@ -84,8 +84,8 @@
       "name": "Fruit Tax",
       "description": "Proof of concept shopping tech demo that raises the prices of products while you aren't looking. Uses your Webcam and OpenCV. ",
       "platform": " Web",
-      "date": " 2022",
-      "categories": ["Hackathon", "Open Source"]
+      "date": " 2021",
+      "categories": ["Hackathon", "Open Source", "Webcam", "OpenCV"]
     },
     {
       "development": false,
@@ -95,37 +95,43 @@
       "description": "Proof of concept swear jar that transfers $5 into your savings account every time your device hears you swear. Built to experiment with Google ML services, and banking APIs for the 2019 BankEngine Hackathon.",
       "platform": " Web",
       "date": " 2019",
-      "categories": ["Hackathon", "Open Source"]
+      "categories": ["Hackathon", "Open Source", "Google Assistant", "Banking"]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/fruit-tax",
+      "url": "https://github.com/waltzaround/Neon-Sunrise",
       "image": "/images/crap/pewpew.png",
       "name": "Pew Pew VR",
-      "description": "Proof of concept shopping tech demo that raises the prices of products while you aren't looking. Uses your Webcam and OpenCV. ",
+      "description": " Mobile VR game where you make PEW PEW noises with your mouth to play. Available on the Play Store. Built to play with the unity microphone API at the KiwiJam 2019 Game Jam.",
       "platform": " Web",
       "date": " 2019",
       "categories": ["Virtual Reality", "Open Source"]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/fruit-tax",
+      "url": "https://github.com/waltzaround/quickmaths",
       "image": "/images/crap/quickmafs.png",
       "name": "Quick Maths",
       "description": " 40 player educational multiplayer math deathmatch in the browser. Built to learn about Websockets and the Canvas API at the KiwiJam 2020 Game Jam",
       "platform": " Web",
-      "date": " 202",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "date": " 2019",
+      "categories": [
+        "Hackathon",
+        "Open Source",
+        "Multiplayer",
+        "Canvas",
+        "Websockets"
+      ]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/fruit-tax",
+
       "image": "/images/crap/ligma.png",
       "name": "Ligma.design",
       "description": " Hastily assembled clone of Figma emluating an Adobe acquisition. Resets your work every 90 seconds. Has been used by over 7400 users.",
       "platform": " Web",
       "date": " 2022",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "categories": ["Figma", "Open Source", "Canvas", "Meme"]
     },
     {
       "development": false,
@@ -134,18 +140,31 @@
       "name": "Lenny",
       "description": " Proof of concept prototype that uses payment data to perform COVID-19 contact tracing. Built as part of the GovHack 2021 Open Data Hackathon.            ",
       "platform": " Web",
-      "date": " 2020",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "date": " 2021",
+      "categories": [
+        "Web",
+        "Hackathon",
+        "Open Source",
+        "Public Service",
+        "Data Aggregation",
+        "Fintech"
+      ]
     },
     {
       "development": false,
-      "url": "https://github.com/CovidEngine/covidengineui",
+      "url": "https://github.com/StatuspageNZ/statuspage",
       "image": "/images/crap/checkon.png",
       "name": "Check On",
       "description": " Proof of concept dashboard for emergencies. It aggregates data from public and private data sources. Built to learn about public datasets for the GovHack 2020 hackathon.            ",
       "platform": " Web",
-      "date": " 2021",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "date": " 2020",
+      "categories": [
+        "Web",
+        "Hackathon",
+        "Open Source",
+        "Public Service",
+        "Data Aggregation"
+      ]
     },
     {
       "development": false,
@@ -154,8 +173,8 @@
       "name": "Anti-adblocker",
       "description": " Working browser implementation of the adblocker from the TV Show Black Mirror. Uses your webcam to tell you to keep watching ads if you stop watching.           ",
       "platform": " Web",
-      "date": " 2021",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "date": " 2020",
+      "categories": ["Web", "Open Source", "OpenCV", "Webcam"]
     },
     {
       "development": false,
@@ -165,126 +184,157 @@
       "description": " Unity VR experience where you make music with gestural hand controls using a Leap Motion sensor. Built as an excuse to experiment with hand tracking systems and VR.       ",
       "platform": " Web",
       "date": " 2016",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "categories": [
+        "Unity",
+        "Open Source",
+        "Leap Motion",
+        "Gestural Controls",
+        "VR",
+        "AR"
+      ]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/Matter-VR",
+      "url": "https://github.com/MinhPhu0304/architecture-slotmachine",
       "image": "/images/crap/spicyhack.png",
       "name": "Spicy Hack",
       "description": " Sadistic random tech stack generator used to increase hackathon difficulty for veteran developers.   ",
       "platform": " Web",
       "date": " 2017",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "categories": ["Hackathon", "Open Source", "Technology", "Sadism"]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/Matter-VR",
+      "url": "https://github.com/hello-politician/hello-politician",
       "image": "/images/crap/politician.png",
       "name": "Hello Politician",
       "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
       "platform": " Web",
       "date": " 2019",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "categories": ["Hackathon", "Open Source", "Web", "Politics"]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/Matter-VR",
+      "url": "https://github.com/WeAreFlat/deployment",
       "image": "/images/crap/flattie.png",
       "name": "Flattie",
-      "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+      "description": "Rental affordability heatmap created by crunching MBIE government data. ",
       "platform": " Web",
       "date": " 2019",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "categories": ["Web", "Mapping", "Rentals", "Datavis"]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/Matter-VR",
+      "url": "https://github.com/waltzaround/senpai",
       "image": "/images/crap/senpai.png",
       "name": "Senpai",
-      "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+      "description": "Senpai is a simple website blocker that helps you study. Used to learn more about Chrome APIs. ",
       "platform": " Web",
       "date": " 2019",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "categories": [
+        "Chrome Extension",
+        "Open Source",
+        "Adblocker",
+        "Hackathon"
+      ]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/Matter-VR",
+      "url": "https://www.behance.net/gallery/83753493/Zappy",
       "image": "/images/crap/zappy.png",
       "name": "Zappy",
-      "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+      "description": "Augmented Reality bus stop finder built with Unity and Google ARCore. Built at an NZTA Government Hackathon to learn more about Unity AR Tooling.",
       "platform": " Web",
       "date": " 2019",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "categories": [
+        "Hackathon",
+        "AR",
+        "ARCore",
+        "Android",
+        "Unity",
+        "Wayfinding"
+      ]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/Matter-VR",
+      "url": "https://www.behance.net/gallery/70818087/Raihana",
       "image": "/images/crap/raihana.png",
       "name": "Raihana",
-      "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+      "description": "NZTA hackathon project exploring the driver licensing process and how to improve it. Included experiments with eyesight checking features through the browser Webcam API ",
       "platform": " Web",
-      "date": " 2019",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "date": " 2018",
+      "categories": ["Web", "Hackathon", "Webcam", "NZTA", "Licensing"]
     },
     {
       "development": false,
       "image": "/images/crap/shesharp.png",
       "name": "She Sharp",
-      "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+      "description": "Charity website design + dev work for a group serving the next generation of women in tech called She Sharp. Lots of Wordpress, CSS and PHP hackery. ",
       "platform": " Web",
-      "date": " 2019",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "date": " 2017",
+      "categories": ["Web", "Wordpress", "Open Source", "CSS", "PHP"]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/Matter-VR",
+
       "image": "/images/crap/boats.png",
       "name": "NZ Traditional Boatbuilding School",
-      "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+      "description": "Charity website design + dev work for a traditional boatbuilding school. Lots of Wordpress, CSS and PHP hackery. ",
       "platform": " Web",
       "date": " 2019",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "categories": ["Web", "Wordpress", "Open Source", "CSS", "PHP"]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/Matter-VR",
+      "url": "https://github.com/waltzaround/fundy2",
       "image": "/images/crap/fundy.png",
       "name": "Fundy",
-      "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+      "description": " Hackathon project that explored what charity funding marketplaces could look like. Built for a hackathon hosted by Datacom in 2019. ",
       "platform": " Web",
       "date": " 2019",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "categories": [
+        "Web",
+        "Hackathon",
+        "Open Source",
+        "Charity Funding",
+        "Websockets"
+      ]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/Matter-VR",
+      "url": "https://github.com/waltzaround/CTEC608-Crappy-Forex-Prototype",
       "image": "/images/crap/forex.png",
       "name": "VR Forex Prototype",
-      "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+      "description": "Unity VR Data visualization playing with forex data pulled from the Yahoo finance API ",
       "platform": " Web",
-      "date": " 2019",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "date": " 2015",
+      "categories": [
+        "Unity",
+        "Open Source",
+        "Forex",
+        "Currency",
+        "Data Visualization"
+      ]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/Matter-VR",
+      "url": "https://github.com/waltzaround/COMP770-Trafficdata",
       "image": "/images/crap/traffic.png",
       "name": "VR Traffic Prototype",
       "description": "Unity VR data visualization of traffic data over time.",
       "platform": " Web",
-      "date": " 2019",
-      "categories": ["Unity", "Open Source", "Virtual Reality", "Traffic"]
+      "date": " 2016",
+      "categories": ["Unity", "Open Source", "Traffic", "Data Visualization"]
     },
     {
       "development": false,
-      "url": "https://github.com/waltzaround/Matter-VR",
+      "url": "https://vimeo.com/155604614",
       "image": "/images/crap/bender.png",
       "name": "Bender",
-      "description": "Public political disclosure data register put together by scraping PDF files. Built as an excuse to play with govt data for the GovHack 2019 hackathon. ",
+      "description": "Interactive digital art exhibit built with Unity and Microsoft Kinect SDKs. Publicly displayed at Aotea Square in New Zealand in 2015.",
       "platform": " Web",
-      "date": " 2019",
-      "categories": ["Hackathon", "Open Source", "Canvas", "Websockets"]
+      "date": " 2015",
+      "categories": ["Kinect", "Point Clouds", "Digital Art", "Open Source"]
     }
   ]
 }

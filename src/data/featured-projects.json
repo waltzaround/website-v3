@@ -48,7 +48,7 @@
       "image": "/images/projects/vaxx.png",
       "name": "Vaxx",
       "description": "Helping 99,000+ people get vaccinated against COVID-19 by designing and building a better booking website ",
-      "date": " Sep 2021 → Now",
+      "date": " Sep 2021",
       "categories": [
         "Web",
         "Open Source",
@@ -56,18 +56,6 @@
         "Product Design",
         "FE Dev"
       ]
-    },
-
-    {
-      "development": false,
-      "url": "https://taxreceipt.co.nz",
-      "image": "/images/crap/tax.png",
-
-      "name": "Tax Receipt",
-      "description": "Website that shows you where your taxes went proportional to income. Served 7,000+ unique users and built in 6 hours.",
-      "platform": " Web",
-      "date": "2023",
-      "categories": ["Web", "Taxes", "Product Design"]
     },
     {
       "development": false,
@@ -78,6 +66,18 @@
       "platform": " Web",
       "date": "Dec 2022",
       "categories": ["Twitter API", "Chrome Extension", "Open Source"]
+    },
+
+    {
+      "development": false,
+      "url": "https://taxreceipt.co.nz",
+      "image": "/images/crap/tax.png",
+
+      "name": "Tax Receipt",
+      "description": "Website that shows you where your taxes went proportional to income. Used by 7,000+ unique users and built in 6 hours.",
+      "platform": " Web",
+      "date": "May 2023",
+      "categories": ["Web", "Taxes", "Product Design"]
     }
   ]
 }
