@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "../../components/case.css";
+import { useEffect } from "react";
 function Cin7() {
   console.log("TLDR for the developers reading this");
   console.log(
@@ -11,7 +12,9 @@ function Cin7() {
   console.log(
     "I dont think anyone will believe bm if i put down a week in the case study, but its verifiable in git if you dig a bit deeper"
   );
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>
@@ -49,7 +52,12 @@ function Cin7() {
           by making it easier to track inventory and sell products across
           multiple channels simultaneously across the world.
         </h1>
+        <div className="main-image-container">
+           
+           
         <img src="/images/projects/cin7.webp" className="story-hero" />
+        <p className="main-image-context-text"> A prototype dashboard I designed that tested well, but was cut due to a lack of engineering capacity
+          </p></div>
 
         <div className="grid-intro">
           <div>
