@@ -66,6 +66,25 @@ function Media() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Walter Lim - Media</title>
+        <meta name="description" content="This page showcases media appearances, talks, and other related content featuring Walter Lim or his work." />
+        <meta name="keywords" content="media, talks, appearances, Walter Lim, work" />
+        <meta name="author" content="Walter Lim" />
+        <meta property="og:image" content="/images/walt.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://walt.online" />
+        <meta property="og:title" content="Walter Lim" />
+
+        <meta
+          property="og:image"
+          content="https://walt.online/images/walt.png"
+        />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="Walter Lim" />
+        <meta
+          property="twitter:description"
+          content="Walter Lim is a cross-functional designer with 7+ years of experience based in Auckland, New Zealand. He's worked across a wide range of B2C, B2B, and B2B2C products across many different industries. He's been featured in both local and international media for his design work."
+        />
+        <meta property="twitter:image" content="/images/walt.png" />
       </Helmet>
       <canvas id="canv" width="32" height="32"></canvas>
       <div className="safariHack">

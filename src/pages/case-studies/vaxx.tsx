@@ -14,8 +14,8 @@ function Vaxx() {
         <h1 className="story-heading">
           <strong>Vaxx</strong>
           <br />
-          Making it easier for New Zealanders to find COVID-19 vaccinations
-          during the 2020 COVID lockdowns and vaccine shortage
+          Making it easier for 99,000+ people to find COVID-19 vaccinations
+          amidst the 2020 lockdowns, and vaccine shortage in New Zealand.
         </h1>
         <img src="/images/projects/vaxx.png" className="story-hero" />
 
