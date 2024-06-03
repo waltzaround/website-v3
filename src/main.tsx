@@ -24,10 +24,6 @@ const router = createBrowserRouter([
     element: <Media />,
   },
   {
-    path: "/work/",
-    element: <Work />,
-  },
-  {
     path: "/about/*",
     element: <About />,
   },
@@ -36,19 +32,24 @@ const router = createBrowserRouter([
     element: <Contact />,
   },
   {
-    path: "/work/cin7",
+    path: "/work/",
+    element: <Work />,
+  },
+ 
+  {
+    path: "/work/cin7/*",
     element: <Cin7 />,
   },
   {
-    path: "/work/samsung",
+    path: "/work/samsung/*",
     element: <Samsung />,
   },
   {
-    path: "/work/swiftly",
+    path: "/work/swiftly/*",
     element: <Swiftly />,
   },
   {
-    path: "/work/vaxx",
+    path: "/work/vaxx/*",
     element: <Vaxx />,
   },
 
