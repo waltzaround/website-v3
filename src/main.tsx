@@ -51,6 +51,7 @@ const router = createBrowserRouter([
     path: "/work/vaxx",
     element: <Vaxx />,
   },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
