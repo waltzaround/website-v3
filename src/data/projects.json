@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "development": true,
+      "url": "https://github.com/haxxnz/raxx",
+      "image": "/images/projects/raxx.png",
+      "name": "Raxx",
+      "description": "Web app that makes it easier to visualize and understand crime data. Still WIP",
+      "categories": ["Web", "Data Visualization", "Product Design", "FE Dev"]
+    },
+    {
       "development": false,
 
       "image": "/images/projects/vly.png",
