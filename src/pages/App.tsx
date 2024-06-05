@@ -133,11 +133,7 @@ LOL===_
               Walter Lim is a cross-functional designer with 7+ years of
               experience based in Auckland, New Zealand.{" "}
             </p>
-            <p>
-              He's worked across a wide range of B2C, B2B, and B2B2C products
-              across many different industries. He&apos;s been featured in both{" "}
-              <a href="/media">local and international media</a>
-            </p>
+
             <p>
               He currently leads product design at{" "}
               <a href="https://infinitystudio.ai" target="_blank">
