@@ -147,7 +147,7 @@ LOL===_
             <h2 className="tag-heading">Current availability:</h2>
             <div className="tag">
               <div className="tag-dot" />
-              Oversubscribed &amp; Unavailable
+              Oversubscribed &amp; unavailable for new work
             </div>
           </div>
         </section>
