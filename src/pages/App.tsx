@@ -83,6 +83,7 @@ LOL===_
           name="description"
           content="Walter Lim is a cross-functional designer with 7+ years of experience based in Auckland, New Zealand. He's worked across a wide range of B2C, B2B, and B2B2C products across many different industries. He's been featured in both local and international media for his design work."
         />
+        <link rel="canonical" href="https://walt.online" />
         <meta
           name="keywords"
           content="designer, UX engineer, cross-functional designer, B2C, B2B, B2B2C, Auckland, New Zealand, media, design work"

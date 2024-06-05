@@ -66,8 +66,15 @@ function Media() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Walter Lim - Media</title>
-        <meta name="description" content="This page showcases media appearances, talks, and other related content featuring Walter Lim or his work." />
-        <meta name="keywords" content="media, talks, appearances, Walter Lim, work" />
+        <link rel="canonical" href="https://walt.online" />
+        <meta
+          name="description"
+          content="This page showcases media appearances, talks, and other related content featuring Walter Lim or his work."
+        />
+        <meta
+          name="keywords"
+          content="media, talks, appearances, Walter Lim, work"
+        />
         <meta name="author" content="Walter Lim" />
         <meta property="og:image" content="/images/walt.png" />
         <meta property="og:type" content="website" />
