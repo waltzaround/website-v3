@@ -12,6 +12,7 @@ import Cin7 from "./pages/case-studies/Cin7.tsx";
 import Samsung from "./pages/case-studies/Samsung.tsx";
 import Swiftly from "./pages/case-studies/Swiftly.tsx";
 import Vaxx from "./pages/case-studies/vaxx.tsx";
+import Maths from "./pages/case-studies/maths.tsx";
 
 const router = createBrowserRouter([
   {
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
     path: "/work/",
     element: <Work />,
   },
- 
+
   {
     path: "/work/cin7/*",
     element: <Cin7 />,
@@ -52,7 +53,10 @@ const router = createBrowserRouter([
     path: "/work/vaxx/*",
     element: <Vaxx />,
   },
-
+  {
+    path: "/work/maths/*",
+    element: <Maths />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

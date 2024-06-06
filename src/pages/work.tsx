@@ -140,20 +140,26 @@ function Work() {
   useEffect(() => {
     // inspired by the stripe landing page
 
-    let c = document.getElementById("canv");
-    let da = (c as HTMLCanvasElement)?.getContext("2d");
+    const c = document.getElementById("canv");
+    const da = (c as HTMLCanvasElement)?.getContext("2d");
 
-    let col = function (x: number, y: number, r: number, g: number, b: number) {
+    const col = function (
+      x: number,
+      y: number,
+      r: number,
+      g: number,
+      b: number
+    ) {
       if (da) {
         da.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
         da.fillRect(x, y, 1, 1);
       }
     };
-    let R = function (x: number, y: number, t: number) {
+    const R = function (x: number, y: number, t: number) {
       return Math.floor(192 + 200 * Math.cos((x * x - y * y) / 300 + t));
     };
 
-    let G = function (x: number, y: number, t: number) {
+    const G = function (x: number, y: number, t: number) {
       return Math.floor(
         192 +
           200 *
@@ -161,7 +167,7 @@ function Work() {
       );
     };
 
-    let B = function (x: number, y: number, t: number) {
+    const B = function (x: number, y: number, t: number) {
       return Math.floor(
         192 +
           200 *
@@ -196,7 +202,6 @@ function Work() {
       <canvas id="canv" width="32" height="32"></canvas>
       <div className="safariHack">
         <Header />
-
         <SearchBar />
         <Footer />
       </div>
