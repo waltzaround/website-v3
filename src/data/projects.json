@@ -142,7 +142,7 @@
     },
     {
       "development": false,
-
+      "url": "https://ligma-pink.vercel.app/",
       "image": "/images/crap/ligma.png",
       "name": "Ligma.design",
       "description": " Hastily assembled clone of Figma that hypothesized what an Adobe acquisition would do to the platform. Resets your work every 90 seconds. Has been used by over 7,400 users.",
