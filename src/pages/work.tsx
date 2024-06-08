@@ -54,6 +54,9 @@ function SearchBar() {
 
   const resetSearch = () => {
     setSearchTerm("");
+    handleSearch({
+      target: { value: "" },
+    } as React.ChangeEvent<HTMLInputElement>);
   };
 
   return (
@@ -165,7 +168,7 @@ function SearchBar() {
           <section className="none-found">
             <div>
               <h3>No projects found 😢</h3>
-              <button onClick={(resetSearch, handleSearch)}>Reset</button>
+              <button onClick={resetSearch}>Reset</button>
             </div>
           </section>
         )}
