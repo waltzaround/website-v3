@@ -52,7 +52,7 @@ function SearchBar() {
     event.preventDefault();
   };
 
-  const resetSearch = (event: React.FormEvent<HTMLButtonElement>) => {
+  const resetSearch = () => {
     setSearchTerm("");
   };
 
