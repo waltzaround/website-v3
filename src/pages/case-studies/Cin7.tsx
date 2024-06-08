@@ -336,13 +336,14 @@ function Cin7() {
           </div>
           <img src="/images/cin7/appstore.png" className="main-image" />
           <h2 className="main-heading">
-            Responding with a technical frontline approach
+            Triaging with a technical frontline approach
           </h2>
           <p className="main-text">
-            In response to this, the first thing I proposed was a consolidation
-            of components into a single unified library and a partial
-            re-architecture of the front end to simplify the experience.
-            Deliverables in Figma for designers, and Storybook for developers.{" "}
+            In response to everything discovered above, the first thing I
+            proposed was a consolidation of components into a single unified
+            library and a partial re-architecture of the front end to simplify
+            the experience. Deliverables in Figma for designers, and Storybook
+            for developers.{" "}
           </p>
           <p className="main-text">
             {" "}
