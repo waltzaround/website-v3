@@ -439,7 +439,7 @@ function Media() {
               <a
                 href="https://www.spreaker.com/user/accessgrantednz/walt-andrew-voluntarily-industry-in-the-"
                 target="_blank"
-                title="  Access Granted Podcast - Walt & Andrew (Voluntarily) - Industry in the classNameroom"
+                title="  Access Granted Podcast - Walt & Andrew (Voluntarily) - Industry in the classroom"
               >
                 <p>
                   Access Granted Podcast - Walt & Andrew (Voluntarily) -
