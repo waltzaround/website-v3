@@ -81,7 +81,7 @@ LOL===_
         <title>Walter Lim </title>
         <meta
           name="description"
-          content="Walter Lim is a cross-functional designer with 7+ years of experience based in Auckland, New Zealand. He's worked across a wide range of B2C, B2B, and B2B2C products across many different industries. He's been featured in both local and international media for his design work."
+          content="Walter Lim is a cross-functional designer with 7+ years of experience based in Auckland, New Zealand. "
         />
         <link rel="canonical" href="https://walt.online" />
         <meta
@@ -98,7 +98,7 @@ LOL===_
         <meta property="og:title" content="Walter Lim" />
         <meta
           property="og:description"
-          content="Walter Lim is a cross-functional designer with 7+ years of experience based in Auckland, New Zealand. He's worked across a wide range of B2C, B2B, and B2B2C products across many different industries. He's been featured in both local and international media for his design work."
+          content="Walter Lim is a cross-functional designer with 7+ years of experience based in Auckland, New Zealand. He's worked across a wide range of B2C, B2B, and B2B2C products across many different industries."
         />
 
         <meta
@@ -109,7 +109,7 @@ LOL===_
         <meta property="twitter:title" content="Walter Lim" />
         <meta
           property="twitter:description"
-          content="Walter Lim is a cross-functional designer with 7+ years of experience based in Auckland, New Zealand. He's worked across a wide range of B2C, B2B, and B2B2C products across many different industries. He's been featured in both local and international media for his design work."
+          content="Walter Lim is a cross-functional designer with 7+ years of experience based in Auckland, New Zealand. He's worked across a wide range of B2C, B2B, and B2B2C products across many different industries. "
         />
         <meta
           property="twitter:image"
