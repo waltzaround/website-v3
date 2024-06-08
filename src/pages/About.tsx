@@ -12,7 +12,7 @@ function About() {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Walter Lim - About</title>
-          <link rel="canonical" href="https://walt.online" />
+          <link rel="canonical" href="https://walt.online/about" />
         </Helmet>
         <section className="about-grid-2">
           <div>

@@ -93,7 +93,7 @@ function SearchBar() {
           name="twitter:image"
           content="https://walt.online/images/walt.png"
         />
-        <link rel="canonical" href="https://walt.online" />
+        <link rel="canonical" href="https://walt.online/work" />
       </Helmet>
 
       <section className="search-heading">
