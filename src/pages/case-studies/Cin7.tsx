@@ -133,7 +133,8 @@ function Cin7() {
                 work.
               </li>
               <li>
-                Projects led to XX% NPS gains, and a XX% YoY reduction in churn.
+                Projects led to Redacted% NPS gains, and a Redacted% YoY
+                reduction in churn.
               </li>
               <li>
                 Successfully condensed 10+ different fragmented design systems
@@ -143,8 +144,8 @@ function Cin7() {
               <li>
                 Reduced friction throughout the platform. This included internal
                 development and support experience, on top of the
-                customer-facing UX. Led to a XX% YoY reduction in support ticket
-                volumes
+                customer-facing UX. Led to a significant Redacted% YoY reduction
+                in support ticket volumes
               </li>
             </ul>
           </div>
@@ -505,14 +506,14 @@ function Cin7() {
           <p className="main-text">
             I can't publicly provide specifics, but loosely after the rebuild..
           </p>
-          <p className="main-text">- Customer NPS spiked upwards XX%</p>
+          <p className="main-text">- Customer NPS spiked upwards Redacted%</p>
           <p className="main-text">
             - Frontend development velocity increased 3X
           </p>
           <p className="main-text">
-            - Support ticket volumes were down XX% YoY.
+            - Support ticket volumes were down Redacted% YoY.
           </p>
-          <p className="main-text">- Churn was down XX% YoY.</p>
+          <p className="main-text">- Churn was down Redacted% YoY.</p>
           <p className="main-text">
             {" "}
             Most customers were happier and we made more money.
