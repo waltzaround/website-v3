@@ -135,7 +135,7 @@ LOL===_
             </p>
 
             <p>
-              He currently leads product design at{" "}
+              He leads product design at{" "}
               <a href="https://infinitystudio.ai" target="_blank">
                 Infinity Studio
               </a>
