@@ -114,26 +114,11 @@ body {
   text-decoration: none;
   color: white;
   padding: 1rem;
-  transition: all 0.7s linear;
 }
 .main-nav-logo-img {
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 12px;
-  transition: all 0.7s linear;
-}
-.main-nav-logo:hover .main-nav-logo-img {
-  animation: spin 0.7s linear infinite;
-  border-radius: 40px;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 .nav-links {
   display: flex;
@@ -258,7 +243,7 @@ body {
   }
 
   .slide-track {
-    animation: scroll 32s linear infinite;
+    animation: scroll 56s linear infinite;
     display: flex;
     width: calc(240px * 18);
   }
@@ -393,7 +378,6 @@ a.project-card:hover {
   background-color: rgba(0, 0, 0, 0.08);
   padding: 0.25rem 0.5rem;
   font-size: 0.8rem;
-  width: fit-content;
   color: rgb(212, 212, 212);
 }
 .project-see-more {
@@ -412,18 +396,19 @@ a.project-card:hover {
 
 footer {
   max-width: 1600px;
-  margin: 4rem auto 2rem auto;
+  margin: 4rem auto 0 auto;
   background-color: rgba(0, 0, 0, 0.35);
   border: 2px solid rgba(255, 255, 255, 0.2);
   border-bottom: none;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  border-radius: 16px ;
+  border-radius: 16px 16px 0 0;
   display: flex;
-  flex-wrap: wrap;
-  padding: 1rem;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .footer-heading {
-  font-size: 1.5rem;
+  padding: 1rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 .footer-cols {
   padding: 1rem;
@@ -444,34 +429,7 @@ footer {
   margin-top: 2rem;
 }
 
-.awake {
-  background-color: #bbbeff;
-  border-radius: 120px;
-  height: 1rem;
-  width: 1rem;
-  border: 1px solid  rgba(255, 255, 255, 0.1);
-
-  animation: radar 2s linear infinite;
-}
-
-
-@keyframes radar {
-  0% {
-    transform: scale(0.2);
-    opacity: 0;
-  }
-  50% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(0.4);
-    opacity: 0.2;
-  }
-
-}
-@media (max-width: 1650px) {
-  
+@media (max-width: 1600px) {
   .main-nav {
     margin: 1rem;
   }
@@ -480,15 +438,11 @@ footer {
   }
 
   .project-parent {
-    margin: 1.5rem;
+    margin: 1rem;
   }
 
   .testimonials {
-    margin: 1.5rem;
-  }
-  footer {
-    margin: 1.5rem;
-  
+    margin: 1rem;
   }
 }
 @media (max-width: 960px) {
@@ -498,7 +452,6 @@ footer {
   .project-card-container {
     grid-template-columns: 1fr 1fr;
   }
-  
 }
 
 @media (max-width: 640px) {
@@ -510,26 +463,13 @@ footer {
   }
 
   .hero-grid-2-text p {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   .main-nav {
     margin: 0.5rem;
   }
   .project-card-container {
     grid-template-columns: 1fr;
-  }
-  .project-parent {
-    margin: 1rem;
-  }
-  .project-parent h2 {
-    font-size: 2rem;
-  }
-  .testimonials {
-    margin: 1rem;
-  }
-  footer {
-    margin: 1rem;
-  
   }
 }
 
