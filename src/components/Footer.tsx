@@ -32,7 +32,7 @@ function Footer() {
 
                 </div>
               )}
-              {new Date().getHours() <= 10 && (
+              {new Date().getHours() <= 9 && (
                 <div className="time-tag">
                   <div className="awake" />
                   <p>         Probably Asleep</p>
