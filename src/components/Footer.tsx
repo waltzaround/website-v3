@@ -35,7 +35,7 @@ function Footer() {
               {new Date().getHours() <= 10 && (
                 <div className="time-tag">
                   <div className="awake" />
-                  <p>         Asleep</p>
+                  <p>         Probably Asleep</p>
 
                 </div>
               )}
