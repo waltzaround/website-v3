@@ -25,7 +25,7 @@ function Footer() {
                 <h4>Current Time in New Zealand:</h4>
                 <p>{currentTime}  </p>
               </div>
-              {new Date().getHours() > 10 && new Date().getHours() <= 17 && (
+              {new Date().getHours() > 9 && new Date().getHours() <= 17 && (
                 <div className="time-tag">
                   <div className="awake" />
                   <p>Working </p>
