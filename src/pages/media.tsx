@@ -66,8 +66,15 @@ function Media() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Walter Lim - Media</title>
-        <meta name="description" content="This page showcases media appearances, talks, and other related content featuring Walter Lim or his work." />
-        <meta name="keywords" content="media, talks, appearances, Walter Lim, work" />
+        <link rel="canonical" href="https://walt.online/media" />
+        <meta
+          name="description"
+          content="This page showcases media appearances, talks, and other related content featuring Walter Lim or his work."
+        />
+        <meta
+          name="keywords"
+          content="media, talks, appearances, Walter Lim, work"
+        />
         <meta name="author" content="Walter Lim" />
         <meta property="og:image" content="/images/walt.png" />
         <meta property="og:type" content="website" />
@@ -432,7 +439,7 @@ function Media() {
               <a
                 href="https://www.spreaker.com/user/accessgrantednz/walt-andrew-voluntarily-industry-in-the-"
                 target="_blank"
-                title="  Access Granted Podcast - Walt & Andrew (Voluntarily) - Industry in the classNameroom"
+                title="  Access Granted Podcast - Walt & Andrew (Voluntarily) - Industry in the classroom"
               >
                 <p>
                   Access Granted Podcast - Walt & Andrew (Voluntarily) -
@@ -443,7 +450,7 @@ function Media() {
             </div>
             <div className="about-media-item">
               <a
-                href="https://www.xero.com/blog/2019/10/bankengine-sandbox-shifting-the-dial-in-open-banking/"
+                href="https://web.archive.org/web/20231004025639/https://www.xero.com/blog/2019/10/bankengine-sandbox-shifting-the-dial-in-open-banking/"
                 target="_blank"
                 title="  BankEngine’s Sandbox: Shifting the dial in Open Banking"
               >

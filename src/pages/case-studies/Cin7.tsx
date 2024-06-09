@@ -53,11 +53,13 @@ function Cin7() {
           multiple channels simultaneously across the world.
         </h1>
         <div className="main-image-container">
-           
-           
-        <img src="/images/projects/cin7.webp" className="story-hero" />
-        <p className="main-image-context-text"> A prototype dashboard I designed that tested well, but was cut due to a lack of engineering capacity
-          </p></div>
+          <img src="/images/projects/cin7.webp" className="story-hero" />
+          <p className="main-image-context-text">
+            {" "}
+            A prototype dashboard I designed that tested well, but was cut due
+            to a lack of engineering capacity
+          </p>
+        </div>
 
         <div className="grid-intro">
           <div>
@@ -131,7 +133,8 @@ function Cin7() {
                 work.
               </li>
               <li>
-                Projects led to XX% NPS gains, and a XX% YoY reduction in churn.
+                Projects led to Redacted% NPS gains, and a Redacted% YoY
+                reduction in churn.
               </li>
               <li>
                 Successfully condensed 10+ different fragmented design systems
@@ -141,8 +144,8 @@ function Cin7() {
               <li>
                 Reduced friction throughout the platform. This included internal
                 development and support experience, on top of the
-                customer-facing UX. Led to a XX% YoY reduction in support ticket
-                volumes
+                customer-facing UX. Led to a significant Redacted% YoY reduction
+                in support ticket volumes
               </li>
             </ul>
           </div>
@@ -179,10 +182,10 @@ function Cin7() {
             of the sales process.{" "}
           </p>
           <p className="main-text">
-            For context: if you sell products to enterprise companies like Coca
-            Cola, most of the time you are contractually required by your terms
-            of trade agreement to use a standard called EDI to make transactions
-            happen as part of your sales process.
+            For context: if you sell products to enterprise companies like
+            Nordstrom or Walmart, most of the time you are contractually
+            required by your terms of trade agreement to use a standard called
+            EDI to make transactions happen as part of your sales process.
           </p>
           <p className="main-text">
             I was the first designer to be hired in a long time, and the company
@@ -334,13 +337,14 @@ function Cin7() {
           </div>
           <img src="/images/cin7/appstore.png" className="main-image" />
           <h2 className="main-heading">
-            Responding with a technical frontline approach
+            Triaging with a technical frontline approach
           </h2>
           <p className="main-text">
-            In response to this, the first thing I proposed was a consolidation
-            of components into a single unified library and a partial
-            re-architecture of the front end to simplify the experience.
-            Deliverables in Figma for designers, and Storybook for developers.{" "}
+            In response to everything discovered above, the first thing I
+            proposed was a consolidation of components into a single unified
+            library and a partial re-architecture of the front end to simplify
+            the experience. Deliverables in Figma for designers, and Storybook
+            for developers.{" "}
           </p>
           <p className="main-text">
             {" "}
@@ -454,10 +458,20 @@ function Cin7() {
             save buttons persistent on the page for users and staff.
           </p>
           <p className="main-text">
-            <code>display: flex;</code> and <code>display: grid;</code> were my
-            friends. I managed to purge about 90% of the nested{" "}
-            <code>{`<table>`}</code> elements in the platform just by using
-            these two properties.
+            Most of the work also involved improving the developer experience by
+            stripping out outdated components styled with nested{" "}
+            <code>{`<table>`}</code> elements, <code>float</code>{" "}
+            properties,&nbsp;
+            <code>position: absolute;</code> abuse, and redundant overuse of{" "}
+            <code>!important</code>.{" "}
+          </p>
+          <p className="main-text">
+            {" "}
+            Turns out, moving to a more modern approach where components are
+            constructed with&nbsp;
+            <code>display: flex;</code> and <code>display: grid;</code>{" "}
+            significantly improves the frontend experience for developers and
+            helps the whole team ship faster.
           </p>
           <div className="main-image-container">
             <img
@@ -474,10 +488,15 @@ function Cin7() {
           </div>
           <p className="main-text">
             To get it to production, we undertook a big bang approach to
-            releasing the update. That meant every module on the platform got
-            updated at once. It was a risky move, but it paid off. I had a lot
-            of support from the engineering team, and we were able to get the
-            update out in a week.
+            releasing the update. That meant every touchpoint and module on the
+            platform was updated at once when we deployed the design system
+            update in production.
+          </p>{" "}
+          <p className="main-text">
+            {" "}
+            It was a risky move, but it paid off. I had a lot of support from
+            the engineering team, and we were able to get the update out in a
+            week.
           </p>
         </section>
 
@@ -487,14 +506,14 @@ function Cin7() {
           <p className="main-text">
             I can't publicly provide specifics, but loosely after the rebuild..
           </p>
-          <p className="main-text">- Customer NPS spiked upwards XX%</p>
+          <p className="main-text">- Customer NPS spiked upwards Redacted%</p>
           <p className="main-text">
             - Frontend development velocity increased 3X
           </p>
           <p className="main-text">
-            - Support ticket volumes were down XX% YoY.
+            - Support ticket volumes were down Redacted% YoY.
           </p>
-          <p className="main-text">- Churn was down XX% YoY.</p>
+          <p className="main-text">- Churn was down Redacted% YoY.</p>
           <p className="main-text">
             {" "}
             Most customers were happier and we made more money.

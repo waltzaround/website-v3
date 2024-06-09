@@ -2,7 +2,11 @@ import { Helmet } from "react-helmet";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "../../components/case.css";
+import { useEffect } from "react";
 function Samsung() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Helmet>

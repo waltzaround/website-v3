@@ -50,7 +50,13 @@ function SearchBar() {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    // Perform search logic here
+  };
+
+  const resetSearch = () => {
+    setSearchTerm("");
+    handleSearch({
+      target: { value: "" },
+    } as React.ChangeEvent<HTMLInputElement>);
   };
 
   return (
@@ -87,9 +93,13 @@ function SearchBar() {
           name="twitter:image"
           content="https://walt.online/images/walt.png"
         />
+        <link rel="canonical" href="https://walt.online/work" />
       </Helmet>
-      <section className="search" id="top">
+
+      <section className="search-heading">
         <h1 className="search-title">All Work / Projects</h1>
+      </section>
+      <section className="search" id="top">
         <form onSubmit={handleSubmit}>
           <input
             className="search-input"
@@ -122,7 +132,31 @@ function SearchBar() {
             </div>
           </div> */}
         </form>
-        <p className="search-count">{activeList.length} projects</p>
+        <div className="search-footer">
+          <p className="search-count">{activeList.length} projects</p>
+          {/* <div className="search-filters">
+            <label htmlFor="active">
+              <input type="checkbox" name="active" id="active" />
+              <p>Active Projects</p>
+            </label>
+            <label htmlFor="inactive">
+              <input type="checkbox" name="inactive" id="active" />
+              <p>Inactive Projects</p>
+            </label>
+            <label htmlFor="research">
+              <input type="checkbox" name="active" id="research" checked />
+              <p>UX Research</p>
+            </label>
+            <label htmlFor="active">
+              <input type="checkbox" name="active" id="active" checked />
+              <p>Product Design</p>
+            </label>
+            <label htmlFor="active">
+              <input type="checkbox" name="active" id="active" checked />
+              <p>Product Design</p>
+            </label>
+          </div> */}
+        </div>
       </section>
       <section className="project-parent">
         <div className="project-card-container">
@@ -130,6 +164,14 @@ function SearchBar() {
             <ProjectCard key={project.name} project={project} />
           ))}
         </div>
+        {activeList.length === 0 && (
+          <section className="none-found">
+            <div>
+              <h3>No projects found 😢</h3>
+              <button onClick={resetSearch}>Reset</button>
+            </div>
+          </section>
+        )}
       </section>
     </>
   );
@@ -139,20 +181,26 @@ function Work() {
   useEffect(() => {
     // inspired by the stripe landing page
 
-    let c = document.getElementById("canv");
-    let da = (c as HTMLCanvasElement)?.getContext("2d");
+    const c = document.getElementById("canv");
+    const da = (c as HTMLCanvasElement)?.getContext("2d");
 
-    let col = function (x: number, y: number, r: number, g: number, b: number) {
+    const col = function (
+      x: number,
+      y: number,
+      r: number,
+      g: number,
+      b: number
+    ) {
       if (da) {
         da.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
         da.fillRect(x, y, 1, 1);
       }
     };
-    let R = function (x: number, y: number, t: number) {
+    const R = function (x: number, y: number, t: number) {
       return Math.floor(192 + 200 * Math.cos((x * x - y * y) / 300 + t));
     };
 
-    let G = function (x: number, y: number, t: number) {
+    const G = function (x: number, y: number, t: number) {
       return Math.floor(
         192 +
           200 *
@@ -160,7 +208,7 @@ function Work() {
       );
     };
 
-    let B = function (x: number, y: number, t: number) {
+    const B = function (x: number, y: number, t: number) {
       return Math.floor(
         192 +
           200 *
@@ -195,7 +243,6 @@ function Work() {
       <canvas id="canv" width="32" height="32"></canvas>
       <div className="safariHack">
         <Header />
-
         <SearchBar />
         <Footer />
       </div>
