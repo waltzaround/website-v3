@@ -16,6 +16,7 @@
       "description": "Connecting skilled volunteers with classrooms to teach essential tech skills in schools  ",
       "date": " Feb 2019 → Aug 2020",
       "categories": [
+        "Job",
         "Web",
         "UX Research",
         "Product Design",
@@ -31,6 +32,7 @@
       "description": "Helping businesses send billions of messages a month to help customers get stuff done  ",
       "date": " Nov 2017 → Jan 2019",
       "categories": [
+        "Job",
         "Web",
         "Marketing Automation",
         "Data Visualization",
@@ -62,7 +64,7 @@
       "description": "As their first design hire, supported multiple internal and external product teams by improving UX processes, as well as facillitating faster design decisions.",
       "platform": " Web",
       "date": "Jan 2017 → Jan 2019",
-      "categories": ["UX Research", "Design Systems", "Product Design"]
+      "categories": ["Job", "UX Research", "Design Systems", "Product Design"]
     },
     {
       "development": false,
@@ -72,14 +74,14 @@
       "description": "Mighway is a peer-to-peer motorhome platform that connects motorhome owners with tourists who wanted to rent their vehicles.\nIn my role, I negotiated designs between product, development and marketing teams on a redesign of their onboarding, booking, and internal systems.",
       "platform": " Web",
       "date": "Jan 2017 → Jan 2019",
-      "categories": ["UX Research", "Design Systems", "Product Design"]
+      "categories": ["Job","UX Research", "Design Systems", "Product Design"]
     },
     {
       "development": false,
       "url": "https://github.com/team-tubes/tubes/",
       "image": "/images/crap/infra.png",
       "name": "Infra.nz",
-      "description": "Website that makes it easy to see infrastructure system outages (water, power, internet, cellular service) in your area. Built to learn about mapping frameworks and data visualization for the GovHack 2023 hackathon.",
+      "description": "POC Website that makes it easy to see infrastructure system outages (water, power, internet, cellular service) in your area. Built to learn about mapping frameworks and data visualization for the GovHack 2023 hackathon.",
       "platform": " Web",
       "date": "2023",
       "categories": ["Hackathon", "Open Source", "Infrastructure"]
@@ -89,7 +91,7 @@
       "url": "https://terriblehack.com/",
       "image": "/images/crap/hack.png",
       "name": "Terrible ideas Hackathon",
-      "description": "The Terrible Ideas hackathon is a 46-hour challenge to create the most terrible, awful, brilliant ideas you can think of. Organizer from 2020-2022 ",
+      "description": "The Terrible Ideas hackathon is a 46-hour challenge to create the most terrible, awful, brilliant ideas you can think of. Was part of the organising team from 2020-2022 ",
       "platform": " Web",
       "date": "2020 → 2022",
       "categories": ["Hackathon", "Open Source"]
@@ -102,7 +104,7 @@
       "description": "Proof of concept shopping tech demo that raises the prices of products while you aren't looking. Uses your Webcam and OpenCV. ",
       "platform": " Web",
       "date": " 2021",
-      "categories": ["Hackathon", "Open Source", "Webcam", "OpenCV"]
+      "categories": ["Web","Hackathon", "Open Source", "Webcam", "OpenCV"]
     },
     {
       "development": false,
