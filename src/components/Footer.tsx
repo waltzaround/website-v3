@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function Footer() {
   const [currentTime, setCurrentTime] = useState(new Date().toLocaleTimeString("en-NZ"));
