@@ -418,30 +418,29 @@ footer {
   border: 2px solid rgba(255, 255, 255, 0.2);
   border-bottom: none;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  border-radius: 16px ;
+  border-radius: 16px;
 }
-  .footer-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1rem;
-  }
-
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+}
 
 .time-container {
-  padding: 1rem; gap: 1.5rem;
+  padding: 1rem;
+  gap: 1.5rem;
   border: 2px solid rgba(116, 116, 116, 0.153);
   border-radius: 12px;
   display: flex;
   flex-wrap: wrap;
-  width: fit-content; 
-  
+  width: fit-content;
+
   gap: 2rem;
 }
 .time-tag {
-
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
-font-weight: 700;
+  font-weight: 700;
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
   width: fit-content;
@@ -456,15 +455,15 @@ font-weight: 700;
   font-size: 1.5rem;
 }
 .footer-cols {
-
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   gap: 0.5rem;
-  
 }
 
 .footer-cols-items {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 1rem;
   padding-bottom: 1rem;
@@ -473,7 +472,6 @@ font-weight: 700;
   padding: 1rem;
   border-top: 2px solid rgba(255, 255, 255, 0.1);
   padding-top: 1rem;
-
 }
 
 .awake {
@@ -481,7 +479,7 @@ font-weight: 700;
   border-radius: 120px;
   height: 1rem;
   width: 1rem;
-  border: 1px solid  rgba(27, 187, 61, 0.1);
+  border: 1px solid rgba(27, 187, 61, 0.1);
 
   animation: radar 2s linear infinite;
 }
@@ -490,10 +488,8 @@ font-weight: 700;
   border-radius: 120px;
   height: 1rem;
   width: 1rem;
-  border: 1px solid  rgba(255, 255, 255, 0.1);
-
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 
 @keyframes radar {
   0% {
@@ -508,10 +504,8 @@ font-weight: 700;
     transform: scale(0.4);
     opacity: 0.2;
   }
-
 }
 @media (max-width: 1650px) {
-  
   .main-nav {
     margin: 1rem;
   }
@@ -528,7 +522,6 @@ font-weight: 700;
   }
   footer {
     margin: 1.5rem;
-  
   }
 }
 @media (max-width: 960px) {
@@ -538,10 +531,13 @@ font-weight: 700;
   .project-card-container {
     grid-template-columns: 1fr 1fr;
   }
-  
 }
 
 @media (max-width: 640px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
   .hero-grid-2 {
     gap: 1.5rem;
   }
@@ -573,7 +569,6 @@ font-weight: 700;
   }
   footer {
     margin: 1rem;
-  
   }
 }
 
