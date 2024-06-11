@@ -5,7 +5,7 @@
       "url": "https://infinitystudio.ai/athena",
       "image": "/images/projects/athena.png",
       "name": "Athena",
-      "description": "Helping natural disaster victims get their homes repaired faster",
+      "description": "Building a system that helps natural disaster victims get their homes repaired faster",
       "categories": [
         "Android / Web",
         "UX Research",
@@ -20,7 +20,7 @@
       "url": "https://infinitystudio.ai/apeiron",
       "image": "/images/projects/apeiron.png",
       "name": "Apeiron",
-      "description": "Making it faster, cheaper, cleaner, and safer to build buildings, and infrastructure",
+      "description": "Building a platform that makes it faster, cheaper, cleaner, and safer to build buildings, and infrastructure",
       "categories": [
         " Web",
         "UX Research",
@@ -35,7 +35,7 @@
       "url": "https://infinitystudio.ai/logger",
       "image": "/images/projects/logger.png",
       "name": "Logger",
-      "description": "Speeding up data capture for geotech engineers on construction sites",
+      "description": "Speeding up data capture for geotech engineers on construction sites by building smarter logging apps",
       "categories": [
         "Android / iOS / Web",
         "UX Research",
