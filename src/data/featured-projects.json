@@ -14,7 +14,8 @@
         "Design Systems",
         "FE Dev",
         "B2B2C",
-        "GTM Processes"
+        "GTM Processes",
+        "Job"
       ]
     },
     {
@@ -25,12 +26,12 @@
       "description": "Helping 8,000+ businesses transact over $2 billion USD every month by designing and building better inventory management software",
       "date": "Nov 2020 → Sep 2022",
       "categories": [
-        "Job",
         "Web / Android",
         "DesignOps",
         "Design leadership",
         "FE Dev",
-        "B2B2C"
+        "B2B2C",
+        "Job"
       ]
     },
 
@@ -39,9 +40,16 @@
       "url": "/work/swiftly",
       "image": "/images/projects/swiftly.png",
       "name": "Swiftly",
-      "description": "Helping 1,200+ small local stores make $700,000+ NZD by making it easier to sell goods online in New Zealand during lockdown",
+      "description": "Designed + built a tool that helped 1,200+ small local stores sell $700,000+ NZD in goods during the 2020 COVID lockdown ",
       "date": " Mar 2020 → Feb 2023",
-      "categories": ["Web", "UX Research", "Product Design", "FE Dev", "B2B2C"]
+      "categories": [
+        "Web",
+        "UX Research",
+        "Product Design",
+        "FE Dev",
+        "B2B2C",
+        "Startup"
+      ]
     },
     {
       "development": false,
