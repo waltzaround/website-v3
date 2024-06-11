@@ -166,7 +166,7 @@ function Vaxx() {
               everyone on the same page.
               <br />
               <br />
-              <strong>Existing workflow:</strong>
+              <strong>Existing workflow (10 - 45 minutes):</strong>
               <br />→ Search for a vaccination
               <br /> → Click into an individual vaccination site
               <br />→ See available vaccination bookings for that individual
@@ -178,7 +178,7 @@ function Vaxx() {
               <br />→ Make a booking
               <br />
               <br />
-              <strong>Our redesigned workflow:</strong>
+              <strong>Our redesigned workflow (2 minutes):</strong>
               <br />→ Search for a vaccination
               <br />→ One click on the day you want to get vaccinated <br />→
               Make a booking
