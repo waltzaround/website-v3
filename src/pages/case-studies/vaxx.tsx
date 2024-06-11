@@ -178,7 +178,7 @@ function Vaxx() {
               <br />→ Make a booking
               <br />
               <br />
-              <strong>Our workflow:</strong>
+              <strong>Our redesigned workflow:</strong>
               <br />→ Search for a vaccination
               <br />→ One click on the day you want to get vaccinated <br />→
               Make a booking
