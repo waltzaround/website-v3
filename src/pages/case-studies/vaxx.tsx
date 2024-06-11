@@ -151,7 +151,7 @@ function Vaxx() {
               COVID-19 vaccine online.
               <br />
               <br />
-              A quick user interview yielded that it was painful to search for
+              A few quick rounds of usability testing and user interviews yielded that it was painful to search for
               bookings, and that the only bookings she could find were months
               away. We gathered some mates on Discord as we had just gone into
               another lockdown in New Zealand, and got to work remotely to
