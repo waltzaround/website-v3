@@ -554,6 +554,7 @@ footer {
   }
   .main-nav {
     margin: 0.5rem;
+    top: 0.5rem;
   }
   .project-card-container {
     grid-template-columns: 1fr;
