@@ -68,7 +68,7 @@ LOL===_
           col(x, y, R(x, y, t), G(x, y, t), B(x, y, t));
         }
       }
-      t = t + 0.02; // adjust this to change seizure level
+      t = t + 0.006; // adjust this to change seizure level
       window.requestAnimationFrame(run);
     };
 
