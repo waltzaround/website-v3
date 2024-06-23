@@ -2,6 +2,7 @@
   "projects": [
     {
       "development": false,
+      "job": true,
       "url": "/work/samsung",
       "image": "/images/projects/samsung.png",
       "name": "Samsung Electronics NZ / Cheil NZ",
@@ -20,6 +21,7 @@
     },
     {
       "development": false,
+      "job": true,
       "url": "/work/cin7",
       "image": "/images/projects/cin7.webp",
       "name": "Cin7.com",
@@ -37,6 +39,7 @@
 
     {
       "development": false,
+      "job": true,
       "url": "/work/swiftly",
       "image": "/images/projects/swiftly.png",
       "name": "Swiftly",
@@ -53,6 +56,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "/work/vaxx",
       "image": "/images/projects/vaxx.png",
       "name": "Vaxx",
@@ -68,6 +72,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/wseagar/eight-dollars",
       "image": "/images/crap/twitter.png",
       "name": "Eight Dollars",
@@ -79,6 +84,7 @@
 
     {
       "development": false,
+      "job": false,
       "url": "https://taxreceipt.co.nz",
       "image": "/images/crap/tax.png",
 

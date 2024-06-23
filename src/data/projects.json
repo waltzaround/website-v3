@@ -2,6 +2,7 @@
   "projects": [
     {
       "development": true,
+      "job": false,
       "url": "https://github.com/haxxnz/raxx",
       "image": "/images/projects/raxx.png",
       "name": "Raxx",
@@ -10,7 +11,7 @@
     },
     {
       "development": false,
-
+      "job": true,
       "image": "/images/projects/vly.png",
       "name": "Voluntarily",
       "description": "Connecting skilled volunteers with classrooms to teach essential tech skills in schools  ",
@@ -26,7 +27,7 @@
     },
     {
       "development": false,
-
+      "job": true,
       "image": "/images/projects/ubi.png",
       "name": "Ubiquity",
       "description": "Helping businesses send billions of messages a month to help customers get stuff done  ",
@@ -42,8 +43,9 @@
     },
     {
       "development": false,
+      "job": false,
+      "url": "https://www.behance.net/gallery/65934245/Flatbot",
       "image": "/images/projects/flatbot.png",
-
       "name": "Flatbot",
       "description": "Facebook Messenger bot for sniping rental listings. Peaked at 100+ users on Messenger purely through word of mouth, but ended up neglected as we explored other pursuits and projects. ",
       "platform": " Web",
@@ -58,7 +60,8 @@
     },
     {
       "development": false,
-
+      "job": true,
+      "url": "https://www.behance.net/gallery/65887839/Qrious-LoQal-Product-Suite",
       "image": "/images/projects/qrious.png",
       "name": "Qrious",
       "description": "As their first design hire, supported multiple internal and external product teams by improving UX processes, as well as facillitating faster design decisions.",
@@ -68,16 +71,18 @@
     },
     {
       "development": false,
-
+      "job": true,
+      "url": "https://www.behance.net/gallery/60228545/Mighway",
       "image": "/images/projects/mighway.png",
       "name": "Mighway",
       "description": "Mighway is a peer-to-peer motorhome platform that connects motorhome owners with tourists who wanted to rent their vehicles.\nIn my role, I negotiated designs between product, development and marketing teams on a redesign of their onboarding, booking, and internal systems.",
       "platform": " Web",
       "date": "Jan 2017 → Jan 2019",
-      "categories": ["Job","UX Research", "Design Systems", "Product Design"]
+      "categories": ["Job", "UX Research", "Design Systems", "Product Design"]
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/team-tubes/tubes/",
       "image": "/images/crap/infra.png",
       "name": "Infra.nz",
@@ -88,6 +93,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://terriblehack.com/",
       "image": "/images/crap/hack.png",
       "name": "Terrible ideas Hackathon",
@@ -98,16 +104,18 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/waltzaround/fruit-tax",
       "image": "/images/crap/apple-tax.png",
       "name": "Fruit Tax",
       "description": "Proof of concept shopping tech demo that raises the prices of products while you aren't looking. Uses your Webcam and OpenCV. ",
       "platform": " Web",
       "date": " 2021",
-      "categories": ["Web","Hackathon", "Open Source", "Webcam", "OpenCV"]
+      "categories": ["Web", "Hackathon", "Open Source", "Webcam", "OpenCV"]
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/waltzaround/swearsies",
       "image": "/images/crap/swearsies.png",
       "name": "Swearsies",
@@ -118,6 +126,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/waltzaround/Neon-Sunrise",
       "image": "/images/crap/pewpew.png",
       "name": "Pew Pew VR",
@@ -128,6 +137,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/waltzaround/quickmaths",
       "image": "/images/crap/quickmafs.png",
       "name": "Quick Maths",
@@ -144,6 +154,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://ligma-pink.vercel.app/",
       "image": "/images/crap/ligma.png",
       "name": "Ligma.design",
@@ -154,6 +165,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/CovidEngine/covidengineui",
       "image": "/images/crap/lenny.png",
       "name": "Lenny",
@@ -171,6 +183,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/StatuspageNZ/statuspage",
       "image": "/images/crap/checkon.png",
       "name": "Check On",
@@ -187,6 +200,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/waltzaround/webcam-adblocker",
       "image": "/images/crap/adblocker.png",
       "name": "Anti-adblocker",
@@ -197,6 +211,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/waltzaround/Matter-VR",
       "image": "/images/crap/matter.png",
       "name": "Matter VR",
@@ -214,6 +229,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/MinhPhu0304/architecture-slotmachine",
       "image": "/images/crap/spicyhack.png",
       "name": "Spicy Hack",
@@ -224,6 +240,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/hello-politician/hello-politician",
       "image": "/images/crap/politician.png",
       "name": "Hello Politician",
@@ -234,16 +251,18 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/WeAreFlat/deployment",
       "image": "/images/crap/flattie.png",
       "name": "Flattie",
       "description": "Rental affordability heatmap created by crunching MBIE government data. ",
       "platform": " Web",
-      "date": " 2019",
+      "date": " 2016",
       "categories": ["Web", "Mapping", "Rentals", "Datavis"]
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/waltzaround/senpai",
       "image": "/images/crap/senpai.png",
       "name": "Senpai",
@@ -259,6 +278,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://www.behance.net/gallery/83753493/Zappy",
       "image": "/images/crap/zappy.png",
       "name": "Zappy",
@@ -276,6 +296,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://www.behance.net/gallery/70818087/Raihana",
       "image": "/images/crap/raihana.png",
       "name": "Raihana",
@@ -286,6 +307,7 @@
     },
     {
       "development": false,
+      "job": false,
       "image": "/images/crap/shesharp.png",
       "name": "She Sharp",
       "description": "Charity website design + dev work for a group serving the next generation of women in tech called She Sharp. Lots of Wordpress, CSS and PHP hackery. ",
@@ -295,7 +317,7 @@
     },
     {
       "development": false,
-
+      "job": false,
       "image": "/images/crap/boats.png",
       "name": "NZ Traditional Boatbuilding School",
       "description": "Charity website design + dev work for a traditional boatbuilding school. Lots of Wordpress, CSS and PHP hackery. ",
@@ -305,6 +327,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/waltzaround/fundy2",
       "image": "/images/crap/fundy.png",
       "name": "Fundy",
@@ -321,6 +344,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/waltzaround/CTEC608-Crappy-Forex-Prototype",
       "image": "/images/crap/forex.png",
       "name": "VR Forex Prototype",
@@ -337,6 +361,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://github.com/waltzaround/COMP770-Trafficdata",
       "image": "/images/crap/traffic.png",
       "name": "VR Traffic Prototype",
@@ -347,6 +372,7 @@
     },
     {
       "development": false,
+      "job": false,
       "url": "https://vimeo.com/155604614",
       "image": "/images/crap/bender.png",
       "name": "Bender",

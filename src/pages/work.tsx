@@ -158,21 +158,42 @@ function SearchBar() {
           </div> */}
         </div>
       </section>
-      <section className="project-parent">
-        <div className="project-card-container">
-          {activeList.map((project: any) => (
-            <ProjectCard key={project.name} project={project} />
-          ))}
-        </div>
-        {activeList.length === 0 && (
-          <section className="none-found">
-            <div>
-              <h3>No projects found 😢</h3>
-              <button onClick={resetSearch}>Reset</button>
-            </div>
-          </section>
-        )}
-      </section>
+      {activeList.filter((project: any) => project.job === true).length > 0 && (
+        <section className="project-parent">
+          <h2> Commercial Work</h2>
+          <div className="project-card-container">
+            {activeList
+              .filter((project: any) => project.job === true)
+              .map((project: any) => (
+                <ProjectCard key={project.name} project={project} />
+              ))}
+          </div>
+        </section>
+      )}
+      {activeList.filter((project: any) => project.job === true).length > 0 && (
+        <section className="project-parent">
+          <h2> Side Projects</h2>
+          <p>
+            Noncommercial work I've typically done for fun, learning, typically
+            under an open source license
+          </p>
+          <div className="project-card-container">
+            {activeList
+              .filter((project: any) => project.job === false)
+              .map((project: any) => (
+                <ProjectCard key={project.name} project={project} />
+              ))}
+          </div>
+        </section>
+      )}
+      {activeList.length === 0 && (
+        <section className="none-found">
+          <div>
+            <h3>No projects found 😢</h3>
+            <button onClick={resetSearch}>Reset</button>
+          </div>
+        </section>
+      )}
     </>
   );
 }
