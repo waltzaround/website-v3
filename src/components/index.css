@@ -258,6 +258,10 @@ body {
     top: 0;
   }
 
+  button {
+    font-family: inherit;
+  }
+
   .slide-track {
     animation: scroll 80s linear infinite;
     display: flex;
