@@ -170,12 +170,13 @@ function SearchBar() {
           </div>
         </section>
       )}
-      {activeList.filter((project: any) => project.job === true).length > 0 && (
+      {activeList.filter((project: any) => project.job === false).length >
+        0 && (
         <section className="project-parent">
           <h2> Side Projects</h2>
           <p>
             Noncommercial work I've typically done for fun, learning, typically
-            under an open source license
+            under open source
           </p>
           <div className="project-card-container">
             {activeList
