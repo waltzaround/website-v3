@@ -160,7 +160,8 @@ function SearchBar() {
       </section>
       {activeList.filter((project: any) => project.job === true).length > 0 && (
         <section className="project-parent">
-          <h2> Work</h2>
+          <h2>Commercial work</h2>
+          <p>Featured work from my professional life as a designer</p>
           <div className="project-card-container">
             {activeList
               .filter((project: any) => project.job === true)
@@ -173,7 +174,8 @@ function SearchBar() {
       {activeList.filter((project: any) => project.job === false).length >
         0 && (
         <section className="project-parent">
-          <h2> Projects</h2>
+          <h2>Side projects &amp; experiments</h2>
+          <p>Products, services, and experiments I've built for fun, to explore ideas, or to learn new things</p>
 
           <div className="project-card-container">
             {activeList
