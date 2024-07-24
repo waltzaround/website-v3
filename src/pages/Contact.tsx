@@ -142,11 +142,11 @@ function Contact() {
               <div>
                 <h2>Discord</h2>
                 <p>
-                  Send a message here if you want to collaborate on interesting
+                  Send a message to "waltzaround" on discord if you want to collaborate on interesting
                   noncommercial projects / open source stuff
                 </p>
               </div>
-              <a href="http://discordapp.com/users/waltzaround">Contact</a>
+           
             </div>
             <div className="contact-container">
               <div>

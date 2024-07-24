@@ -438,6 +438,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: fit-content;
+  align-items: center;
+  margin-top: 1rem;
 
   gap: 2rem;
 }

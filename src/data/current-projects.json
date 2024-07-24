@@ -3,22 +3,6 @@
     {
       "development": true,
       "job": true,
-      "url": "https://infinitystudio.ai/athena",
-      "image": "/images/projects/athena.png",
-      "name": "Athena",
-      "description": "Building a system that helps natural disaster victims get their homes repaired faster",
-      "categories": [
-        "Android / Web",
-        "UX Research",
-        "Product Design",
-        "FE Dev",
-        "Geotech Engineering"
-      ],
-      "date": " Mar 2023 → Now"
-    },
-    {
-      "development": true,
-      "job": true,
       "url": "https://infinitystudio.ai/apeiron",
       "image": "/images/projects/apeiron.png",
       "name": "Apeiron",
@@ -34,19 +18,12 @@
     },
     {
       "development": true,
-      "job": true,
-      "url": "https://infinitystudio.ai/logger",
-      "image": "/images/projects/logger.png",
-      "name": "Logger",
-      "description": "Speeding up data capture for geotech engineers on construction sites by building smarter logging apps",
-      "categories": [
-        "Android / iOS / Web",
-        "UX Research",
-        "Product Design",
-        "FE Dev",
-        "Geotech Engineering"
-      ],
-      "date": " Jan 2024 → Now"
+      "job": false,
+      "url": "https://github.com/haxxnz/raxx",
+      "image": "/images/projects/raxx.png",
+      "name": "Raxx",
+      "description": "Web app that makes it easier to visualize and understand crime data. Still WIP",
+      "categories": ["Web", "Data Visualization", "Product Design", "FE Dev"]
     }
   ]
 }

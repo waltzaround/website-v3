@@ -20,35 +20,45 @@ function Footer() {
         <div>
      
           <div>
-            <div className="time-container">
+     
               <div>
                 <h4>Current Time in New Zealand:</h4>
                 <p>{currentTime}  </p>
               </div>
-              {new Date().getHours() > 9 && new Date().getHours() <= 17 && (
-                <div className="time-tag">
-                  <div className="awake" />
-                  <p>Working </p>
-
-                </div>
-              )}
-              {new Date().getHours() <= 9 && (
-                <div className="time-tag">
-                  <div className="awake" />
-                  <p>         Probably Asleep</p>
-
-                </div>
-              )}
-              {new Date().getHours() > 17 && (
-                <div className="time-tag">
-                  <div className="awake" />
-                  <p>         Building Stuff</p>
-
-                </div>
-              )}
+              
 
 
-            </div>
+      
+            <div className="time-container">
+
+<h4>Current status:</h4>
+
+
+{new Date().getHours() > 9 && new Date().getHours() <= 17 && (
+<div className="time-tag">
+  <div className="awake" />
+  <p>Probably Working </p>
+
+</div>    
+)}
+{new Date().getHours() <= 9 && (
+<div className="time-tag">
+  <div className="awake" />
+  <p>         Probably Asleep</p>
+
+</div>
+)}
+{new Date().getHours() > 17 && (
+<div className="time-tag">
+  <div className="awake" />
+  <p>         Building Stuff</p>
+
+</div>
+)}
+
+</div>
+
+            
           </div>
         </div>
         <div className="footer-cols">     <h4>Socials:</h4>
