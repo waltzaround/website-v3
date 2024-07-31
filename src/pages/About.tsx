@@ -233,7 +233,10 @@ function About() {
                     Helped 1000+ small local businesses sign up and earn over
                     $700,000 NZD while operational.
                   </li>
-                  <li>Used by over 186,000+ unique users to shop local</li>
+                  <li>
+                    Used by over 186,000+ unique users to shop locally in New
+                    Zealand
+                  </li>
                 </ul>
               </div>
             </div>
