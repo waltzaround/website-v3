@@ -157,25 +157,19 @@ body {
 
 .hero-grid-2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   gap: 6rem;
   margin: 5rem auto;
   max-width: 1600px;
   padding: 1rem;
 }
 
-.hero-grid-2-text h1 {
-  font-size: 3.5rem;
-  letter-spacing: -1px;
-  line-height: 1.25;
-  font-weight: 400;
-}
-
-.hero-grid-2-text p {
-  margin-bottom: 1.5rem;
-  font-size: 1.5rem;
+.hero-grid-2-text-heading {
+  font-size: 2rem;
   line-height: 1.5;
+  letter-spacing: -0.5px;
   font-weight: 400;
+  margin-bottom: 1.5rem;
 }
 
 .tag {
@@ -197,6 +191,7 @@ body {
 .tag-heading {
   font-size: 1.2rem;
   font-weight: 400;
+  margin-top: 2rem;
 }
 
 .tag-dot {
@@ -511,6 +506,49 @@ footer {
     opacity: 0.2;
   }
 }
+
+.job {
+  margin: 0 auto;
+
+  max-width: 1600px;
+}
+
+.job-grid {
+  max-width: 980px;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.job-listing {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2.5rem;
+  border-top: 2px solid #333;
+  padding-top: 2.5rem;
+}
+
+.job-company {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+}
+.job-industry,
+.job-timeline {
+  color: #9a9a9a;
+}
+
+.job-title {
+  margin-top: 1rem;
+}
+
+.job-description,
+.job-points {
+  font-size: 1rem;
+  color: #b1b1b1;
+}
+
 @media (max-width: 1650px) {
   .main-nav {
     margin: 1rem;
@@ -529,8 +567,14 @@ footer {
   footer {
     margin: 1.5rem;
   }
+  .job {
+    margin: 1.5rem;
+  }
 }
 @media (max-width: 960px) {
+  .job-listing {
+    grid-template-columns: 1fr;
+  }
   .hero-grid-2 {
     grid-template-columns: 1fr;
   }
@@ -540,6 +584,9 @@ footer {
 }
 
 @media (max-width: 640px) {
+  .job {
+    margin: 0.5rem;
+  }
   .footer-content {
     grid-template-columns: 1fr;
   }
@@ -547,12 +594,8 @@ footer {
   .hero-grid-2 {
     gap: 1.5rem;
   }
-  .hero-grid-2-text h1 {
+  .hero-grid-2-text-heading {
     font-size: 2rem;
-  }
-
-  .hero-grid-2-text p {
-    font-size: 1rem;
   }
 
   .tag-heading {
