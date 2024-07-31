@@ -122,14 +122,13 @@ LOL===_
         <Header />
 
         <section className="hero-grid-2">
-         
           <div className="hero-grid-2-text">
             <h1 className="hero-grid-2-text-heading">
-              <strong>Walter Lim is a cross-functional designer</strong> with 7+ years of
-              experience based in Auckland, New Zealand.</h1>
-    
+              <strong>Walter Lim is a cross-functional designer</strong> with 7+
+              years of experience based in Auckland, New Zealand.
+            </h1>
 
-           <p className="hero-grid-2-text-heading">
+            <p className="hero-grid-2-text-heading">
               He leads product design at{" "}
               <a href="https://infinitystudio.ai" target="_blank">
                 Infinity Studio
@@ -138,11 +137,11 @@ LOL===_
               <a href="https://haxx.nz" target="_blank">
                 haxx.nz
               </a>
-              </p>
+            </p>
             <h2 className="tag-heading">Current availability:</h2>
             <div className="tag">
               <div className="tag-dot" />
-              Oversubscribed &amp; unavailable
+              Oversubscribed
             </div>
           </div>
         </section>
